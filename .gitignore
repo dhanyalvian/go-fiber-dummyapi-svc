@@ -1,0 +1,40 @@
+# Binary builds
+bin/
+out/
+dist/
+
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Fiber/Web specific
+.env
+.env.*
+!.env.example  # Keep the example file for documentation
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+*.out
+*.test
+coverage.txt
+
+# Optional: If you use air for live reloading
+tmp/
+
+# VS Code workspace
+*.code-workspace
