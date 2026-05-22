@@ -26,6 +26,15 @@ type User struct {
 	BaseTimestamp
 }
 
+type RespAuthUser struct {
+	BaseID
+
+	Firstname string `gorm:"column:firstname" json:"firstname"`
+	Lastname  string `gorm:"column:lastname" json:"lastname"`
+	Email     string `gorm:"column:email" json:"email"`
+	Avatar    string `gorm:"column:avatar" json:"avatar"`
+}
+
 type RespListUser struct {
 	BaseID
 

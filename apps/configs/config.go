@@ -10,9 +10,10 @@ import (
 )
 
 type Config struct {
-	Server   ConfigServer   `mapstructure:",squash"`
-	Auth     ConfigAuth     `mapstructure:",squash"`
-	Database ConfigDatabase `mapstructure:",squash"`
+	Server    ConfigServer    `mapstructure:",squash"`
+	Auth      ConfigAuth      `mapstructure:",squash"`
+	Database  ConfigDatabase  `mapstructure:",squash"`
+	Typesense ConfigTypesense `mapstructure:",squash"`
 }
 
 type ConfigServer struct {
@@ -33,6 +34,12 @@ type ConfigDatabase struct {
 	SslMode  string `mapstructure:"DB_SSLMODE"`
 	TimeZone string `mapstructure:"DB_TIMEZONE"`
 	Debug    bool   `mapstructure:"DB_DEBUG"`
+}
+
+type ConfigTypesense struct {
+	Hostname string `mapstructure:"TS_HOST"`
+	Port     int    `mapstructure:"TS_PORT"`
+	ApiKey   string `mapstructure:"TS_KEY"`
 }
 
 type ConfigAuth struct {

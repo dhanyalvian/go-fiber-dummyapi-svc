@@ -14,6 +14,7 @@ import (
 	"go-fiber-dummy-svc/inits"
 
 	"github.com/gofiber/fiber/v2"
+	"github.com/typesense/typesense-go/v4/typesense"
 	"gorm.io/gorm"
 )
 
@@ -28,10 +29,11 @@ func main() {
 	})
 
 	db := inits.InitDb(cfg)
+	ts := inits.InitTs(cfg)
 
 	handleArgs(db)
 
-	runServer(app, cfg, db)
+	runServer(app, cfg, db, ts)
 }
 
 func handleArgs(db *gorm.DB) {
@@ -45,10 +47,10 @@ func handleArgs(db *gorm.DB) {
 	}
 }
 
-func runServer(app *fiber.App, cfg *configs.Config, db *gorm.DB) {
+func runServer(app *fiber.App, cfg *configs.Config, db *gorm.DB, ts *typesense.Client) {
 	inits.InitApp(app)
 	inits.InitLogger(app)
-	inits.InitRouter(app, cfg, db)
+	inits.InitRouter(app, cfg, db, ts)
 
 	log.Fatal(app.Listen(fmt.Sprintf(":%d", cfg.Server.Port)))
 }
