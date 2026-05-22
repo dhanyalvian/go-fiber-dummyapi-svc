@@ -78,6 +78,14 @@ func (h *AuthHandler) Login(c *fiber.Ctx) error {
 	return c.JSON(fiber.Map{
 		"accessToken":  token,
 		"refreshToken": token,
-		"user":         user,
+		"user": entities.RespAuthUser{
+			BaseID: entities.BaseID{
+				ID: user.ID,
+			},
+			Firstname: user.Firstname,
+			Lastname:  user.Lastname,
+			Email:     user.Email,
+			Avatar:    user.Avatar,
+		},
 	})
 }

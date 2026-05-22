@@ -17,7 +17,6 @@ import (
 var Db *gorm.DB
 
 func InitDb(cfg *configs.Config) *gorm.DB {
-	var Db *gorm.DB
 	var err error
 
 	cfgDb := cfg.Database
