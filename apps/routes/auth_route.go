@@ -7,12 +7,12 @@ import (
 	"go-fiber-dummyapi-svc/apps/handlers"
 
 	"github.com/gofiber/fiber/v2"
-	"gorm.io/gorm"
+	"github.com/typesense/typesense-go/v4/typesense"
 )
 
-func InitAuth(app *fiber.App, cfg *configs.Config, db *gorm.DB) {
-	handler := handlers.NewAuthHandler(cfg, db)
+func RouteAuth(app *fiber.App, cfg *configs.Config, ts *typesense.Client) {
+	handler := handlers.NewAuthHandler(cfg, ts)
 
-	app.Post("/register", handler.Register)
 	app.Post("/login", handler.Login)
+	app.Post("/refresh-token", handler.RefreshToken)
 }

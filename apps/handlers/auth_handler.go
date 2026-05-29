@@ -5,43 +5,22 @@ package handlers
 import (
 	"go-fiber-dummyapi-svc/apps/configs"
 	"go-fiber-dummyapi-svc/apps/entities"
+	"go-fiber-dummyapi-svc/apps/models"
 	"go-fiber-dummyapi-svc/pkgs/utils"
 
+	"github.com/dhanyalvian/go-fiber-packages/response"
 	"github.com/gofiber/fiber/v2"
+	"github.com/typesense/typesense-go/v4/typesense"
 	"golang.org/x/crypto/bcrypt"
-	"gorm.io/gorm"
 )
 
 type AuthHandler struct {
 	Cfg *configs.Config
-	DB  *gorm.DB
+	TS  *typesense.Client
 }
 
-func NewAuthHandler(cfg *configs.Config, db *gorm.DB) *AuthHandler {
-	return &AuthHandler{Cfg: cfg, DB: db}
-}
-
-func (h *AuthHandler) Register(c *fiber.Ctx) error {
-	var data map[string]string
-	if err := c.BodyParser(&data); err != nil {
-		return err
-	}
-
-	// Hash password
-	password, _ := bcrypt.GenerateFromPassword([]byte(data["password"]), 14)
-
-	user := entities.User{
-		Email:     data["email"],
-		Password:  string(password),
-		Firstname: data["firstname"],
-		Lastname:  data["lastname"],
-	}
-
-	if err := h.DB.Create(&user).Error; err != nil {
-		return c.Status(400).JSON(fiber.Map{"message": "Email sudah terdaftar"})
-	}
-
-	return c.JSON(user)
+func NewAuthHandler(cfg *configs.Config, ts *typesense.Client) *AuthHandler {
+	return &AuthHandler{Cfg: cfg, TS: ts}
 }
 
 func (h *AuthHandler) Login(c *fiber.Ctx) error {
@@ -50,16 +29,16 @@ func (h *AuthHandler) Login(c *fiber.Ctx) error {
 		return err
 	}
 
-	var user entities.User
-	h.DB.Where("email = ?", data["email"]).First(&user)
-
-	if user.ID == "0" {
-		return c.Status(404).JSON(fiber.Map{"message": "User tidak ditemukan"})
+	docs, err := models.Login(c, h.TS, data["email"])
+	if *docs.Found == 0 {
+		return RespError(c, 400, "User tidak ditemukan", err)
 	}
 
+	user := GetDocFirst[entities.RespDetailUser](docs)
+
 	// Bandingkan password
-	if err := bcrypt.CompareHashAndPassword([]byte(user.PasswordHash), []byte(data["password"])); err != nil {
-		return c.Status(400).JSON(fiber.Map{"message": "Password salah"})
+	if !CheckPasswordHash(data["password"], user.PasswordHash) {
+		return RespError(c, 400, "Password salah", err)
 	}
 
 	// Generate JWT Token
@@ -70,22 +49,95 @@ func (h *AuthHandler) Login(c *fiber.Ctx) error {
 		Email:     user.Email,
 		Avatar:    user.Avatar,
 	}
-	token, err := utils.GenerateToken(h.Cfg, tokenData)
-	if err != nil {
-		return c.SendStatus(fiber.StatusInternalServerError)
+
+	// Generate kedua token secara paralel
+	type tokenResult struct {
+		token string
+		err   error
 	}
 
-	return c.JSON(fiber.Map{
-		"accessToken":  token,
-		"refreshToken": token,
-		"user": entities.RespAuthUser{
+	accessCh := make(chan tokenResult, 1)
+	refreshCh := make(chan tokenResult, 1)
+
+	go func() {
+		token, err := utils.GenerateToken(h.Cfg, tokenData, h.Cfg.Auth.JwtAccessTokenExpire)
+		accessCh <- tokenResult{token, err}
+	}()
+	go func() {
+		token, err := utils.GenerateToken(h.Cfg, tokenData, h.Cfg.Auth.JwtRefreshTokenExpire)
+		refreshCh <- tokenResult{token, err}
+	}()
+
+	accessResult := <-accessCh
+	refreshResult := <-refreshCh
+
+	if accessResult.err != nil {
+		return RespError(c, 500, accessResult.err.Error(), accessResult.err)
+	}
+	if refreshResult.err != nil {
+		return RespError(c, 500, refreshResult.err.Error(), refreshResult.err)
+	}
+
+	return RespSucess(c, "", response.ResponseData{
+		Result: entities.RespAuthLogin{
 			BaseID: entities.BaseID{
 				ID: user.ID,
 			},
-			Firstname: user.Firstname,
-			Lastname:  user.Lastname,
-			Email:     user.Email,
-			Avatar:    user.Avatar,
+			Firstname:    user.Firstname,
+			Lastname:     user.Lastname,
+			Email:        user.Email,
+			Avatar:       user.Avatar,
+			AccessToken:  accessResult.token,
+			RefreshToken: refreshResult.token,
 		},
 	})
+}
+
+func (h *AuthHandler) RefreshToken(c *fiber.Ctx) error {
+	var data map[string]string
+	if err := c.BodyParser(&data); err != nil {
+		return RespError(c, 401, err.Error(), err)
+	}
+
+	tokenDecode, err := utils.DecodeToken(configs.Cfg, data["refreshToken"])
+	if err != nil {
+		return RespError(c, 401, err.Error(), err)
+	}
+
+	tokenData := utils.TokenData{
+		ID:        tokenDecode.ID,
+		Firstname: tokenDecode.Firstname,
+		Lastname:  tokenDecode.Lastname,
+		Email:     tokenDecode.Email,
+		Avatar:    tokenDecode.Avatar,
+	}
+
+	accessTokenExpire := h.Cfg.Auth.JwtAccessTokenExpire
+	accessToken, err := utils.GenerateToken(h.Cfg, tokenData, accessTokenExpire)
+	if err != nil {
+		return RespError(c, 500, err.Error(), err)
+	}
+
+	refreshTokenExpire := h.Cfg.Auth.JwtRefreshTokenExpire
+	refreshToken, err := utils.GenerateToken(h.Cfg, tokenData, refreshTokenExpire)
+	if err != nil {
+		return RespError(c, 500, err.Error(), err)
+	}
+
+	return RespSucess(c, "", response.ResponseData{
+		Result: fiber.Map{
+			"accessToken":  accessToken,
+			"refreshToken": refreshToken,
+		},
+	})
+}
+
+func HashPassword(password string) (string, error) {
+	bytes, err := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
+	return string(bytes), err
+}
+
+func CheckPasswordHash(password string, hash string) bool {
+	err := bcrypt.CompareHashAndPassword([]byte(hash), []byte(password))
+	return err == nil
 }
