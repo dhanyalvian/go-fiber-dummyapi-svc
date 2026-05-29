@@ -1,4 +1,4 @@
-module go-fiber-dummy-svc
+module go-fiber-dummyapi-svc
 
 go 1.24.13
 

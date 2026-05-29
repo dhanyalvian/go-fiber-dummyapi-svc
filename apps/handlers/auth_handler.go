@@ -3,9 +3,9 @@
 package handlers
 
 import (
-	"go-fiber-dummy-svc/apps/configs"
-	"go-fiber-dummy-svc/apps/entities"
-	"go-fiber-dummy-svc/pkgs/utils"
+	"go-fiber-dummyapi-svc/apps/configs"
+	"go-fiber-dummyapi-svc/apps/entities"
+	"go-fiber-dummyapi-svc/pkgs/utils"
 
 	"github.com/gofiber/fiber/v2"
 	"golang.org/x/crypto/bcrypt"
@@ -53,7 +53,7 @@ func (h *AuthHandler) Login(c *fiber.Ctx) error {
 	var user entities.User
 	h.DB.Where("email = ?", data["email"]).First(&user)
 
-	if user.ID == 0 {
+	if user.ID == "0" {
 		return c.Status(404).JSON(fiber.Map{"message": "User tidak ditemukan"})
 	}
 

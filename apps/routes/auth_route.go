@@ -3,8 +3,8 @@
 package routes
 
 import (
-	"go-fiber-dummy-svc/apps/configs"
-	"go-fiber-dummy-svc/apps/handlers"
+	"go-fiber-dummyapi-svc/apps/configs"
+	"go-fiber-dummyapi-svc/apps/handlers"
 
 	"github.com/gofiber/fiber/v2"
 	"gorm.io/gorm"

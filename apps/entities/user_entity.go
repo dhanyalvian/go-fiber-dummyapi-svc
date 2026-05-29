@@ -38,12 +38,12 @@ type RespAuthUser struct {
 type RespListUser struct {
 	BaseID
 
-	Firstname string `gorm:"column:firstname" json:"firstname"`
-	Lastname  string `gorm:"column:lastname" json:"lastname"`
-	Email     string `gorm:"column:email" json:"email"`
-	Phone     string `gorm:"column:phone" json:"phone"`
-	Avatar    string `gorm:"column:avatar" json:"avatar"`
-	Gender    Gender `gorm:"column:gender" json:"gender"`
+	Firstname string `json:"firstname"`
+	Lastname  string `json:"lastname"`
+	Email     string `json:"email"`
+	Phone     string `json:"phone"`
+	Avatar    string `json:"avatar"`
+	Gender    Gender `json:"gender"`
 }
 
 type RespDetailUser struct {
@@ -52,6 +52,6 @@ type RespDetailUser struct {
 	Password string `gorm:"column:password" json:"password"`
 }
 
-func (User) TableName() string {
-	return GetTableName(TABLE_USER)
+func (User) ColletionName() string {
+	return GetCollectionName(COLLECTION_USER)
 }

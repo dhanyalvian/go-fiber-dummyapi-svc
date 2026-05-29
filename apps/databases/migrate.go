@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 
-	"go-fiber-dummy-svc/apps/entities"
+	"go-fiber-dummyapi-svc/apps/entities"
 
 	"gorm.io/gorm"
 )

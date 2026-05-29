@@ -3,18 +3,19 @@
 package handlers
 
 import (
-	"go-fiber-dummy-svc/apps/models"
+	"go-fiber-dummyapi-svc/apps/entities"
+	"go-fiber-dummyapi-svc/apps/models"
 
 	"github.com/gofiber/fiber/v2"
-	"gorm.io/gorm"
+	"github.com/typesense/typesense-go/v4/typesense"
 )
 
 type UserHandler struct {
-	DB *gorm.DB
+	TS *typesense.Client
 }
 
-func NewUserHandler(db *gorm.DB) *UserHandler {
-	return &UserHandler{DB: db}
+func NewUserHandler(ts *typesense.Client) *UserHandler {
+	return &UserHandler{TS: ts}
 }
 
 // @Summary List Data User
@@ -26,12 +27,16 @@ func NewUserHandler(db *gorm.DB) *UserHandler {
 // @Failure 400,401,404,500 {object} response.ResponseData
 // @Router /user [get]
 func (h *UserHandler) List(c *fiber.Ctx) error {
-	respData := models.ListUser(c, h.DB, GetQuerySearch(c))
-	return RespSucess(c, "", respData)
+	docs, _ := models.ListUser(c, h.TS)
+	return RespSucessList[entities.RespListUser](c, docs)
 }
 
 func (h *UserHandler) Detail(c *fiber.Ctx) error {
-	id := c.Params("id")
-	respData := models.DetailUser(h.DB, id)
-	return RespSucess(c, "", respData)
+	id := GetId(c)
+	doc, err := models.DetailUser(c, h.TS, id)
+	if err != nil {
+		return RespError(c, 400, "Data not found", err)
+	}
+
+	return RespSuccessDetail[entities.RespDetailUser](c, doc)
 }
