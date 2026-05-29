@@ -9,9 +9,9 @@ import (
 	"log"
 	"os"
 
-	"go-fiber-dummy-svc/apps/configs"
-	"go-fiber-dummy-svc/apps/databases"
-	"go-fiber-dummy-svc/inits"
+	"go-fiber-dummyapi-svc/apps/configs"
+	"go-fiber-dummyapi-svc/apps/databases"
+	"go-fiber-dummyapi-svc/inits"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/typesense/typesense-go/v4/typesense"

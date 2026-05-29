@@ -37,6 +37,7 @@ type ConfigDatabase struct {
 }
 
 type ConfigTypesense struct {
+	Active   bool   `mapstructure:"TS_ACTIVE"`
 	Hostname string `mapstructure:"TS_HOST"`
 	Port     int    `mapstructure:"TS_PORT"`
 	ApiKey   string `mapstructure:"TS_KEY"`

@@ -7,7 +7,7 @@ import (
 	"log"
 	"time"
 
-	"go-fiber-dummy-svc/apps/configs"
+	"go-fiber-dummyapi-svc/apps/configs"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/postgres"

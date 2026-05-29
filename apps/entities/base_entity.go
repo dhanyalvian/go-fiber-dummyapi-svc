@@ -10,14 +10,11 @@ import (
 const (
 	SCHEMA = "dummy"
 
-	TABLE_CATEGORY = "categories"
-	TABLE_PROJECT  = "projects"
-
-	TABLE_USER = "users"
+	COLLECTION_USER = "users"
 )
 
 type BaseID struct {
-	ID uint `gorm:"primaryKey;column:id" json:"id"`
+	ID string `json:"id"`
 }
 
 type BaseTimestamp struct {
@@ -25,6 +22,6 @@ type BaseTimestamp struct {
 	UpdatedAt time.Time `json:"-"`
 }
 
-func GetTableName(table string) string {
-	return fmt.Sprintf("%s.%s", SCHEMA, table)
+func GetCollectionName(collection string) string {
+	return fmt.Sprintf("%s_%s", SCHEMA, collection)
 }

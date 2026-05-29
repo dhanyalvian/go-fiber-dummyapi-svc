@@ -5,7 +5,7 @@ package inits
 import (
 	"fmt"
 
-	"go-fiber-dummy-svc/apps/configs"
+	"go-fiber-dummyapi-svc/apps/configs"
 
 	"github.com/typesense/typesense-go/v4/typesense"
 )

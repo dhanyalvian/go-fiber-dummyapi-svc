@@ -3,13 +3,13 @@ package utils
 import (
 	"time"
 
-	"go-fiber-dummy-svc/apps/configs"
+	"go-fiber-dummyapi-svc/apps/configs"
 
 	"github.com/golang-jwt/jwt/v5"
 )
 
 type TokenData struct {
-	ID        uint   `json:"id"`
+	ID        string `json:"id"`
 	Firstname string `json:"firstname"`
 	Lastname  string `json:"lastname"`
 	Email     string `json:"email"`
@@ -40,7 +40,7 @@ func DecodeToken(cfg *configs.Config, tokenString string) (*TokenData, error) {
 
 	if claims, ok := token.Claims.(jwt.MapClaims); ok && token.Valid {
 		tokenData := &TokenData{
-			ID:        uint(claims["id"].(float64)),
+			ID:        claims["id"].(string),
 			Firstname: claims["firstname"].(string),
 			Lastname:  claims["lastname"].(string),
 			Email:     claims["email"].(string),

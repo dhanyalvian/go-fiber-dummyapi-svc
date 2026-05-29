@@ -3,8 +3,8 @@
 package inits
 
 import (
-	"go-fiber-dummy-svc/apps/configs"
-	"go-fiber-dummy-svc/apps/routes"
+	"go-fiber-dummyapi-svc/apps/configs"
+	"go-fiber-dummyapi-svc/apps/routes"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/typesense/typesense-go/v4/typesense"
@@ -13,5 +13,5 @@ import (
 
 func InitRouter(app *fiber.App, cfg *configs.Config, db *gorm.DB, ts *typesense.Client) {
 	routes.InitAuth(app, cfg, db)
-	routes.RouteUser(app, db)
+	routes.RouteUser(app, cfg, ts)
 }

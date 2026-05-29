@@ -5,7 +5,7 @@ package middlewares
 import (
 	"strings"
 
-	"go-fiber-dummy-svc/apps/configs"
+	"go-fiber-dummyapi-svc/apps/configs"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/golang-jwt/jwt/v5"

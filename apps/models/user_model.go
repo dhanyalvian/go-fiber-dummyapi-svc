@@ -1,36 +1,20 @@
-//- apps/models/user_model.go
+//- apps/models/typesense/user_model.go
 
 package models
 
 import (
-	"go-fiber-dummy-svc/apps/entities"
+	"go-fiber-dummyapi-svc/apps/entities"
 
-	"github.com/dhanyalvian/go-fiber-packages/response"
 	"github.com/gofiber/fiber/v2"
-	"gorm.io/gorm"
+	"github.com/typesense/typesense-go/v4/typesense"
+	"github.com/typesense/typesense-go/v4/typesense/api"
 )
 
-func ListUser(c *fiber.Ctx, db *gorm.DB, q string) response.ResponseData {
-	entity := entities.User{}
-	cols := GetColumns(new(entities.RespListUser))
-	orders := "id ASC"
-
-	dbCount := db.Model(&entity)
-	dbRow := db.Model(&entity).Select(cols).Order(orders)
-
-	if q != "" {
-		whereSearch := "firstname ILIKE ? OR lastname ILIKE ? OR email ILIKE ?"
-		whereBind := "%" + q + "%"
-
-		dbCount.Where(whereSearch, whereBind, whereBind, whereBind)
-		dbRow.Where(whereSearch, whereBind, whereBind, whereBind)
-	}
-
-	return GetModelListData[entities.RespListUser](c, dbCount, dbRow)
+func ListUser(c *fiber.Ctx, ts *typesense.Client) (*api.SearchResult, error) {
+	queryBy := "firstname,lastname,email"
+	return GetList(c, ts, entities.User{}.ColletionName(), queryBy)
 }
 
-func DetailUser(db *gorm.DB, id string) response.ResponseData {
-	var result entities.RespDetailUser
-	entity := entities.User{}
-	return GetDetailById(db, entity, id, &result)
+func DetailUser(c *fiber.Ctx, ts *typesense.Client, id string) (map[string]any, error) {
+	return GetDetailById(c, ts, entities.User{}.ColletionName(), id)
 }
