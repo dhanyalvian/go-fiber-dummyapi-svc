@@ -33,7 +33,7 @@ func main() {
 
 	handleArgs(db)
 
-	runServer(app, cfg, db, ts)
+	runServer(app, cfg, ts)
 }
 
 func handleArgs(db *gorm.DB) {
@@ -47,10 +47,10 @@ func handleArgs(db *gorm.DB) {
 	}
 }
 
-func runServer(app *fiber.App, cfg *configs.Config, db *gorm.DB, ts *typesense.Client) {
+func runServer(app *fiber.App, cfg *configs.Config, ts *typesense.Client) {
 	inits.InitApp(app)
 	inits.InitLogger(app)
-	inits.InitRouter(app, cfg, db, ts)
+	inits.InitRouter(app, cfg, ts)
 
 	log.Fatal(app.Listen(fmt.Sprintf(":%d", cfg.Server.Port)))
 }

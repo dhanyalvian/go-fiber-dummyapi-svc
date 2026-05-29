@@ -16,14 +16,15 @@ type TokenData struct {
 	Avatar    string `json:"avatar"`
 }
 
-func GenerateToken(cfg *configs.Config, tokenData TokenData) (string, error) {
+func GenerateToken(cfg *configs.Config, tokenData TokenData, expire int) (string, error) {
 	claims := jwt.MapClaims{
 		"id":        tokenData.ID,
 		"firstname": tokenData.Firstname,
 		"lastname":  tokenData.Lastname,
 		"email":     tokenData.Email,
 		"avatar":    tokenData.Avatar,
-		"exp":       time.Now().Add(time.Hour * 72).Unix(), // Token berlaku 3 hari
+		"exp":       time.Now().Add(time.Minute * time.Duration(expire)).Unix(),
+		"iat":       time.Now().Unix(),
 	}
 
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)

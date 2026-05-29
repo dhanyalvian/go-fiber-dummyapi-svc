@@ -44,7 +44,9 @@ type ConfigTypesense struct {
 }
 
 type ConfigAuth struct {
-	JwtSecret string `mapstructure:"JWT_SECRET"`
+	JwtSecret             string `mapstructure:"JWT_SECRET"`
+	JwtAccessTokenExpire  int    `mapstructure:"JWT_ACCESS_TOKEN_EXPIRE"`
+	JwtRefreshTokenExpire int    `mapstructure:"JWT_REFRESH_TOKEN_EXPIRE"`
 }
 
 var Cfg *Config

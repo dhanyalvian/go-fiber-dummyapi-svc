@@ -31,6 +31,29 @@ func GetQuerySearch(c *fiber.Ctx) string {
 	return result
 }
 
+func GetDocFirst[T any](docs *api.SearchResult) T {
+	var result T
+	if docs.Hits != nil {
+		for i, hit := range *docs.Hits {
+			if hit.Document == nil {
+				log.Printf("[TS] Hit[%d] document nil", i)
+				continue
+			}
+
+			// var row T
+			b, _ := json.Marshal(hit.Document)
+			if err := json.Unmarshal(b, &result); err != nil {
+				log.Printf("[TS] Hit[%d] unmarshal error: %v | raw: %s", i, err, string(b))
+				continue
+			}
+
+			break
+		}
+	}
+
+	return result
+}
+
 func RespSucess(c *fiber.Ctx, message string, data response.ResponseData) error {
 	var resp response.Response
 
