@@ -11,8 +11,9 @@ import (
 )
 
 func RouteAuth(app *fiber.App, cfg *configs.Config, ts *typesense.Client) {
-	handler := handlers.NewAuthHandler(cfg, ts)
+	h := handlers.NewAuthHandler(cfg, ts)
+	ep := "/auth"
 
-	app.Post("/login", handler.Login)
-	app.Post("/refresh-token", handler.RefreshToken)
+	app.Post(ep+"/login", h.Login)
+	app.Post(ep+"/refresh-token", h.RefreshToken)
 }

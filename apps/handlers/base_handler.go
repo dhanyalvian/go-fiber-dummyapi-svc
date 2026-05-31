@@ -8,8 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dhanyalvian/go-fiber-packages/request"
-	"github.com/dhanyalvian/go-fiber-packages/response"
+	"go-fiber-dummyapi-svc/pkgs/request"
+	"go-fiber-dummyapi-svc/pkgs/response"
+
 	"github.com/gofiber/fiber/v2"
 	"github.com/typesense/typesense-go/v4/typesense/api"
 )
@@ -27,12 +28,12 @@ func GetUserID(c *fiber.Ctx) float64 {
 }
 
 func GetQuerySearch(c *fiber.Ctx) string {
-	result := strings.ToLower(c.Query("q"))
+	result := strings.ToLower(c.Query("search"))
 	return result
 }
 
 func GetDocFirst[T any](docs *api.SearchResult) T {
-	var result T
+	var record T
 	if docs.Hits != nil {
 		for i, hit := range *docs.Hits {
 			if hit.Document == nil {
@@ -42,7 +43,7 @@ func GetDocFirst[T any](docs *api.SearchResult) T {
 
 			// var row T
 			b, _ := json.Marshal(hit.Document)
-			if err := json.Unmarshal(b, &result); err != nil {
+			if err := json.Unmarshal(b, &record); err != nil {
 				log.Printf("[TS] Hit[%d] unmarshal error: %v | raw: %s", i, err, string(b))
 				continue
 			}
@@ -51,17 +52,26 @@ func GetDocFirst[T any](docs *api.SearchResult) T {
 		}
 	}
 
-	return result
+	return record
 }
 
-func RespSucess(c *fiber.Ctx, message string, data response.ResponseData) error {
+func RespSucess(
+	c *fiber.Ctx,
+	message string,
+	record interface{},
+	records interface{},
+	pagination *response.ResponsePagination,
+) error {
 	var resp response.Response
 
 	resp.Meta.RequestId = response.GetResponseReqId(c)
 	resp.Meta.Code = strconv.Itoa(response.GetResponseStatusCode(c))
 
 	resp.Message = message
-	resp.Data = data
+
+	resp.Pagination = pagination
+	resp.Records = records
+	resp.Record = record
 
 	return c.Status(fiber.StatusOK).JSON(resp)
 }
@@ -70,22 +80,22 @@ func RespSucessList[T any](c *fiber.Ctx, docs *api.SearchResult) error {
 	page := request.GetPage(c)
 	limit := request.GetLimit(c)
 
-	totalRecords := 0
+	totalRecord := 0
 	if docs.Found != nil {
-		totalRecords = int(*docs.Found)
+		totalRecord = int(*docs.Found)
 	}
 
-	totalPages := 0
+	totalPage := 0
 	if limit > 0 {
-		totalPages = (totalRecords + limit - 1) / limit
+		totalPage = (totalRecord + limit - 1) / limit
 	}
 
 	next := page + 1
-	if page >= totalPages {
+	if page >= totalPage {
 		next = page
 	}
 
-	var results []T
+	var records []T
 	if docs.Hits != nil {
 		for i, hit := range *docs.Hits {
 			if hit.Document == nil {
@@ -99,36 +109,33 @@ func RespSucessList[T any](c *fiber.Ctx, docs *api.SearchResult) error {
 				log.Printf("[TS] Hit[%d] unmarshal error: %v | raw: %s", i, err, string(b))
 				continue
 			}
-			results = append(results, row)
+			records = append(records, row)
 		}
 	}
 
-	if results == nil {
-		results = []T{}
+	if records == nil {
+		records = []T{}
 	}
 
-	return RespSucess(c, "", response.ResponseData{
-		Pagination: &response.ResponseDataPagination{
-			Page:         page,
-			Next:         next,
-			Records:      len(results),
-			TotalPages:   totalPages,
-			TotalRecords: int64(totalRecords),
-		},
-		Results: results,
-	})
+	pagination := &response.ResponsePagination{
+		Page:        page,
+		Next:        next,
+		Record:      len(records),
+		TotalPage:   totalPage,
+		TotalRecord: int64(totalRecord),
+	}
+
+	return RespSucess(c, "", nil, records, pagination)
 }
 
 func RespSuccessDetail[T any](c *fiber.Ctx, doc map[string]any) error {
-	var result T
+	var record T
 	row, _ := json.Marshal(doc)
-	if err := json.Unmarshal(row, &result); err != nil {
+	if err := json.Unmarshal(row, &record); err != nil {
 		return RespError(c, 400, "Unmarshal error", err)
 	}
 
-	return RespSucess(c, "", response.ResponseData{
-		Result: result,
-	})
+	return RespSucess(c, "", record, nil, nil)
 }
 
 func RespError(c *fiber.Ctx, statusCode int, message string, err error) error {
@@ -138,7 +145,7 @@ func RespError(c *fiber.Ctx, statusCode int, message string, err error) error {
 	resp.Meta.Code = strconv.Itoa(statusCode)
 
 	resp.Message = message
-	resp.Data.Errors = err
+	resp.Errors = err
 
 	return c.Status(statusCode).JSON(resp)
 }

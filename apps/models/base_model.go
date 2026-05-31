@@ -3,7 +3,8 @@
 package models
 
 import (
-	"github.com/dhanyalvian/go-fiber-packages/request"
+	"go-fiber-dummyapi-svc/pkgs/request"
+
 	"github.com/gofiber/fiber/v2"
 	"github.com/typesense/typesense-go/v4/typesense"
 	"github.com/typesense/typesense-go/v4/typesense/api"
@@ -32,7 +33,7 @@ func GetList(
 	tsCollection string,
 	queryBy string,
 ) (*api.SearchResult, error) {
-	querySearch := c.Query("q", "*")
+	querySearch := c.Query("search", "*")
 	page := request.GetPage(c)
 	limit := request.GetLimit(c)
 

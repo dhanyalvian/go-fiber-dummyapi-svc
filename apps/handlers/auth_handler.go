@@ -8,7 +8,6 @@ import (
 	"go-fiber-dummyapi-svc/apps/models"
 	"go-fiber-dummyapi-svc/pkgs/utils"
 
-	"github.com/dhanyalvian/go-fiber-packages/response"
 	"github.com/gofiber/fiber/v2"
 	"github.com/typesense/typesense-go/v4/typesense"
 	"golang.org/x/crypto/bcrypt"
@@ -78,19 +77,19 @@ func (h *AuthHandler) Login(c *fiber.Ctx) error {
 		return RespError(c, 500, refreshResult.err.Error(), refreshResult.err)
 	}
 
-	return RespSucess(c, "", response.ResponseData{
-		Result: entities.RespAuthLogin{
-			BaseID: entities.BaseID{
-				ID: user.ID,
-			},
-			Firstname:    user.Firstname,
-			Lastname:     user.Lastname,
-			Email:        user.Email,
-			Avatar:       user.Avatar,
-			AccessToken:  accessResult.token,
-			RefreshToken: refreshResult.token,
+	result := entities.RespAuthLogin{
+		BaseID: entities.BaseID{
+			ID: user.ID,
 		},
-	})
+		Firstname:    user.Firstname,
+		Lastname:     user.Lastname,
+		Email:        user.Email,
+		Avatar:       user.Avatar,
+		AccessToken:  accessResult.token,
+		RefreshToken: refreshResult.token,
+	}
+
+	return RespSucess(c, "", result, nil, nil)
 }
 
 func (h *AuthHandler) RefreshToken(c *fiber.Ctx) error {
@@ -124,12 +123,12 @@ func (h *AuthHandler) RefreshToken(c *fiber.Ctx) error {
 		return RespError(c, 500, err.Error(), err)
 	}
 
-	return RespSucess(c, "", response.ResponseData{
-		Result: fiber.Map{
-			"accessToken":  accessToken,
-			"refreshToken": refreshToken,
-		},
-	})
+	result := fiber.Map{
+		"accessToken":  accessToken,
+		"refreshToken": refreshToken,
+	}
+
+	return RespSucess(c, "", result, nil, nil)
 }
 
 func HashPassword(password string) (string, error) {
