@@ -40,7 +40,6 @@ type RespListUser struct {
 type RespDetailUser struct {
 	RespListUser
 
-	Password     string `json:"password"`
 	PasswordHash string `json:"password_hash"`
 }
 

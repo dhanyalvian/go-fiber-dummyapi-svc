@@ -21,7 +21,7 @@ func InitApp(app *fiber.App) {
 	}))
 	app.Use(csrf.New(csrf.Config{
 		Next: func(c *fiber.Ctx) bool {
-			return c.Path() == "/register" || c.Path() == "/login" || c.Path() == "/refresh-token"
+			return c.Path() == "/auth/login" || c.Path() == "/auth/refresh-token"
 		},
 	}))
 	app.Use(helmet.New())
