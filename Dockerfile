@@ -17,7 +17,7 @@ COPY . .
 
 # Set necessary environment variables needed for our image and build the API server.
 ENV CGO_ENABLED=0 GOOS=linux GOARCH=amd64
-RUN go build -ldflags="-s -w" -o user_svc ./cmd/api/main.go
+RUN go build -ldflags="-s -w" -o dummyapi_svc ./cmd/api/main.go
 
 FROM scratch
 
