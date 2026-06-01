@@ -2,6 +2,12 @@
 
 package entities
 
+import (
+	"go-fiber-dummyapi-svc/pkgs/utils"
+
+	"github.com/typesense/typesense-go/v4/typesense/api"
+)
+
 type Gender string
 
 // 2. Define constants
@@ -13,17 +19,22 @@ const (
 type User struct {
 	BaseID
 
-	Firstname string `gorm:"column:firstname;type:varchar(255);not null" json:"firstname"`
-	Lastname  string `gorm:"column:lastname;type:varchar(255)" json:"lastname"`
-	Gender    Gender `gorm:"column:gender;type:varchar(1);default:'M'" json:"gender"`
-	Avatar    string `gorm:"column:avatar;type:varchar(255);default:null" json:"avatar"`
+	Firstname string `json:"firstname" typesense:"index,sort"`
+	Lastname  string `json:"lastname" typesense:"index,sort"`
+	Gender    Gender `json:"gender" typesense:"facet,sort"`
+	Avatar    string `json:"avatar" typesense:"optional"`
 
-	Email        string `gorm:"column:email;unique;type:varchar(255);not null" json:"email"`
-	Password     string `gorm:"column:password;type:varchar(255);not null" json:"-"`
-	PasswordHash string `gorm:"column:password_hash;type:varchar(255)" json:"-"`
-	Phone        string `gorm:"column:phone;type:varchar(30)" json:"phone"`
+	Email string `json:"email" typesense:"index,sort"`
+	Phone string `json:"phone" typesense:"index,sort"`
+
+	Password     string `json:"password"`
+	PasswordHash string `json:"password_hash"`
 
 	BaseTimestamp
+}
+
+type UserDoc struct {
+	User
 }
 
 type RespListUser struct {
@@ -46,4 +57,8 @@ type RespDetailUser struct {
 
 func (User) ColletionName() string {
 	return GetCollectionName(COLLECTION_USER)
+}
+
+func (User) TypesenseSchema() ([]api.Field, *string) {
+	return utils.DeriveTypesenseFields[User](), nil
 }

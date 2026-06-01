@@ -11,11 +11,11 @@ import (
 
 	"go-fiber-dummyapi-svc/apps/configs"
 	"go-fiber-dummyapi-svc/apps/databases"
+	"go-fiber-dummyapi-svc/apps/databases/seeders"
 	"go-fiber-dummyapi-svc/inits"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/typesense/typesense-go/v4/typesense"
-	"gorm.io/gorm"
 )
 
 func main() {
@@ -28,22 +28,20 @@ func main() {
 		JSONDecoder: json.Unmarshal,
 	})
 
-	db := inits.InitDb(cfg)
 	ts := inits.InitTs(cfg)
 
-	handleArgs(db)
-
+	handleArgs(ts)
 	runServer(app, cfg, ts)
 }
 
-func handleArgs(db *gorm.DB) {
-	// Definisikan flag --migrate
-	migrateFlag := flag.Bool("migrate", false, "Run database migrations")
+func handleArgs(ts *typesense.Client) {
+	migrateFlag := flag.Bool("migrate", false, "Run Typesense migrations and seed data")
 	flag.Parse()
 
 	if *migrateFlag {
-		databases.Migration(db)
-		os.Exit(0) // Berhenti setelah migrasi selesai
+		databases.MigrateTypesense(ts)
+		seeders.SeedAll(ts)
+		os.Exit(0)
 	}
 }
 
