@@ -140,3 +140,14 @@ func CheckPasswordHash(password string, hash string) bool {
 	err := bcrypt.CompareHashAndPassword([]byte(hash), []byte(password))
 	return err == nil
 }
+
+func (h *AuthHandler) Me(c *fiber.Ctx) error {
+	userId := c.Locals("user_id").(string)
+	if userId == "" {
+		return RespError(c, 401, "Unauthorized", nil)
+	}
+
+	tokenData := c.Locals("user_token").(*utils.TokenData)
+
+	return RespSucess(c, "", tokenData, nil, nil)
+}
