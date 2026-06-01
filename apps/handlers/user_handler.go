@@ -35,7 +35,7 @@ func (h *UserHandler) Detail(c *fiber.Ctx) error {
 	id := GetId(c)
 	doc, err := models.DetailUser(c, h.TS, id)
 	if err != nil {
-		return RespError(c, 400, "Data not found", err)
+		return RespError(c, 400, "Data not found", nil)
 	}
 
 	return RespSuccessDetail[entities.RespDetailUser](c, doc)
