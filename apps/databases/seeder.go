@@ -24,9 +24,11 @@ func ImportDocuments(ts *typesense.Client, ctx context.Context, name string, doc
 	}
 
 	success := 0
-	for _, r := range results {
+	for i, r := range results {
 		if r.Success {
 			success++
+		} else {
+			fmt.Printf("[TS] Document %d failed: %s\n", i, r.Error)
 		}
 	}
 	fmt.Printf("[TS] Imported %d/%d documents into %s\n", success, len(docs), name)

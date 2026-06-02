@@ -15,10 +15,14 @@ func DeriveTypesenseFields[T any]() []api.Field {
 	var entity T
 	t := reflect.TypeOf(entity)
 
-	return deriveFields(t)
+	return deriveFields(t, "")
 }
 
-func deriveFields(t reflect.Type) []api.Field {
+func deriveFields(t reflect.Type, prefix string) []api.Field {
+	return deriveFieldsInner(t, prefix, false)
+}
+
+func deriveFieldsInner(t reflect.Type, prefix string, insideArray bool) []api.Field {
 	var fields []api.Field
 
 	for i := range t.NumField() {
@@ -29,7 +33,7 @@ func deriveFields(t reflect.Type) []api.Field {
 		}
 
 		if f.Anonymous {
-			fields = append(fields, deriveFields(f.Type)...)
+			fields = append(fields, deriveFieldsInner(f.Type, prefix, insideArray)...)
 			continue
 		}
 
@@ -44,35 +48,59 @@ func deriveFields(t reflect.Type) []api.Field {
 			continue
 		}
 
+		fullName := prefix + jsonName
+
+		if f.Type.Kind() == reflect.Struct && f.Type != reflect.TypeOf(time.Time{}) {
+			field := api.Field{Name: fullName, Type: "object"}
+			applyFieldOptions(&field, tsTag)
+			fields = append(fields, field)
+			fields = append(fields, deriveFieldsInner(f.Type, fullName+".", insideArray)...)
+			continue
+		}
+
+		if f.Type.Kind() == reflect.Slice && f.Type.Elem().Kind() == reflect.Struct {
+			field := api.Field{Name: fullName, Type: "object[]"}
+			applyFieldOptions(&field, tsTag)
+			fields = append(fields, field)
+			fields = append(fields, deriveFieldsInner(f.Type.Elem(), fullName+".", true)...)
+			continue
+		}
+
 		tsType := resolveTypesenseType(f.Type)
-		field := api.Field{Name: jsonName, Type: tsType}
-
-		opts := parseTypesenseTag(tsTag)
-		if hasOpt(opts, "facet") {
-			field.Facet = pointer.True()
+		if insideArray {
+			tsType = tsType + "[]"
 		}
-		if hasOpt(opts, "sort") {
-			field.Sort = pointer.True()
-		}
-		if hasOpt(opts, "optional") {
-			field.Optional = pointer.True()
-		}
-		if hasOpt(opts, "index") || hasOpt(opts, "facet") || hasOpt(opts, "sort") {
-			field.Index = pointer.True()
-		} else {
-			field.Index = pointer.False()
-		}
-		if hasOpt(opts, "infix") {
-			field.Infix = pointer.True()
-		}
-		if v, ok := opts["locale"]; ok {
-			field.Locale = pointer.String(v)
-		}
-
+		field := api.Field{Name: fullName, Type: tsType}
+		applyFieldOptions(&field, tsTag, insideArray)
 		fields = append(fields, field)
 	}
 
 	return fields
+}
+
+func applyFieldOptions(field *api.Field, tsTag string, insideArray ...bool) {
+	opts := parseTypesenseTag(tsTag)
+	if hasOpt(opts, "facet") {
+		field.Facet = pointer.True()
+	}
+	isInsideArray := len(insideArray) > 0 && insideArray[0]
+	if hasOpt(opts, "sort") && !isInsideArray {
+		field.Sort = pointer.True()
+	}
+	if hasOpt(opts, "optional") || isInsideArray {
+		field.Optional = pointer.True()
+	}
+	if hasOpt(opts, "index") || hasOpt(opts, "facet") || hasOpt(opts, "sort") {
+		field.Index = pointer.True()
+	} else {
+		field.Index = pointer.False()
+	}
+	if hasOpt(opts, "infix") {
+		field.Infix = pointer.True()
+	}
+	if v, ok := opts["locale"]; ok {
+		field.Locale = pointer.String(v)
+	}
 }
 
 func jsonFieldName(f reflect.StructField) string {
@@ -93,9 +121,6 @@ func resolveTypesenseType(t reflect.Type) string {
 	case reflect.Int, reflect.Int8, reflect.Int16, reflect.Int32:
 		return "int32"
 	case reflect.Int64:
-		if t == reflect.TypeOf(time.Time{}) {
-			return "int64"
-		}
 		return "int64"
 	case reflect.Float32, reflect.Float64:
 		return "float"

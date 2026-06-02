@@ -11,6 +11,7 @@ import (
 
 	"github.com/typesense/typesense-go/v4/typesense"
 	"github.com/typesense/typesense-go/v4/typesense/api"
+	"github.com/typesense/typesense-go/v4/typesense/api/pointer"
 )
 
 type TypesenseCollection interface {
@@ -23,6 +24,7 @@ func MigrateTypesense(ts *typesense.Client) {
 
 	collections := []TypesenseCollection{
 		entities.User{},
+		entities.Recipe{},
 	}
 
 	ctx := context.Background()
@@ -58,6 +60,7 @@ func createCollection(
 		Name:                name,
 		Fields:              fields,
 		DefaultSortingField: defaultSort,
+		EnableNestedFields:  pointer.True(),
 	}
 
 	_, err := ts.Collections().Create(ctx, schema)

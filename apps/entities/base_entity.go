@@ -10,7 +10,8 @@ import (
 const (
 	SCHEMA = "dummy"
 
-	COLLECTION_USER = "users"
+	COLLECTION_USER   = "users"
+	COLLECTION_RECIPE = "recipes"
 )
 
 type BaseID struct {

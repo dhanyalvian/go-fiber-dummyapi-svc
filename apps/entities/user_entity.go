@@ -28,9 +28,7 @@ type User struct {
 	Phone string `json:"phone" typesense:"index,sort"`
 
 	Password     string `json:"password"`
-	PasswordHash string `json:"password_hash"`
-
-	BaseTimestamp
+	PasswordHash string `json:"passwordHash"`
 }
 
 type UserDoc struct {
@@ -52,7 +50,7 @@ type RespDetailUser struct {
 	RespListUser
 
 	Password     string `json:"password"`
-	PasswordHash string `json:"password_hash"`
+	PasswordHash string `json:"passwordHash"`
 }
 
 func (User) ColletionName() string {
