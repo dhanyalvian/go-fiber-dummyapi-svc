@@ -10,6 +10,7 @@ func SeedAll(ts *tsclient.Client) {
 	fmt.Println("Seeding Typesense...")
 
 	SeedUserToTypesense(ts)
+	SeedRecipeToTypesense(ts)
 
 	fmt.Println("Typesense seeding completed!")
 }

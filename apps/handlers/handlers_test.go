@@ -62,12 +62,7 @@ func newTestConfig() *configs.Config {
 			JwtAccessTokenExpire:  15,
 			JwtRefreshTokenExpire: 1440,
 		},
-		Typesense: configs.ConfigTypesense{
-			Active: false,
-		},
-		Database: configs.ConfigDatabase{
-			Type: "mysql",
-		},
+		Typesense: configs.ConfigTypesense{},
 	}
 }
 
@@ -109,8 +104,8 @@ func newMockTypesenseServer() *httptest.Server {
 					{"document": doc},
 				}
 				json.NewEncoder(w).Encode(map[string]interface{}{
-					"found": found,
-					"hits":  hits,
+					"found":  found,
+					"hits":   hits,
 					"out_of": found,
 				})
 				return

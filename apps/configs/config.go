@@ -12,7 +12,6 @@ import (
 type Config struct {
 	Server    ConfigServer    `mapstructure:",squash"`
 	Auth      ConfigAuth      `mapstructure:",squash"`
-	Database  ConfigDatabase  `mapstructure:",squash"`
 	Typesense ConfigTypesense `mapstructure:",squash"`
 }
 
@@ -24,20 +23,7 @@ type ConfigServer struct {
 	ImageURL string `mapstructure:"APP_IMAGE_URL"`
 }
 
-type ConfigDatabase struct {
-	Type     string `mapstructure:"DB_TYPE"`
-	Hostname string `mapstructure:"DB_HOST"`
-	Port     int    `mapstructure:"DB_PORT"`
-	Username string `mapstructure:"DB_USER"`
-	Password string `mapstructure:"DB_PASS"`
-	DbName   string `mapstructure:"DB_NAME"`
-	SslMode  string `mapstructure:"DB_SSLMODE"`
-	TimeZone string `mapstructure:"DB_TIMEZONE"`
-	Debug    bool   `mapstructure:"DB_DEBUG"`
-}
-
 type ConfigTypesense struct {
-	Active   bool   `mapstructure:"TS_ACTIVE"`
 	Hostname string `mapstructure:"TS_HOST"`
 	Port     int    `mapstructure:"TS_PORT"`
 	ApiKey   string `mapstructure:"TS_KEY"`
