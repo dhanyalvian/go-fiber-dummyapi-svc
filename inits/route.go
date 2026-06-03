@@ -14,6 +14,7 @@ import (
 func InitRouter(app *fiber.App, cfg *configs.Config, ts *typesense.Client) {
 	routes.RouteAuth(app, cfg, ts)
 	routes.RouteUser(app, cfg, ts)
+	routes.RouteProduct(app, cfg, ts)
 	routes.RouteRecipe(app, cfg, ts)
 
 	RouteNotFound(app)

@@ -3,8 +3,10 @@
 package models
 
 import (
+	"encoding/json"
 	"go-fiber-dummyapi-svc/pkgs/request"
 
+	"github.com/dhanyalvian/go-fiber-packages/logger"
 	"github.com/gofiber/fiber/v2"
 	"github.com/typesense/typesense-go/v4/typesense"
 	"github.com/typesense/typesense-go/v4/typesense/api"
@@ -37,6 +39,16 @@ func GetList(
 	page := request.GetPage(c)
 	limit := request.GetLimit(c)
 
+	logData, _ := json.Marshal(map[string]any{
+		"type":        "GetList",
+		"collection":  tsCollection,
+		"querySearch": querySearch,
+		"queryBy":     queryBy,
+		"page":        page,
+		"limit":       limit,
+	})
+	logger.Logging(0, "REQUEST_TS", string(logData))
+
 	searchParams := &api.SearchCollectionParams{
 		Q:       &querySearch,
 		QueryBy: &queryBy,
@@ -44,7 +56,26 @@ func GetList(
 		PerPage: pointer.Int(limit),
 	}
 
-	return tsClient.Collection(tsCollection).Documents().Search(c.Context(), searchParams)
+	docs, err := tsClient.Collection(tsCollection).Documents().Search(c.Context(), searchParams)
+	if err != nil {
+		logData, _ = json.Marshal(map[string]any{
+			"type":       "GetList",
+			"collection": tsCollection,
+			"error":      err,
+		})
+		logger.Logging(500, "RESPONSE_TS", string(logData))
+
+		return nil, err
+	}
+
+	logData, _ = json.Marshal(map[string]any{
+		"type":       "GetList",
+		"collection": tsCollection,
+		"found":      docs.Found,
+	})
+	logger.Logging(200, "RESPONSE_TS", string(logData))
+
+	return docs, nil
 }
 
 func GetDetailById(

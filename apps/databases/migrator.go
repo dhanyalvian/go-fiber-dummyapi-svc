@@ -24,6 +24,7 @@ func MigrateTypesense(ts *typesense.Client) {
 
 	collections := []TypesenseCollection{
 		entities.User{},
+		entities.Product{},
 		entities.Recipe{},
 	}
 
