@@ -1,0 +1,6900 @@
+[
+  {
+    "id": "1",
+    "name": "Wireless Earbuds Pro",
+    "description": "High-quality wireless earbuds pro from ArtFrame. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-001",
+    "brand": "ArtFrame",
+    "category": "Beauty",
+    "tags": [
+      "rechargeable",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod1a/200",
+    "images": [
+      "https://picsum.photos/seed/prod1a/400",
+      "https://picsum.photos/seed/prod1b/400"
+    ],
+    "weight": 11.07,
+    "dimensions": {
+      "width": 90.38,
+      "height": 144.52,
+      "depth": 53.0
+    },
+    "price": 382.68,
+    "discount": 0.0,
+    "stock": 762
+  },
+  {
+    "id": "2",
+    "name": "Wood Desk Organizer  Max",
+    "description": "High-quality wood desk organizer  max from TrailBlazer. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-002",
+    "brand": "TrailBlazer",
+    "category": "Accessories",
+    "tags": [
+      "adjustable",
+      "eco-friendly",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod2a/200",
+    "images": [
+      "https://picsum.photos/seed/prod2a/400",
+      "https://picsum.photos/seed/prod2b/400"
+    ],
+    "weight": 0.22,
+    "dimensions": {
+      "width": 38.09,
+      "height": 65.51,
+      "depth": 49.97
+    },
+    "price": 330.46,
+    "discount": 0.0,
+    "stock": 379
+  },
+  {
+    "id": "3",
+    "name": "Picture Frame Set Pro",
+    "description": "High-quality picture frame set pro from FlyHigh. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-003",
+    "brand": "FlyHigh",
+    "category": "Pets",
+    "tags": [
+      "moisture-wicking",
+      "portable",
+      "waterproof",
+      "insulated"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod3a/200",
+    "images": [
+      "https://picsum.photos/seed/prod3a/400",
+      "https://picsum.photos/seed/prod3b/400"
+    ],
+    "weight": 6.54,
+    "dimensions": {
+      "width": 31.69,
+      "height": 179.34,
+      "depth": 19.02
+    },
+    "price": 172.6,
+    "discount": 0.0,
+    "stock": 658
+  },
+  {
+    "id": "4",
+    "name": "Variety Lip Balm Pro",
+    "description": "High-quality variety lip balm pro from EcoWear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-004",
+    "brand": "EcoWear",
+    "category": "Electronics",
+    "tags": [
+      "wireless",
+      "eco-friendly",
+      "moisture-wicking",
+      "waterproof",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod4a/200",
+    "images": [
+      "https://picsum.photos/seed/prod4a/400",
+      "https://picsum.photos/seed/prod4b/400"
+    ],
+    "weight": 1.97,
+    "dimensions": {
+      "width": 64.94,
+      "height": 48.66,
+      "depth": 26.4
+    },
+    "price": 16.71,
+    "discount": 39.15,
+    "stock": 283
+  },
+  {
+    "id": "5",
+    "name": "Electric Kettle",
+    "description": "High-quality electric kettle from SlimFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-005",
+    "brand": "SlimFit",
+    "category": "Home & Garden",
+    "tags": [
+      "portable",
+      "waterproof",
+      "rechargeable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod5a/200",
+    "images": [
+      "https://picsum.photos/seed/prod5a/400",
+      "https://picsum.photos/seed/prod5b/400"
+    ],
+    "weight": 13.57,
+    "dimensions": {
+      "width": 35.76,
+      "height": 6.39,
+      "depth": 6.29
+    },
+    "price": 84.28,
+    "discount": 0.0,
+    "stock": 796
+  },
+  {
+    "id": "6",
+    "name": "Expandable Carry-On",
+    "description": "High-quality expandable carry-on from LuxLeather. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-006",
+    "brand": "LuxLeather",
+    "category": "Pets",
+    "tags": [
+      "moisture-wicking",
+      "lightweight",
+      "adjustable",
+      "waterproof"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod6a/200",
+    "images": [
+      "https://picsum.photos/seed/prod6a/400",
+      "https://picsum.photos/seed/prod6b/400"
+    ],
+    "weight": 0.84,
+    "dimensions": {
+      "width": 44.63,
+      "height": 180.98,
+      "depth": 95.87
+    },
+    "price": 79.89,
+    "discount": 0.0,
+    "stock": 24
+  },
+  {
+    "id": "7",
+    "name": "Touchscreen Winter Gloves Pro",
+    "description": "High-quality touchscreen winter gloves pro from UrbanStyle. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-007",
+    "brand": "UrbanStyle",
+    "category": "Pets",
+    "tags": [
+      "ergonomic",
+      "durable",
+      "professional",
+      "eco-friendly",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod7a/200",
+    "images": [
+      "https://picsum.photos/seed/prod7a/400",
+      "https://picsum.photos/seed/prod7b/400"
+    ],
+    "weight": 14.62,
+    "dimensions": {
+      "width": 40.49,
+      "height": 70.8,
+      "depth": 35.02
+    },
+    "price": 499.19,
+    "discount": 43.63,
+    "stock": 295
+  },
+  {
+    "id": "8",
+    "name": "Travel Backpack  Max",
+    "description": "High-quality travel backpack  max from ArtFrame. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-008",
+    "brand": "ArtFrame",
+    "category": "Beauty",
+    "tags": [
+      "portable",
+      "premium",
+      "durable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod8a/200",
+    "images": [
+      "https://picsum.photos/seed/prod8a/400",
+      "https://picsum.photos/seed/prod8b/400"
+    ],
+    "weight": 0.53,
+    "dimensions": {
+      "width": 35.58,
+      "height": 103.44,
+      "depth": 51.12
+    },
+    "price": 138.88,
+    "discount": 27.82,
+    "stock": 666
+  },
+  {
+    "id": "9",
+    "name": "Programmable Slow Cooker",
+    "description": "High-quality programmable slow cooker from ActiveFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-009",
+    "brand": "ActiveFit",
+    "category": "Electronics",
+    "tags": [
+      "durable",
+      "quality",
+      "waterproof",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod9a/200",
+    "images": [
+      "https://picsum.photos/seed/prod9a/400",
+      "https://picsum.photos/seed/prod9b/400"
+    ],
+    "weight": 11.25,
+    "dimensions": {
+      "width": 75.78,
+      "height": 84.55,
+      "depth": 91.96
+    },
+    "price": 291.07,
+    "discount": 7.37,
+    "stock": 64
+  },
+  {
+    "id": "10",
+    "name": "Compact Binoculars",
+    "description": "High-quality compact binoculars from ComfortZone. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-010",
+    "brand": "ComfortZone",
+    "category": "Clothing",
+    "tags": [
+      "breathable",
+      "insulated",
+      "wireless",
+      "professional",
+      "portable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod10a/200",
+    "images": [
+      "https://picsum.photos/seed/prod10a/400",
+      "https://picsum.photos/seed/prod10b/400"
+    ],
+    "weight": 8.02,
+    "dimensions": {
+      "width": 37.92,
+      "height": 78.48,
+      "depth": 19.38
+    },
+    "price": 208.42,
+    "discount": 30.96,
+    "stock": 223
+  },
+  {
+    "id": "11",
+    "name": "Auto Umbrella",
+    "description": "High-quality auto umbrella from Lumiere. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-011",
+    "brand": "Lumiere",
+    "category": "Pets",
+    "tags": [
+      "compact",
+      "insulated",
+      "ergonomic"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod11a/200",
+    "images": [
+      "https://picsum.photos/seed/prod11a/400",
+      "https://picsum.photos/seed/prod11b/400"
+    ],
+    "weight": 8.02,
+    "dimensions": {
+      "width": 83.02,
+      "height": 59.81,
+      "depth": 38.79
+    },
+    "price": 351.63,
+    "discount": 43.32,
+    "stock": 271
+  },
+  {
+    "id": "12",
+    "name": "Variety Lip Balm Plus",
+    "description": "High-quality variety lip balm plus from ConnectPro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-012",
+    "brand": "ConnectPro",
+    "category": "Home & Garden",
+    "tags": [
+      "ergonomic",
+      "premium",
+      "professional",
+      "insulated",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod12a/200",
+    "images": [
+      "https://picsum.photos/seed/prod12a/400",
+      "https://picsum.photos/seed/prod12b/400"
+    ],
+    "weight": 2.49,
+    "dimensions": {
+      "width": 64.42,
+      "height": 120.49,
+      "depth": 84.53
+    },
+    "price": 461.24,
+    "discount": 0.0,
+    "stock": 626
+  },
+  {
+    "id": "13",
+    "name": "Hardshell Luggage Set Pro",
+    "description": "High-quality hardshell luggage set pro from HomeCare. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-013",
+    "brand": "HomeCare",
+    "category": "Beauty",
+    "tags": [
+      "insulated",
+      "premium"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod13a/200",
+    "images": [
+      "https://picsum.photos/seed/prod13a/400",
+      "https://picsum.photos/seed/prod13b/400"
+    ],
+    "weight": 1.83,
+    "dimensions": {
+      "width": 18.28,
+      "height": 197.54,
+      "depth": 79.7
+    },
+    "price": 253.38,
+    "discount": 43.17,
+    "stock": 895
+  },
+  {
+    "id": "14",
+    "name": "Whistle Tea Kettle",
+    "description": "High-quality whistle tea kettle from CrispyLife. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-014",
+    "brand": "CrispyLife",
+    "category": "Home & Garden",
+    "tags": [
+      "rechargeable",
+      "portable",
+      "insulated",
+      "adjustable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod14a/200",
+    "images": [
+      "https://picsum.photos/seed/prod14a/400",
+      "https://picsum.photos/seed/prod14b/400"
+    ],
+    "weight": 4.17,
+    "dimensions": {
+      "width": 53.66,
+      "height": 157.7,
+      "depth": 92.19
+    },
+    "price": 403.32,
+    "discount": 14.29,
+    "stock": 379
+  },
+  {
+    "id": "15",
+    "name": "Slim Fit Jeans",
+    "description": "High-quality slim fit jeans from GamePro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-015",
+    "brand": "GamePro",
+    "category": "Beauty",
+    "tags": [
+      "compact",
+      "rechargeable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod15a/200",
+    "images": [
+      "https://picsum.photos/seed/prod15a/400",
+      "https://picsum.photos/seed/prod15b/400"
+    ],
+    "weight": 1.34,
+    "dimensions": {
+      "width": 4.53,
+      "height": 106.33,
+      "depth": 46.64
+    },
+    "price": 96.76,
+    "discount": 6.37,
+    "stock": 529
+  },
+  {
+    "id": "16",
+    "name": "Liquid Eyeliner Pen Pro",
+    "description": "High-quality liquid eyeliner pen pro from CaptureLife. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-016",
+    "brand": "CaptureLife",
+    "category": "Electronics",
+    "tags": [
+      "moisture-wicking",
+      "insulated",
+      "waterproof",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod16a/200",
+    "images": [
+      "https://picsum.photos/seed/prod16a/400",
+      "https://picsum.photos/seed/prod16b/400"
+    ],
+    "weight": 9.4,
+    "dimensions": {
+      "width": 92.03,
+      "height": 172.44,
+      "depth": 23.92
+    },
+    "price": 373.47,
+    "discount": 44.28,
+    "stock": 635
+  },
+  {
+    "id": "17",
+    "name": "WiFi Smart Plug Pro",
+    "description": "High-quality wifi smart plug pro from GamePro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-017",
+    "brand": "GamePro",
+    "category": "Pets",
+    "tags": [
+      "professional",
+      "wireless",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod17a/200",
+    "images": [
+      "https://picsum.photos/seed/prod17a/400",
+      "https://picsum.photos/seed/prod17b/400"
+    ],
+    "weight": 2.63,
+    "dimensions": {
+      "width": 17.56,
+      "height": 16.56,
+      "depth": 45.43
+    },
+    "price": 34.06,
+    "discount": 0.0,
+    "stock": 185
+  },
+  {
+    "id": "18",
+    "name": "Straight Leg Jeans",
+    "description": "High-quality straight leg jeans from CrispyLife. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-018",
+    "brand": "CrispyLife",
+    "category": "Accessories",
+    "tags": [
+      "lightweight",
+      "premium",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod18a/200",
+    "images": [
+      "https://picsum.photos/seed/prod18a/400",
+      "https://picsum.photos/seed/prod18b/400"
+    ],
+    "weight": 11.58,
+    "dimensions": {
+      "width": 85.18,
+      "height": 59.23,
+      "depth": 64.33
+    },
+    "price": 341.72,
+    "discount": 20.83,
+    "stock": 572
+  },
+  {
+    "id": "19",
+    "name": "UV Cycling Sunglasses Plus",
+    "description": "High-quality uv cycling sunglasses plus from StreetStep. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-019",
+    "brand": "StreetStep",
+    "category": "Home & Garden",
+    "tags": [
+      "breathable",
+      "moisture-wicking",
+      "waterproof",
+      "premium",
+      "insulated"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod19a/200",
+    "images": [
+      "https://picsum.photos/seed/prod19a/400",
+      "https://picsum.photos/seed/prod19b/400"
+    ],
+    "weight": 12.18,
+    "dimensions": {
+      "width": 92.11,
+      "height": 161.23,
+      "depth": 61.18
+    },
+    "price": 446.42,
+    "discount": 0.0,
+    "stock": 353
+  },
+  {
+    "id": "20",
+    "name": "Wireless Earbuds",
+    "description": "High-quality wireless earbuds from ModernTime. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-020",
+    "brand": "ModernTime",
+    "category": "Pets",
+    "tags": [
+      "ergonomic",
+      "waterproof",
+      "rechargeable",
+      "portable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod20a/200",
+    "images": [
+      "https://picsum.photos/seed/prod20a/400",
+      "https://picsum.photos/seed/prod20b/400"
+    ],
+    "weight": 5.32,
+    "dimensions": {
+      "width": 94.17,
+      "height": 112.5,
+      "depth": 41.41
+    },
+    "price": 46.09,
+    "discount": 0.0,
+    "stock": 727
+  },
+  {
+    "id": "21",
+    "name": "Auto Umbrella",
+    "description": "High-quality auto umbrella from LuxLeather. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-021",
+    "brand": "LuxLeather",
+    "category": "Clothing",
+    "tags": [
+      "wireless",
+      "eco-friendly",
+      "insulated",
+      "moisture-wicking"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod21a/200",
+    "images": [
+      "https://picsum.photos/seed/prod21a/400",
+      "https://picsum.photos/seed/prod21b/400"
+    ],
+    "weight": 14.97,
+    "dimensions": {
+      "width": 57.96,
+      "height": 124.21,
+      "depth": 31.89
+    },
+    "price": 309.65,
+    "discount": 23.69,
+    "stock": 605
+  },
+  {
+    "id": "22",
+    "name": "Running Shoes",
+    "description": "High-quality running shoes from WindowStyle. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-022",
+    "brand": "WindowStyle",
+    "category": "Beauty",
+    "tags": [
+      "lightweight",
+      "moisture-wicking",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod22a/200",
+    "images": [
+      "https://picsum.photos/seed/prod22a/400",
+      "https://picsum.photos/seed/prod22b/400"
+    ],
+    "weight": 1.7,
+    "dimensions": {
+      "width": 72.23,
+      "height": 98.69,
+      "depth": 22.48
+    },
+    "price": 31.14,
+    "discount": 0.0,
+    "stock": 353
+  },
+  {
+    "id": "23",
+    "name": "Running Phone Armband Pro",
+    "description": "High-quality running phone armband pro from SlimFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-023",
+    "brand": "SlimFit",
+    "category": "Electronics",
+    "tags": [
+      "lightweight",
+      "quality",
+      "moisture-wicking",
+      "professional"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod23a/200",
+    "images": [
+      "https://picsum.photos/seed/prod23a/400",
+      "https://picsum.photos/seed/prod23b/400"
+    ],
+    "weight": 4.17,
+    "dimensions": {
+      "width": 95.25,
+      "height": 5.98,
+      "depth": 31.54
+    },
+    "price": 348.26,
+    "discount": 0.0,
+    "stock": 133
+  },
+  {
+    "id": "24",
+    "name": "Leather Office Briefcase Plus",
+    "description": "High-quality leather office briefcase plus from WildlifeWatch. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-024",
+    "brand": "WildlifeWatch",
+    "category": "Home & Garden",
+    "tags": [
+      "professional",
+      "quality",
+      "insulated",
+      "moisture-wicking",
+      "rechargeable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod24a/200",
+    "images": [
+      "https://picsum.photos/seed/prod24a/400",
+      "https://picsum.photos/seed/prod24b/400"
+    ],
+    "weight": 12.9,
+    "dimensions": {
+      "width": 16.65,
+      "height": 47.2,
+      "depth": 94.74
+    },
+    "price": 73.83,
+    "discount": 41.45,
+    "stock": 500
+  },
+  {
+    "id": "25",
+    "name": "Ceramic Hair Straightener  Elite",
+    "description": "High-quality ceramic hair straightener  elite from SlimFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-025",
+    "brand": "SlimFit",
+    "category": "Beauty",
+    "tags": [
+      "professional",
+      "insulated",
+      "eco-friendly",
+      "lightweight",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod25a/200",
+    "images": [
+      "https://picsum.photos/seed/prod25a/400",
+      "https://picsum.photos/seed/prod25b/400"
+    ],
+    "weight": 8.96,
+    "dimensions": {
+      "width": 71.66,
+      "height": 74.08,
+      "depth": 64.87
+    },
+    "price": 86.19,
+    "discount": 0.0,
+    "stock": 259
+  },
+  {
+    "id": "26",
+    "name": "Digital Kitchen Scale",
+    "description": "High-quality digital kitchen scale from SoundWave. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-026",
+    "brand": "SoundWave",
+    "category": "Home & Garden",
+    "tags": [
+      "professional",
+      "compact",
+      "adjustable",
+      "premium"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod26a/200",
+    "images": [
+      "https://picsum.photos/seed/prod26a/400",
+      "https://picsum.photos/seed/prod26b/400"
+    ],
+    "weight": 6.24,
+    "dimensions": {
+      "width": 11.87,
+      "height": 82.91,
+      "depth": 41.45
+    },
+    "price": 227.93,
+    "discount": 0.0,
+    "stock": 669
+  },
+  {
+    "id": "27",
+    "name": "Silk Sleep Mask Pro",
+    "description": "High-quality silk sleep mask pro from SleepWell. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-027",
+    "brand": "SleepWell",
+    "category": "Home & Garden",
+    "tags": [
+      "durable",
+      "wireless"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod27a/200",
+    "images": [
+      "https://picsum.photos/seed/prod27a/400",
+      "https://picsum.photos/seed/prod27b/400"
+    ],
+    "weight": 12.91,
+    "dimensions": {
+      "width": 68.95,
+      "height": 165.75,
+      "depth": 26.54
+    },
+    "price": 135.31,
+    "discount": 43.54,
+    "stock": 248
+  },
+  {
+    "id": "28",
+    "name": "Premium Birdseed Mix Pro",
+    "description": "High-quality premium birdseed mix pro from AquaLife. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-028",
+    "brand": "AquaLife",
+    "category": "Home & Garden",
+    "tags": [
+      "ergonomic",
+      "compact",
+      "lightweight",
+      "portable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod28a/200",
+    "images": [
+      "https://picsum.photos/seed/prod28a/400",
+      "https://picsum.photos/seed/prod28b/400"
+    ],
+    "weight": 7.01,
+    "dimensions": {
+      "width": 73.75,
+      "height": 73.63,
+      "depth": 96.47
+    },
+    "price": 460.53,
+    "discount": 0.0,
+    "stock": 441
+  },
+  {
+    "id": "29",
+    "name": "LED Table Lamp",
+    "description": "High-quality led table lamp from EcoWear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-029",
+    "brand": "EcoWear",
+    "category": "Electronics",
+    "tags": [
+      "rechargeable",
+      "quality",
+      "waterproof",
+      "wireless"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod29a/200",
+    "images": [
+      "https://picsum.photos/seed/prod29a/400",
+      "https://picsum.photos/seed/prod29b/400"
+    ],
+    "weight": 8.49,
+    "dimensions": {
+      "width": 3.46,
+      "height": 14.42,
+      "depth": 85.79
+    },
+    "price": 200.14,
+    "discount": 5.61,
+    "stock": 865
+  },
+  {
+    "id": "30",
+    "name": "Aluminum Baseball Bat",
+    "description": "High-quality aluminum baseball bat from DentaCare. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-030",
+    "brand": "DentaCare",
+    "category": "Accessories",
+    "tags": [
+      "quality",
+      "ergonomic",
+      "professional",
+      "premium",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod30a/200",
+    "images": [
+      "https://picsum.photos/seed/prod30a/400",
+      "https://picsum.photos/seed/prod30b/400"
+    ],
+    "weight": 2.99,
+    "dimensions": {
+      "width": 91.2,
+      "height": 146.62,
+      "depth": 15.31
+    },
+    "price": 199.06,
+    "discount": 0.0,
+    "stock": 617
+  },
+  {
+    "id": "31",
+    "name": "Left Hand Golf Glove Plus",
+    "description": "High-quality left hand golf glove plus from RideTech. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-031",
+    "brand": "RideTech",
+    "category": "Pets",
+    "tags": [
+      "wireless",
+      "waterproof",
+      "lightweight",
+      "moisture-wicking",
+      "adjustable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod31a/200",
+    "images": [
+      "https://picsum.photos/seed/prod31a/400",
+      "https://picsum.photos/seed/prod31b/400"
+    ],
+    "weight": 2.24,
+    "dimensions": {
+      "width": 56.43,
+      "height": 123.43,
+      "depth": 91.8
+    },
+    "price": 70.16,
+    "discount": 0.0,
+    "stock": 839
+  },
+  {
+    "id": "32",
+    "name": "Compression Socks Pro",
+    "description": "High-quality compression socks pro from ComfortStep. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-032",
+    "brand": "ComfortStep",
+    "category": "Sports",
+    "tags": [
+      "eco-friendly",
+      "moisture-wicking",
+      "breathable",
+      "ergonomic",
+      "waterproof"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod32a/200",
+    "images": [
+      "https://picsum.photos/seed/prod32a/400",
+      "https://picsum.photos/seed/prod32b/400"
+    ],
+    "weight": 11.19,
+    "dimensions": {
+      "width": 29.96,
+      "height": 83.21,
+      "depth": 86.63
+    },
+    "price": 478.8,
+    "discount": 34.37,
+    "stock": 495
+  },
+  {
+    "id": "33",
+    "name": "Tennis Balls  Max",
+    "description": "High-quality tennis balls  max from FreshJuice. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-033",
+    "brand": "FreshJuice",
+    "category": "Sports",
+    "tags": [
+      "durable",
+      "eco-friendly",
+      "premium"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod33a/200",
+    "images": [
+      "https://picsum.photos/seed/prod33a/400",
+      "https://picsum.photos/seed/prod33b/400"
+    ],
+    "weight": 4.65,
+    "dimensions": {
+      "width": 42.15,
+      "height": 72.22,
+      "depth": 60.74
+    },
+    "price": 286.62,
+    "discount": 0.0,
+    "stock": 622
+  },
+  {
+    "id": "34",
+    "name": "High Impact Sports Bra",
+    "description": "High-quality high impact sports bra from PowerFlow. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-034",
+    "brand": "PowerFlow",
+    "category": "Clothing",
+    "tags": [
+      "waterproof",
+      "ergonomic",
+      "durable",
+      "breathable",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod34a/200",
+    "images": [
+      "https://picsum.photos/seed/prod34a/400",
+      "https://picsum.photos/seed/prod34b/400"
+    ],
+    "weight": 4.99,
+    "dimensions": {
+      "width": 20.91,
+      "height": 165.56,
+      "depth": 93.35
+    },
+    "price": 135.38,
+    "discount": 0.0,
+    "stock": 809
+  },
+  {
+    "id": "35",
+    "name": "Knife Set  Max",
+    "description": "High-quality knife set  max from DryGuard. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-035",
+    "brand": "DryGuard",
+    "category": "Pets",
+    "tags": [
+      "lightweight",
+      "rechargeable",
+      "moisture-wicking",
+      "portable",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod35a/200",
+    "images": [
+      "https://picsum.photos/seed/prod35a/400",
+      "https://picsum.photos/seed/prod35b/400"
+    ],
+    "weight": 11.36,
+    "dimensions": {
+      "width": 91.71,
+      "height": 55.34,
+      "depth": 37.73
+    },
+    "price": 373.9,
+    "discount": 0.0,
+    "stock": 165
+  },
+  {
+    "id": "36",
+    "name": "Running Shorts Plus",
+    "description": "High-quality running shorts plus from ZenFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-036",
+    "brand": "ZenFit",
+    "category": "Sports",
+    "tags": [
+      "quality",
+      "moisture-wicking",
+      "lightweight",
+      "premium",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod36a/200",
+    "images": [
+      "https://picsum.photos/seed/prod36a/400",
+      "https://picsum.photos/seed/prod36b/400"
+    ],
+    "weight": 14.64,
+    "dimensions": {
+      "width": 59.31,
+      "height": 78.7,
+      "depth": 62.87
+    },
+    "price": 61.64,
+    "discount": 46.32,
+    "stock": 590
+  },
+  {
+    "id": "37",
+    "name": "Jade Facial Roller Pro",
+    "description": "High-quality jade facial roller pro from GamePro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-037",
+    "brand": "GamePro",
+    "category": "Pets",
+    "tags": [
+      "rechargeable",
+      "professional",
+      "insulated",
+      "ergonomic",
+      "wireless"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod37a/200",
+    "images": [
+      "https://picsum.photos/seed/prod37a/400",
+      "https://picsum.photos/seed/prod37b/400"
+    ],
+    "weight": 8.51,
+    "dimensions": {
+      "width": 67.86,
+      "height": 135.69,
+      "depth": 17.1
+    },
+    "price": 298.66,
+    "discount": 10.39,
+    "stock": 222
+  },
+  {
+    "id": "38",
+    "name": "Makeup Brush Set Pro",
+    "description": "High-quality makeup brush set pro from GlamNails. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-038",
+    "brand": "GlamNails",
+    "category": "Sports",
+    "tags": [
+      "waterproof",
+      "professional",
+      "ergonomic",
+      "durable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod38a/200",
+    "images": [
+      "https://picsum.photos/seed/prod38a/400",
+      "https://picsum.photos/seed/prod38b/400"
+    ],
+    "weight": 7.04,
+    "dimensions": {
+      "width": 2.6,
+      "height": 182.86,
+      "depth": 83.92
+    },
+    "price": 308.71,
+    "discount": 0.0,
+    "stock": 360
+  },
+  {
+    "id": "39",
+    "name": "Gel Nail Polish Set Pro",
+    "description": "High-quality gel nail polish set pro from ArtStudio. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-039",
+    "brand": "ArtStudio",
+    "category": "Accessories",
+    "tags": [
+      "compact",
+      "waterproof"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod39a/200",
+    "images": [
+      "https://picsum.photos/seed/prod39a/400",
+      "https://picsum.photos/seed/prod39b/400"
+    ],
+    "weight": 8.36,
+    "dimensions": {
+      "width": 4.36,
+      "height": 37.18,
+      "depth": 65.33
+    },
+    "price": 472.7,
+    "discount": 23.55,
+    "stock": 483
+  },
+  {
+    "id": "40",
+    "name": "Belgian Waffle Maker",
+    "description": "High-quality belgian waffle maker from SoundMax. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-040",
+    "brand": "SoundMax",
+    "category": "Clothing",
+    "tags": [
+      "portable",
+      "compact",
+      "wireless"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod40a/200",
+    "images": [
+      "https://picsum.photos/seed/prod40a/400",
+      "https://picsum.photos/seed/prod40b/400"
+    ],
+    "weight": 6.76,
+    "dimensions": {
+      "width": 84.77,
+      "height": 165.91,
+      "depth": 34.63
+    },
+    "price": 468.29,
+    "discount": 32.77,
+    "stock": 746
+  },
+  {
+    "id": "41",
+    "name": "Athletic Socks  Max",
+    "description": "High-quality athletic socks  max from ViewMax. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-041",
+    "brand": "ViewMax",
+    "category": "Sports",
+    "tags": [
+      "moisture-wicking",
+      "waterproof",
+      "durable",
+      "insulated",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod41a/200",
+    "images": [
+      "https://picsum.photos/seed/prod41a/400",
+      "https://picsum.photos/seed/prod41b/400"
+    ],
+    "weight": 3.71,
+    "dimensions": {
+      "width": 61.09,
+      "height": 86.19,
+      "depth": 21.56
+    },
+    "price": 145.82,
+    "discount": 41.89,
+    "stock": 676
+  },
+  {
+    "id": "42",
+    "name": "GPS Dog Tracker  Elite",
+    "description": "High-quality gps dog tracker  elite from FightFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-042",
+    "brand": "FightFit",
+    "category": "Clothing",
+    "tags": [
+      "compact",
+      "portable",
+      "moisture-wicking",
+      "professional",
+      "eco-friendly"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod42a/200",
+    "images": [
+      "https://picsum.photos/seed/prod42a/400",
+      "https://picsum.photos/seed/prod42b/400"
+    ],
+    "weight": 13.99,
+    "dimensions": {
+      "width": 8.41,
+      "height": 70.36,
+      "depth": 59.91
+    },
+    "price": 82.69,
+    "discount": 0.0,
+    "stock": 847
+  },
+  {
+    "id": "43",
+    "name": "Cycling Jersey",
+    "description": "High-quality cycling jersey from CapCrew. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-043",
+    "brand": "CapCrew",
+    "category": "Accessories",
+    "tags": [
+      "insulated",
+      "waterproof",
+      "moisture-wicking",
+      "adjustable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod43a/200",
+    "images": [
+      "https://picsum.photos/seed/prod43a/400",
+      "https://picsum.photos/seed/prod43b/400"
+    ],
+    "weight": 12.66,
+    "dimensions": {
+      "width": 10.85,
+      "height": 174.24,
+      "depth": 24.15
+    },
+    "price": 309.65,
+    "discount": 0.0,
+    "stock": 73
+  },
+  {
+    "id": "44",
+    "name": "Compact Binoculars  Max",
+    "description": "High-quality compact binoculars  max from ComfortZone. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-044",
+    "brand": "ComfortZone",
+    "category": "Electronics",
+    "tags": [
+      "insulated",
+      "portable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod44a/200",
+    "images": [
+      "https://picsum.photos/seed/prod44a/400",
+      "https://picsum.photos/seed/prod44b/400"
+    ],
+    "weight": 12.45,
+    "dimensions": {
+      "width": 36.91,
+      "height": 71.8,
+      "depth": 37.09
+    },
+    "price": 145.48,
+    "discount": 43.55,
+    "stock": 769
+  },
+  {
+    "id": "45",
+    "name": "Eau de Parfum Pro",
+    "description": "High-quality eau de parfum pro from ServeMaster. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-045",
+    "brand": "ServeMaster",
+    "category": "Pets",
+    "tags": [
+      "lightweight",
+      "professional"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod45a/200",
+    "images": [
+      "https://picsum.photos/seed/prod45a/400",
+      "https://picsum.photos/seed/prod45b/400"
+    ],
+    "weight": 1.14,
+    "dimensions": {
+      "width": 60.83,
+      "height": 182.52,
+      "depth": 11.88
+    },
+    "price": 477.35,
+    "discount": 0.0,
+    "stock": 281
+  },
+  {
+    "id": "46",
+    "name": "Touchscreen Winter Gloves Pro",
+    "description": "High-quality touchscreen winter gloves pro from FightFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-046",
+    "brand": "FightFit",
+    "category": "Beauty",
+    "tags": [
+      "durable",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod46a/200",
+    "images": [
+      "https://picsum.photos/seed/prod46a/400",
+      "https://picsum.photos/seed/prod46b/400"
+    ],
+    "weight": 0.56,
+    "dimensions": {
+      "width": 2.36,
+      "height": 57.72,
+      "depth": 33.92
+    },
+    "price": 458.77,
+    "discount": 47.54,
+    "stock": 398
+  },
+  {
+    "id": "47",
+    "name": "Ceramic Hair Straightener",
+    "description": "High-quality ceramic hair straightener from HydroLife. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-047",
+    "brand": "HydroLife",
+    "category": "Pets",
+    "tags": [
+      "professional",
+      "wireless",
+      "ergonomic",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod47a/200",
+    "images": [
+      "https://picsum.photos/seed/prod47a/400",
+      "https://picsum.photos/seed/prod47b/400"
+    ],
+    "weight": 6.48,
+    "dimensions": {
+      "width": 81.51,
+      "height": 156.83,
+      "depth": 19.85
+    },
+    "price": 5.93,
+    "discount": 0.0,
+    "stock": 860
+  },
+  {
+    "id": "48",
+    "name": "Skincare Gift Set",
+    "description": "High-quality skincare gift set from SportMaster. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-048",
+    "brand": "SportMaster",
+    "category": "Beauty",
+    "tags": [
+      "adjustable",
+      "eco-friendly"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod48a/200",
+    "images": [
+      "https://picsum.photos/seed/prod48a/400",
+      "https://picsum.photos/seed/prod48b/400"
+    ],
+    "weight": 7.58,
+    "dimensions": {
+      "width": 32.09,
+      "height": 121.09,
+      "depth": 24.56
+    },
+    "price": 260.12,
+    "discount": 36.67,
+    "stock": 319
+  },
+  {
+    "id": "49",
+    "name": "Cat Carrier Backpack",
+    "description": "High-quality cat carrier backpack from HydroLife. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-049",
+    "brand": "HydroLife",
+    "category": "Electronics",
+    "tags": [
+      "adjustable",
+      "portable",
+      "wireless",
+      "insulated",
+      "ergonomic"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod49a/200",
+    "images": [
+      "https://picsum.photos/seed/prod49a/400",
+      "https://picsum.photos/seed/prod49b/400"
+    ],
+    "weight": 5.74,
+    "dimensions": {
+      "width": 71.8,
+      "height": 32.09,
+      "depth": 65.12
+    },
+    "price": 162.98,
+    "discount": 48.14,
+    "stock": 600
+  },
+  {
+    "id": "50",
+    "name": "Electric Kettle Pro",
+    "description": "High-quality electric kettle pro from EcoWear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-050",
+    "brand": "EcoWear",
+    "category": "Sports",
+    "tags": [
+      "lightweight",
+      "wireless",
+      "breathable",
+      "moisture-wicking"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod50a/200",
+    "images": [
+      "https://picsum.photos/seed/prod50a/400",
+      "https://picsum.photos/seed/prod50b/400"
+    ],
+    "weight": 3.15,
+    "dimensions": {
+      "width": 76.71,
+      "height": 185.16,
+      "depth": 83.14
+    },
+    "price": 155.73,
+    "discount": 49.95,
+    "stock": 875
+  },
+  {
+    "id": "51",
+    "name": "Whitening Toothpaste",
+    "description": "High-quality whitening toothpaste from TrailBlazer. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-051",
+    "brand": "TrailBlazer",
+    "category": "Home & Garden",
+    "tags": [
+      "compact",
+      "durable",
+      "moisture-wicking"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod51a/200",
+    "images": [
+      "https://picsum.photos/seed/prod51a/400",
+      "https://picsum.photos/seed/prod51b/400"
+    ],
+    "weight": 2.28,
+    "dimensions": {
+      "width": 13.54,
+      "height": 63.18,
+      "depth": 75.62
+    },
+    "price": 368.41,
+    "discount": 0.0,
+    "stock": 810
+  },
+  {
+    "id": "52",
+    "name": "Office Chair Plus",
+    "description": "High-quality office chair plus from TravelPro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-052",
+    "brand": "TravelPro",
+    "category": "Home & Garden",
+    "tags": [
+      "breathable",
+      "eco-friendly"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod52a/200",
+    "images": [
+      "https://picsum.photos/seed/prod52a/400",
+      "https://picsum.photos/seed/prod52b/400"
+    ],
+    "weight": 9.37,
+    "dimensions": {
+      "width": 18.27,
+      "height": 180.94,
+      "depth": 53.14
+    },
+    "price": 7.27,
+    "discount": 0.0,
+    "stock": 881
+  },
+  {
+    "id": "53",
+    "name": "Recovery Yoga Sandals  Max",
+    "description": "High-quality recovery yoga sandals  max from BreezeWear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-053",
+    "brand": "BreezeWear",
+    "category": "Electronics",
+    "tags": [
+      "rechargeable",
+      "insulated"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod53a/200",
+    "images": [
+      "https://picsum.photos/seed/prod53a/400",
+      "https://picsum.photos/seed/prod53b/400"
+    ],
+    "weight": 0.83,
+    "dimensions": {
+      "width": 69.93,
+      "height": 125.78,
+      "depth": 73.42
+    },
+    "price": 142.26,
+    "discount": 0.0,
+    "stock": 437
+  },
+  {
+    "id": "54",
+    "name": "Liquid Eyeliner Pen  Elite",
+    "description": "High-quality liquid eyeliner pen  elite from WindowStyle. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-054",
+    "brand": "WindowStyle",
+    "category": "Beauty",
+    "tags": [
+      "breathable",
+      "insulated",
+      "eco-friendly",
+      "compact",
+      "portable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod54a/200",
+    "images": [
+      "https://picsum.photos/seed/prod54a/400",
+      "https://picsum.photos/seed/prod54b/400"
+    ],
+    "weight": 1.57,
+    "dimensions": {
+      "width": 95.74,
+      "height": 142.17,
+      "depth": 25.81
+    },
+    "price": 137.72,
+    "discount": 0.0,
+    "stock": 394
+  },
+  {
+    "id": "55",
+    "name": "Variety Lip Balm",
+    "description": "High-quality variety lip balm from BandFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-055",
+    "brand": "BandFit",
+    "category": "Electronics",
+    "tags": [
+      "ergonomic",
+      "eco-friendly"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod55a/200",
+    "images": [
+      "https://picsum.photos/seed/prod55a/400",
+      "https://picsum.photos/seed/prod55b/400"
+    ],
+    "weight": 9.31,
+    "dimensions": {
+      "width": 49.93,
+      "height": 33.55,
+      "depth": 46.07
+    },
+    "price": 221.56,
+    "discount": 0.0,
+    "stock": 721
+  },
+  {
+    "id": "56",
+    "name": "Pillow Covers",
+    "description": "High-quality pillow covers from HomeCare. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-056",
+    "brand": "HomeCare",
+    "category": "Home & Garden",
+    "tags": [
+      "ergonomic",
+      "portable",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod56a/200",
+    "images": [
+      "https://picsum.photos/seed/prod56a/400",
+      "https://picsum.photos/seed/prod56b/400"
+    ],
+    "weight": 7.85,
+    "dimensions": {
+      "width": 53.16,
+      "height": 49.08,
+      "depth": 49.76
+    },
+    "price": 291.52,
+    "discount": 0.0,
+    "stock": 522
+  },
+  {
+    "id": "57",
+    "name": "Variety Rice Pack  Max",
+    "description": "High-quality variety rice pack  max from Whiskers. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-057",
+    "brand": "Whiskers",
+    "category": "Accessories",
+    "tags": [
+      "portable",
+      "adjustable",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod57a/200",
+    "images": [
+      "https://picsum.photos/seed/prod57a/400",
+      "https://picsum.photos/seed/prod57b/400"
+    ],
+    "weight": 9.28,
+    "dimensions": {
+      "width": 96.45,
+      "height": 121.3,
+      "depth": 1.21
+    },
+    "price": 302.55,
+    "discount": 18.1,
+    "stock": 292
+  },
+  {
+    "id": "58",
+    "name": "Kids Electric Toothbrush Pro",
+    "description": "High-quality kids electric toothbrush pro from VistaOptics. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-058",
+    "brand": "VistaOptics",
+    "category": "Home & Garden",
+    "tags": [
+      "breathable",
+      "wireless",
+      "portable",
+      "quality",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod58a/200",
+    "images": [
+      "https://picsum.photos/seed/prod58a/400",
+      "https://picsum.photos/seed/prod58b/400"
+    ],
+    "weight": 4.9,
+    "dimensions": {
+      "width": 9.81,
+      "height": 68.45,
+      "depth": 10.98
+    },
+    "price": 38.74,
+    "discount": 43.59,
+    "stock": 900
+  },
+  {
+    "id": "59",
+    "name": "Professional Eyelash Curler",
+    "description": "High-quality professional eyelash curler from ArcticGear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-059",
+    "brand": "ArcticGear",
+    "category": "Beauty",
+    "tags": [
+      "quality",
+      "premium",
+      "insulated",
+      "compact",
+      "waterproof"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod59a/200",
+    "images": [
+      "https://picsum.photos/seed/prod59a/400",
+      "https://picsum.photos/seed/prod59b/400"
+    ],
+    "weight": 5.64,
+    "dimensions": {
+      "width": 15.85,
+      "height": 11.66,
+      "depth": 34.69
+    },
+    "price": 311.06,
+    "discount": 43.32,
+    "stock": 562
+  },
+  {
+    "id": "60",
+    "name": "Athletic Socks  Elite",
+    "description": "High-quality athletic socks  elite from AquaLife. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-060",
+    "brand": "AquaLife",
+    "category": "Clothing",
+    "tags": [
+      "eco-friendly",
+      "wireless",
+      "adjustable",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod60a/200",
+    "images": [
+      "https://picsum.photos/seed/prod60a/400",
+      "https://picsum.photos/seed/prod60b/400"
+    ],
+    "weight": 3.6,
+    "dimensions": {
+      "width": 11.25,
+      "height": 79.17,
+      "depth": 77.16
+    },
+    "price": 189.39,
+    "discount": 0.0,
+    "stock": 785
+  },
+  {
+    "id": "61",
+    "name": "Training Dog Treats",
+    "description": "High-quality training dog treats from PetComfort. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-061",
+    "brand": "PetComfort",
+    "category": "Sports",
+    "tags": [
+      "breathable",
+      "waterproof"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod61a/200",
+    "images": [
+      "https://picsum.photos/seed/prod61a/400",
+      "https://picsum.photos/seed/prod61b/400"
+    ],
+    "weight": 12.4,
+    "dimensions": {
+      "width": 37.63,
+      "height": 140.85,
+      "depth": 71.08
+    },
+    "price": 395.57,
+    "discount": 0.0,
+    "stock": 131
+  },
+  {
+    "id": "62",
+    "name": "Lightweight Windbreaker Plus",
+    "description": "High-quality lightweight windbreaker plus from SoundWave. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-062",
+    "brand": "SoundWave",
+    "category": "Electronics",
+    "tags": [
+      "premium",
+      "durable",
+      "professional",
+      "lightweight",
+      "wireless"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod62a/200",
+    "images": [
+      "https://picsum.photos/seed/prod62a/400",
+      "https://picsum.photos/seed/prod62b/400"
+    ],
+    "weight": 8.52,
+    "dimensions": {
+      "width": 87.1,
+      "height": 84.19,
+      "depth": 47.69
+    },
+    "price": 59.98,
+    "discount": 0.0,
+    "stock": 111
+  },
+  {
+    "id": "63",
+    "name": "LED Camping Lantern Pro",
+    "description": "High-quality led camping lantern pro from ComfortZone. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-063",
+    "brand": "ComfortZone",
+    "category": "Pets",
+    "tags": [
+      "waterproof",
+      "moisture-wicking",
+      "lightweight",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod63a/200",
+    "images": [
+      "https://picsum.photos/seed/prod63a/400",
+      "https://picsum.photos/seed/prod63b/400"
+    ],
+    "weight": 7.02,
+    "dimensions": {
+      "width": 80.43,
+      "height": 129.82,
+      "depth": 55.55
+    },
+    "price": 244.76,
+    "discount": 26.52,
+    "stock": 824
+  },
+  {
+    "id": "64",
+    "name": "Whitening Toothpaste",
+    "description": "High-quality whitening toothpaste from BandFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-064",
+    "brand": "BandFit",
+    "category": "Electronics",
+    "tags": [
+      "waterproof",
+      "eco-friendly",
+      "durable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod64a/200",
+    "images": [
+      "https://picsum.photos/seed/prod64a/400",
+      "https://picsum.photos/seed/prod64b/400"
+    ],
+    "weight": 11.37,
+    "dimensions": {
+      "width": 49.76,
+      "height": 165.54,
+      "depth": 46.06
+    },
+    "price": 187.27,
+    "discount": 0.0,
+    "stock": 871
+  },
+  {
+    "id": "65",
+    "name": "UV Cycling Sunglasses",
+    "description": "High-quality uv cycling sunglasses from ServeMaster. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-065",
+    "brand": "ServeMaster",
+    "category": "Home & Garden",
+    "tags": [
+      "compact",
+      "moisture-wicking",
+      "premium",
+      "durable",
+      "waterproof"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod65a/200",
+    "images": [
+      "https://picsum.photos/seed/prod65a/400",
+      "https://picsum.photos/seed/prod65b/400"
+    ],
+    "weight": 3.67,
+    "dimensions": {
+      "width": 80.34,
+      "height": 42.09,
+      "depth": 25.83
+    },
+    "price": 347.97,
+    "discount": 0.0,
+    "stock": 234
+  },
+  {
+    "id": "66",
+    "name": "Dry Powder Shampoo  Elite",
+    "description": "High-quality dry powder shampoo  elite from SafeRide. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-066",
+    "brand": "SafeRide",
+    "category": "Accessories",
+    "tags": [
+      "waterproof",
+      "rechargeable",
+      "professional",
+      "lightweight",
+      "ergonomic"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod66a/200",
+    "images": [
+      "https://picsum.photos/seed/prod66a/400",
+      "https://picsum.photos/seed/prod66b/400"
+    ],
+    "weight": 0.69,
+    "dimensions": {
+      "width": 34.72,
+      "height": 162.72,
+      "depth": 60.01
+    },
+    "price": 366.19,
+    "discount": 0.0,
+    "stock": 59
+  },
+  {
+    "id": "67",
+    "name": "Deshedding Cat Brush Pro",
+    "description": "High-quality deshedding cat brush pro from ComfortZone. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-067",
+    "brand": "ComfortZone",
+    "category": "Beauty",
+    "tags": [
+      "compact",
+      "lightweight",
+      "rechargeable",
+      "adjustable",
+      "moisture-wicking"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod67a/200",
+    "images": [
+      "https://picsum.photos/seed/prod67a/400",
+      "https://picsum.photos/seed/prod67b/400"
+    ],
+    "weight": 0.43,
+    "dimensions": {
+      "width": 48.41,
+      "height": 142.94,
+      "depth": 46.45
+    },
+    "price": 68.69,
+    "discount": 0.0,
+    "stock": 135
+  },
+  {
+    "id": "68",
+    "name": "Plant Pot Pro",
+    "description": "High-quality plant pot pro from CrispyLife. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-068",
+    "brand": "CrispyLife",
+    "category": "Beauty",
+    "tags": [
+      "portable",
+      "wireless",
+      "ergonomic",
+      "premium",
+      "adjustable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod68a/200",
+    "images": [
+      "https://picsum.photos/seed/prod68a/400",
+      "https://picsum.photos/seed/prod68b/400"
+    ],
+    "weight": 9.01,
+    "dimensions": {
+      "width": 94.79,
+      "height": 119.3,
+      "depth": 1.05
+    },
+    "price": 163.42,
+    "discount": 27.28,
+    "stock": 869
+  },
+  {
+    "id": "69",
+    "name": "Non-Slip Yoga Towel",
+    "description": "High-quality non-slip yoga towel from DryGuard. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-069",
+    "brand": "DryGuard",
+    "category": "Pets",
+    "tags": [
+      "premium",
+      "breathable",
+      "quality",
+      "wireless",
+      "portable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod69a/200",
+    "images": [
+      "https://picsum.photos/seed/prod69a/400",
+      "https://picsum.photos/seed/prod69b/400"
+    ],
+    "weight": 7.59,
+    "dimensions": {
+      "width": 99.24,
+      "height": 178.08,
+      "depth": 85.42
+    },
+    "price": 236.55,
+    "discount": 9.63,
+    "stock": 52
+  },
+  {
+    "id": "70",
+    "name": "Silk Sleep Mask  Max",
+    "description": "High-quality silk sleep mask  max from GlamNails. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-070",
+    "brand": "GlamNails",
+    "category": "Accessories",
+    "tags": [
+      "ergonomic",
+      "waterproof",
+      "professional",
+      "lightweight",
+      "eco-friendly"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod70a/200",
+    "images": [
+      "https://picsum.photos/seed/prod70a/400",
+      "https://picsum.photos/seed/prod70b/400"
+    ],
+    "weight": 1.8,
+    "dimensions": {
+      "width": 81.94,
+      "height": 58.18,
+      "depth": 4.75
+    },
+    "price": 184.92,
+    "discount": 0.0,
+    "stock": 129
+  },
+  {
+    "id": "71",
+    "name": "Sushi Making Kit  Elite",
+    "description": "High-quality sushi making kit  elite from BreezeWear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-071",
+    "brand": "BreezeWear",
+    "category": "Home & Garden",
+    "tags": [
+      "premium",
+      "portable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod71a/200",
+    "images": [
+      "https://picsum.photos/seed/prod71a/400",
+      "https://picsum.photos/seed/prod71b/400"
+    ],
+    "weight": 5.74,
+    "dimensions": {
+      "width": 77.1,
+      "height": 31.02,
+      "depth": 28.32
+    },
+    "price": 341.14,
+    "discount": 14.68,
+    "stock": 126
+  },
+  {
+    "id": "72",
+    "name": "Makeup Remover Wipes  Max",
+    "description": "High-quality makeup remover wipes  max from FightFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-072",
+    "brand": "FightFit",
+    "category": "Pets",
+    "tags": [
+      "compact",
+      "professional",
+      "breathable",
+      "waterproof"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod72a/200",
+    "images": [
+      "https://picsum.photos/seed/prod72a/400",
+      "https://picsum.photos/seed/prod72b/400"
+    ],
+    "weight": 14.45,
+    "dimensions": {
+      "width": 4.85,
+      "height": 68.25,
+      "depth": 84.58
+    },
+    "price": 428.81,
+    "discount": 33.09,
+    "stock": 157
+  },
+  {
+    "id": "73",
+    "name": "Laptop Stand  Elite",
+    "description": "High-quality laptop stand  elite from GreenThumb. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-073",
+    "brand": "GreenThumb",
+    "category": "Pets",
+    "tags": [
+      "lightweight",
+      "professional",
+      "ergonomic"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod73a/200",
+    "images": [
+      "https://picsum.photos/seed/prod73a/400",
+      "https://picsum.photos/seed/prod73b/400"
+    ],
+    "weight": 10.12,
+    "dimensions": {
+      "width": 86.83,
+      "height": 148.35,
+      "depth": 44.11
+    },
+    "price": 302.44,
+    "discount": 0.0,
+    "stock": 621
+  },
+  {
+    "id": "74",
+    "name": "Rainfall Shower Head",
+    "description": "High-quality rainfall shower head from WildlifeWatch. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-074",
+    "brand": "WildlifeWatch",
+    "category": "Electronics",
+    "tags": [
+      "wireless",
+      "rechargeable",
+      "insulated"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod74a/200",
+    "images": [
+      "https://picsum.photos/seed/prod74a/400",
+      "https://picsum.photos/seed/prod74b/400"
+    ],
+    "weight": 2.44,
+    "dimensions": {
+      "width": 95.31,
+      "height": 19.73,
+      "depth": 46.07
+    },
+    "price": 238.73,
+    "discount": 47.53,
+    "stock": 270
+  },
+  {
+    "id": "75",
+    "name": "Wireless Earbuds  Elite",
+    "description": "High-quality wireless earbuds  elite from OutdoorBase. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-075",
+    "brand": "OutdoorBase",
+    "category": "Accessories",
+    "tags": [
+      "adjustable",
+      "compact",
+      "ergonomic",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod75a/200",
+    "images": [
+      "https://picsum.photos/seed/prod75a/400",
+      "https://picsum.photos/seed/prod75b/400"
+    ],
+    "weight": 1.06,
+    "dimensions": {
+      "width": 63.42,
+      "height": 193.07,
+      "depth": 62.24
+    },
+    "price": 447.38,
+    "discount": 0.0,
+    "stock": 536
+  },
+  {
+    "id": "76",
+    "name": "Kids Toothbrush Set Pro",
+    "description": "High-quality kids toothbrush set pro from BandFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-076",
+    "brand": "BandFit",
+    "category": "Electronics",
+    "tags": [
+      "quality",
+      "eco-friendly",
+      "portable",
+      "professional",
+      "wireless"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod76a/200",
+    "images": [
+      "https://picsum.photos/seed/prod76a/400",
+      "https://picsum.photos/seed/prod76b/400"
+    ],
+    "weight": 9.6,
+    "dimensions": {
+      "width": 45.3,
+      "height": 94.47,
+      "depth": 70.04
+    },
+    "price": 422.89,
+    "discount": 0.0,
+    "stock": 307
+  },
+  {
+    "id": "77",
+    "name": "Eau de Parfum  Max",
+    "description": "High-quality eau de parfum  max from TechRest. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-077",
+    "brand": "TechRest",
+    "category": "Clothing",
+    "tags": [
+      "lightweight",
+      "wireless",
+      "durable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod77a/200",
+    "images": [
+      "https://picsum.photos/seed/prod77a/400",
+      "https://picsum.photos/seed/prod77b/400"
+    ],
+    "weight": 3.02,
+    "dimensions": {
+      "width": 78.57,
+      "height": 132.06,
+      "depth": 3.89
+    },
+    "price": 401.31,
+    "discount": 0.0,
+    "stock": 342
+  },
+  {
+    "id": "78",
+    "name": "Electronic Dart Board Pro",
+    "description": "High-quality electronic dart board pro from WarmWear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-078",
+    "brand": "WarmWear",
+    "category": "Sports",
+    "tags": [
+      "waterproof",
+      "moisture-wicking"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod78a/200",
+    "images": [
+      "https://picsum.photos/seed/prod78a/400",
+      "https://picsum.photos/seed/prod78b/400"
+    ],
+    "weight": 7.95,
+    "dimensions": {
+      "width": 29.06,
+      "height": 21.87,
+      "depth": 31.17
+    },
+    "price": 131.62,
+    "discount": 0.0,
+    "stock": 105
+  },
+  {
+    "id": "79",
+    "name": "Premium Towel Set",
+    "description": "High-quality premium towel set from CanvasCraft. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-079",
+    "brand": "CanvasCraft",
+    "category": "Home & Garden",
+    "tags": [
+      "rechargeable",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod79a/200",
+    "images": [
+      "https://picsum.photos/seed/prod79a/400",
+      "https://picsum.photos/seed/prod79b/400"
+    ],
+    "weight": 2.88,
+    "dimensions": {
+      "width": 55.54,
+      "height": 120.31,
+      "depth": 32.6
+    },
+    "price": 75.76,
+    "discount": 0.0,
+    "stock": 448
+  },
+  {
+    "id": "80",
+    "name": "Resistance Bands",
+    "description": "High-quality resistance bands from BrewMaster. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-080",
+    "brand": "BrewMaster",
+    "category": "Sports",
+    "tags": [
+      "rechargeable",
+      "ergonomic",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod80a/200",
+    "images": [
+      "https://picsum.photos/seed/prod80a/400",
+      "https://picsum.photos/seed/prod80b/400"
+    ],
+    "weight": 5.4,
+    "dimensions": {
+      "width": 53.69,
+      "height": 60.01,
+      "depth": 16.2
+    },
+    "price": 223.83,
+    "discount": 0.0,
+    "stock": 787
+  },
+  {
+    "id": "81",
+    "name": "Ultimate Frisbee Pro",
+    "description": "High-quality ultimate frisbee pro from CapCrew. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-081",
+    "brand": "CapCrew",
+    "category": "Pets",
+    "tags": [
+      "moisture-wicking",
+      "quality",
+      "eco-friendly",
+      "portable",
+      "ergonomic"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod81a/200",
+    "images": [
+      "https://picsum.photos/seed/prod81a/400",
+      "https://picsum.photos/seed/prod81b/400"
+    ],
+    "weight": 13.66,
+    "dimensions": {
+      "width": 16.79,
+      "height": 24.17,
+      "depth": 97.18
+    },
+    "price": 495.22,
+    "discount": 0.0,
+    "stock": 853
+  },
+  {
+    "id": "82",
+    "name": "Hair Dryer  Elite",
+    "description": "High-quality hair dryer  elite from ChefMaster. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-082",
+    "brand": "ChefMaster",
+    "category": "Accessories",
+    "tags": [
+      "wireless",
+      "durable",
+      "compact",
+      "waterproof",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod82a/200",
+    "images": [
+      "https://picsum.photos/seed/prod82a/400",
+      "https://picsum.photos/seed/prod82b/400"
+    ],
+    "weight": 3.99,
+    "dimensions": {
+      "width": 54.98,
+      "height": 121.53,
+      "depth": 70.18
+    },
+    "price": 38.74,
+    "discount": 0.0,
+    "stock": 892
+  },
+  {
+    "id": "83",
+    "name": "Summer Flowy Dress  Elite",
+    "description": "High-quality summer flowy dress  elite from HairLux. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-083",
+    "brand": "HairLux",
+    "category": "Pets",
+    "tags": [
+      "moisture-wicking",
+      "eco-friendly",
+      "quality",
+      "insulated",
+      "portable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod83a/200",
+    "images": [
+      "https://picsum.photos/seed/prod83a/400",
+      "https://picsum.photos/seed/prod83b/400"
+    ],
+    "weight": 9.9,
+    "dimensions": {
+      "width": 6.18,
+      "height": 39.43,
+      "depth": 10.69
+    },
+    "price": 398.79,
+    "discount": 0.0,
+    "stock": 662
+  },
+  {
+    "id": "84",
+    "name": "Sneaker Care Kit  Elite",
+    "description": "High-quality sneaker care kit  elite from CanvasCraft. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-084",
+    "brand": "CanvasCraft",
+    "category": "Accessories",
+    "tags": [
+      "professional",
+      "waterproof",
+      "adjustable",
+      "durable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod84a/200",
+    "images": [
+      "https://picsum.photos/seed/prod84a/400",
+      "https://picsum.photos/seed/prod84b/400"
+    ],
+    "weight": 0.64,
+    "dimensions": {
+      "width": 55.22,
+      "height": 184.84,
+      "depth": 23.59
+    },
+    "price": 493.33,
+    "discount": 0.0,
+    "stock": 856
+  },
+  {
+    "id": "85",
+    "name": "Action Camera Plus",
+    "description": "High-quality action camera plus from BreezeWear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-085",
+    "brand": "BreezeWear",
+    "category": "Home & Garden",
+    "tags": [
+      "quality",
+      "premium",
+      "professional"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod85a/200",
+    "images": [
+      "https://picsum.photos/seed/prod85a/400",
+      "https://picsum.photos/seed/prod85b/400"
+    ],
+    "weight": 7.42,
+    "dimensions": {
+      "width": 42.21,
+      "height": 10.19,
+      "depth": 17.2
+    },
+    "price": 32.05,
+    "discount": 0.0,
+    "stock": 671
+  },
+  {
+    "id": "86",
+    "name": "Luggage Tag Set Plus",
+    "description": "High-quality luggage tag set plus from AquaLife. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-086",
+    "brand": "AquaLife",
+    "category": "Clothing",
+    "tags": [
+      "professional",
+      "lightweight",
+      "durable",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod86a/200",
+    "images": [
+      "https://picsum.photos/seed/prod86a/400",
+      "https://picsum.photos/seed/prod86b/400"
+    ],
+    "weight": 4.27,
+    "dimensions": {
+      "width": 17.23,
+      "height": 173.25,
+      "depth": 66.35
+    },
+    "price": 9.74,
+    "discount": 0.0,
+    "stock": 560
+  },
+  {
+    "id": "87",
+    "name": "Golf Auto Umbrella Plus",
+    "description": "High-quality golf auto umbrella plus from StreetStep. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-087",
+    "brand": "StreetStep",
+    "category": "Electronics",
+    "tags": [
+      "moisture-wicking",
+      "durable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod87a/200",
+    "images": [
+      "https://picsum.photos/seed/prod87a/400",
+      "https://picsum.photos/seed/prod87b/400"
+    ],
+    "weight": 9.41,
+    "dimensions": {
+      "width": 31.5,
+      "height": 33.99,
+      "depth": 60.97
+    },
+    "price": 255.86,
+    "discount": 0.0,
+    "stock": 30
+  },
+  {
+    "id": "88",
+    "name": "Baseball Cap  Elite",
+    "description": "High-quality baseball cap  elite from SoundWave. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-088",
+    "brand": "SoundWave",
+    "category": "Accessories",
+    "tags": [
+      "breathable",
+      "moisture-wicking",
+      "waterproof",
+      "portable",
+      "ergonomic"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod88a/200",
+    "images": [
+      "https://picsum.photos/seed/prod88a/400",
+      "https://picsum.photos/seed/prod88b/400"
+    ],
+    "weight": 5.32,
+    "dimensions": {
+      "width": 38.83,
+      "height": 104.18,
+      "depth": 73.3
+    },
+    "price": 89.47,
+    "discount": 41.51,
+    "stock": 724
+  },
+  {
+    "id": "89",
+    "name": "Yoga Swing Hammock",
+    "description": "High-quality yoga swing hammock from TechRest. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-089",
+    "brand": "TechRest",
+    "category": "Accessories",
+    "tags": [
+      "rechargeable",
+      "waterproof",
+      "insulated",
+      "durable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod89a/200",
+    "images": [
+      "https://picsum.photos/seed/prod89a/400",
+      "https://picsum.photos/seed/prod89b/400"
+    ],
+    "weight": 2.14,
+    "dimensions": {
+      "width": 70.32,
+      "height": 160.72,
+      "depth": 51.46
+    },
+    "price": 496.5,
+    "discount": 12.97,
+    "stock": 227
+  },
+  {
+    "id": "90",
+    "name": "Bird Cage Plus",
+    "description": "High-quality bird cage plus from StreetStep. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-090",
+    "brand": "StreetStep",
+    "category": "Electronics",
+    "tags": [
+      "professional",
+      "moisture-wicking",
+      "premium"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod90a/200",
+    "images": [
+      "https://picsum.photos/seed/prod90a/400",
+      "https://picsum.photos/seed/prod90b/400"
+    ],
+    "weight": 10.52,
+    "dimensions": {
+      "width": 17.77,
+      "height": 68.0,
+      "depth": 77.42
+    },
+    "price": 63.2,
+    "discount": 0.0,
+    "stock": 866
+  },
+  {
+    "id": "91",
+    "name": "Sensitive Baby Wipes",
+    "description": "High-quality sensitive baby wipes from DryGuard. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-091",
+    "brand": "DryGuard",
+    "category": "Accessories",
+    "tags": [
+      "rechargeable",
+      "portable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod91a/200",
+    "images": [
+      "https://picsum.photos/seed/prod91a/400",
+      "https://picsum.photos/seed/prod91b/400"
+    ],
+    "weight": 3.67,
+    "dimensions": {
+      "width": 90.52,
+      "height": 182.71,
+      "depth": 71.61
+    },
+    "price": 409.49,
+    "discount": 0.0,
+    "stock": 718
+  },
+  {
+    "id": "92",
+    "name": "Bootcut Womens Jeans",
+    "description": "High-quality bootcut womens jeans from Mediterranean. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-092",
+    "brand": "Mediterranean",
+    "category": "Pets",
+    "tags": [
+      "compact",
+      "adjustable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod92a/200",
+    "images": [
+      "https://picsum.photos/seed/prod92a/400",
+      "https://picsum.photos/seed/prod92b/400"
+    ],
+    "weight": 11.39,
+    "dimensions": {
+      "width": 87.43,
+      "height": 70.77,
+      "depth": 68.6
+    },
+    "price": 247.83,
+    "discount": 8.36,
+    "stock": 698
+  },
+  {
+    "id": "93",
+    "name": "LED Fish Tank Light Plus",
+    "description": "High-quality led fish tank light plus from IronPump. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-093",
+    "brand": "IronPump",
+    "category": "Accessories",
+    "tags": [
+      "compact",
+      "breathable",
+      "wireless",
+      "portable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod93a/200",
+    "images": [
+      "https://picsum.photos/seed/prod93a/400",
+      "https://picsum.photos/seed/prod93b/400"
+    ],
+    "weight": 9.51,
+    "dimensions": {
+      "width": 36.8,
+      "height": 181.26,
+      "depth": 89.65
+    },
+    "price": 184.17,
+    "discount": 0.0,
+    "stock": 671
+  },
+  {
+    "id": "94",
+    "name": "Cookware Set  Max",
+    "description": "High-quality cookware set  max from SafeRide. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-094",
+    "brand": "SafeRide",
+    "category": "Electronics",
+    "tags": [
+      "insulated",
+      "premium",
+      "professional",
+      "moisture-wicking"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod94a/200",
+    "images": [
+      "https://picsum.photos/seed/prod94a/400",
+      "https://picsum.photos/seed/prod94b/400"
+    ],
+    "weight": 4.01,
+    "dimensions": {
+      "width": 18.2,
+      "height": 8.74,
+      "depth": 35.38
+    },
+    "price": 25.16,
+    "discount": 0.0,
+    "stock": 885
+  },
+  {
+    "id": "95",
+    "name": "Aluminum Baseball Bat Pro",
+    "description": "High-quality aluminum baseball bat pro from BreezeWear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-095",
+    "brand": "BreezeWear",
+    "category": "Electronics",
+    "tags": [
+      "quality",
+      "moisture-wicking",
+      "wireless",
+      "waterproof",
+      "portable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod95a/200",
+    "images": [
+      "https://picsum.photos/seed/prod95a/400",
+      "https://picsum.photos/seed/prod95b/400"
+    ],
+    "weight": 13.89,
+    "dimensions": {
+      "width": 58.7,
+      "height": 33.03,
+      "depth": 65.27
+    },
+    "price": 393.12,
+    "discount": 0.0,
+    "stock": 434
+  },
+  {
+    "id": "96",
+    "name": "Minimalist Cardholder",
+    "description": "High-quality minimalist cardholder from UrbanStyle. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-096",
+    "brand": "UrbanStyle",
+    "category": "Beauty",
+    "tags": [
+      "lightweight",
+      "adjustable",
+      "wireless",
+      "moisture-wicking"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod96a/200",
+    "images": [
+      "https://picsum.photos/seed/prod96a/400",
+      "https://picsum.photos/seed/prod96b/400"
+    ],
+    "weight": 11.49,
+    "dimensions": {
+      "width": 8.14,
+      "height": 101.99,
+      "depth": 5.15
+    },
+    "price": 93.88,
+    "discount": 0.0,
+    "stock": 77
+  },
+  {
+    "id": "97",
+    "name": "Ceramic Hair Straightener Plus",
+    "description": "High-quality ceramic hair straightener plus from ViewMax. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-097",
+    "brand": "ViewMax",
+    "category": "Sports",
+    "tags": [
+      "wireless",
+      "adjustable",
+      "premium",
+      "professional"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod97a/200",
+    "images": [
+      "https://picsum.photos/seed/prod97a/400",
+      "https://picsum.photos/seed/prod97b/400"
+    ],
+    "weight": 9.28,
+    "dimensions": {
+      "width": 87.21,
+      "height": 130.65,
+      "depth": 28.26
+    },
+    "price": 45.52,
+    "discount": 0.0,
+    "stock": 197
+  },
+  {
+    "id": "98",
+    "name": "Memory Foam Pillow  Elite",
+    "description": "High-quality memory foam pillow  elite from SportMaster. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-098",
+    "brand": "SportMaster",
+    "category": "Accessories",
+    "tags": [
+      "waterproof",
+      "professional",
+      "portable",
+      "ergonomic",
+      "adjustable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod98a/200",
+    "images": [
+      "https://picsum.photos/seed/prod98a/400",
+      "https://picsum.photos/seed/prod98b/400"
+    ],
+    "weight": 11.85,
+    "dimensions": {
+      "width": 21.54,
+      "height": 165.82,
+      "depth": 96.78
+    },
+    "price": 129.81,
+    "discount": 35.69,
+    "stock": 406
+  },
+  {
+    "id": "99",
+    "name": "Collapsible Laundry Basket  Elite",
+    "description": "High-quality collapsible laundry basket  elite from BrewMaster. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-099",
+    "brand": "BrewMaster",
+    "category": "Home & Garden",
+    "tags": [
+      "compact",
+      "insulated",
+      "ergonomic",
+      "premium"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod99a/200",
+    "images": [
+      "https://picsum.photos/seed/prod99a/400",
+      "https://picsum.photos/seed/prod99b/400"
+    ],
+    "weight": 13.26,
+    "dimensions": {
+      "width": 37.46,
+      "height": 140.83,
+      "depth": 71.99
+    },
+    "price": 131.32,
+    "discount": 0.0,
+    "stock": 694
+  },
+  {
+    "id": "100",
+    "name": "Golf Auto Umbrella  Max",
+    "description": "High-quality golf auto umbrella  max from GamePro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-100",
+    "brand": "GamePro",
+    "category": "Sports",
+    "tags": [
+      "compact",
+      "professional",
+      "lightweight",
+      "waterproof"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod100a/200",
+    "images": [
+      "https://picsum.photos/seed/prod100a/400",
+      "https://picsum.photos/seed/prod100b/400"
+    ],
+    "weight": 12.77,
+    "dimensions": {
+      "width": 60.11,
+      "height": 52.62,
+      "depth": 68.84
+    },
+    "price": 286.62,
+    "discount": 15.12,
+    "stock": 20
+  },
+  {
+    "id": "101",
+    "name": "UV Cycling Sunglasses",
+    "description": "High-quality uv cycling sunglasses from GlamNails. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-101",
+    "brand": "GlamNails",
+    "category": "Clothing",
+    "tags": [
+      "durable",
+      "quality",
+      "compact",
+      "lightweight",
+      "wireless"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod101a/200",
+    "images": [
+      "https://picsum.photos/seed/prod101a/400",
+      "https://picsum.photos/seed/prod101b/400"
+    ],
+    "weight": 9.17,
+    "dimensions": {
+      "width": 92.04,
+      "height": 85.44,
+      "depth": 78.6
+    },
+    "price": 15.48,
+    "discount": 0.0,
+    "stock": 104
+  },
+  {
+    "id": "102",
+    "name": "Diabetic Mens Socks",
+    "description": "High-quality diabetic mens socks from BreezeWear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-102",
+    "brand": "BreezeWear",
+    "category": "Beauty",
+    "tags": [
+      "rechargeable",
+      "professional",
+      "waterproof",
+      "premium",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod102a/200",
+    "images": [
+      "https://picsum.photos/seed/prod102a/400",
+      "https://picsum.photos/seed/prod102b/400"
+    ],
+    "weight": 14.56,
+    "dimensions": {
+      "width": 44.31,
+      "height": 114.56,
+      "depth": 51.23
+    },
+    "price": 42.15,
+    "discount": 44.6,
+    "stock": 146
+  },
+  {
+    "id": "103",
+    "name": "Liquid Eyeliner Pen  Max",
+    "description": "High-quality liquid eyeliner pen  max from SoundWave. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-103",
+    "brand": "SoundWave",
+    "category": "Sports",
+    "tags": [
+      "waterproof",
+      "portable",
+      "moisture-wicking",
+      "lightweight",
+      "wireless"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod103a/200",
+    "images": [
+      "https://picsum.photos/seed/prod103a/400",
+      "https://picsum.photos/seed/prod103b/400"
+    ],
+    "weight": 5.28,
+    "dimensions": {
+      "width": 58.9,
+      "height": 18.85,
+      "depth": 14.24
+    },
+    "price": 205.25,
+    "discount": 0.0,
+    "stock": 66
+  },
+  {
+    "id": "104",
+    "name": "Leather Office Briefcase Plus",
+    "description": "High-quality leather office briefcase plus from LuxLeather. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-104",
+    "brand": "LuxLeather",
+    "category": "Pets",
+    "tags": [
+      "lightweight",
+      "waterproof",
+      "insulated"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod104a/200",
+    "images": [
+      "https://picsum.photos/seed/prod104a/400",
+      "https://picsum.photos/seed/prod104b/400"
+    ],
+    "weight": 6.24,
+    "dimensions": {
+      "width": 9.98,
+      "height": 129.62,
+      "depth": 30.43
+    },
+    "price": 290.99,
+    "discount": 0.0,
+    "stock": 572
+  },
+  {
+    "id": "105",
+    "name": "Adjustable Jump Rope  Max",
+    "description": "High-quality adjustable jump rope  max from TravelPro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-105",
+    "brand": "TravelPro",
+    "category": "Home & Garden",
+    "tags": [
+      "insulated",
+      "wireless",
+      "lightweight",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod105a/200",
+    "images": [
+      "https://picsum.photos/seed/prod105a/400",
+      "https://picsum.photos/seed/prod105b/400"
+    ],
+    "weight": 0.78,
+    "dimensions": {
+      "width": 4.94,
+      "height": 73.22,
+      "depth": 6.71
+    },
+    "price": 256.05,
+    "discount": 0.0,
+    "stock": 141
+  },
+  {
+    "id": "106",
+    "name": "Watch Repair Kit Plus",
+    "description": "High-quality watch repair kit plus from SportMaster. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-106",
+    "brand": "SportMaster",
+    "category": "Home & Garden",
+    "tags": [
+      "adjustable",
+      "lightweight",
+      "rechargeable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod106a/200",
+    "images": [
+      "https://picsum.photos/seed/prod106a/400",
+      "https://picsum.photos/seed/prod106b/400"
+    ],
+    "weight": 7.45,
+    "dimensions": {
+      "width": 10.38,
+      "height": 148.59,
+      "depth": 31.07
+    },
+    "price": 102.28,
+    "discount": 0.0,
+    "stock": 283
+  },
+  {
+    "id": "107",
+    "name": "Sensitive Baby Wipes Pro",
+    "description": "High-quality sensitive baby wipes pro from GrainGood. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-107",
+    "brand": "GrainGood",
+    "category": "Electronics",
+    "tags": [
+      "compact",
+      "adjustable",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod107a/200",
+    "images": [
+      "https://picsum.photos/seed/prod107a/400",
+      "https://picsum.photos/seed/prod107b/400"
+    ],
+    "weight": 1.3,
+    "dimensions": {
+      "width": 11.49,
+      "height": 180.15,
+      "depth": 15.41
+    },
+    "price": 17.66,
+    "discount": 41.94,
+    "stock": 397
+  },
+  {
+    "id": "108",
+    "name": "Left Hand Golf Glove",
+    "description": "High-quality left hand golf glove from FreshJuice. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-108",
+    "brand": "FreshJuice",
+    "category": "Accessories",
+    "tags": [
+      "ergonomic",
+      "adjustable",
+      "moisture-wicking"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod108a/200",
+    "images": [
+      "https://picsum.photos/seed/prod108a/400",
+      "https://picsum.photos/seed/prod108b/400"
+    ],
+    "weight": 13.96,
+    "dimensions": {
+      "width": 4.99,
+      "height": 146.98,
+      "depth": 69.14
+    },
+    "price": 466.28,
+    "discount": 0.0,
+    "stock": 265
+  },
+  {
+    "id": "109",
+    "name": "Comfort Flip Flops  Elite",
+    "description": "High-quality comfort flip flops  elite from CaptureLife. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-109",
+    "brand": "CaptureLife",
+    "category": "Accessories",
+    "tags": [
+      "moisture-wicking",
+      "portable",
+      "premium"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod109a/200",
+    "images": [
+      "https://picsum.photos/seed/prod109a/400",
+      "https://picsum.photos/seed/prod109b/400"
+    ],
+    "weight": 1.42,
+    "dimensions": {
+      "width": 69.14,
+      "height": 173.41,
+      "depth": 76.3
+    },
+    "price": 399.07,
+    "discount": 0.0,
+    "stock": 381
+  },
+  {
+    "id": "110",
+    "name": "Retractable Dog Leash",
+    "description": "High-quality retractable dog leash from FlyHigh. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-110",
+    "brand": "FlyHigh",
+    "category": "Sports",
+    "tags": [
+      "moisture-wicking",
+      "portable",
+      "insulated",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod110a/200",
+    "images": [
+      "https://picsum.photos/seed/prod110a/400",
+      "https://picsum.photos/seed/prod110b/400"
+    ],
+    "weight": 9.03,
+    "dimensions": {
+      "width": 16.23,
+      "height": 190.43,
+      "depth": 13.54
+    },
+    "price": 201.38,
+    "discount": 34.43,
+    "stock": 220
+  },
+  {
+    "id": "111",
+    "name": "LED Table Lamp  Max",
+    "description": "High-quality led table lamp  max from DenimLab. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-111",
+    "brand": "DenimLab",
+    "category": "Accessories",
+    "tags": [
+      "moisture-wicking",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod111a/200",
+    "images": [
+      "https://picsum.photos/seed/prod111a/400",
+      "https://picsum.photos/seed/prod111b/400"
+    ],
+    "weight": 14.0,
+    "dimensions": {
+      "width": 52.09,
+      "height": 142.88,
+      "depth": 24.7
+    },
+    "price": 387.24,
+    "discount": 0.0,
+    "stock": 781
+  },
+  {
+    "id": "112",
+    "name": "Adjustable Jump Rope  Max",
+    "description": "High-quality adjustable jump rope  max from WildlifeWatch. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-112",
+    "brand": "WildlifeWatch",
+    "category": "Beauty",
+    "tags": [
+      "adjustable",
+      "wireless",
+      "insulated",
+      "professional"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod112a/200",
+    "images": [
+      "https://picsum.photos/seed/prod112a/400",
+      "https://picsum.photos/seed/prod112b/400"
+    ],
+    "weight": 4.29,
+    "dimensions": {
+      "width": 30.57,
+      "height": 134.63,
+      "depth": 9.49
+    },
+    "price": 92.86,
+    "discount": 21.79,
+    "stock": 679
+  },
+  {
+    "id": "113",
+    "name": "Denim Jacket Pro",
+    "description": "High-quality denim jacket pro from ActiveFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-113",
+    "brand": "ActiveFit",
+    "category": "Home & Garden",
+    "tags": [
+      "moisture-wicking",
+      "lightweight",
+      "durable",
+      "premium"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod113a/200",
+    "images": [
+      "https://picsum.photos/seed/prod113a/400",
+      "https://picsum.photos/seed/prod113b/400"
+    ],
+    "weight": 4.39,
+    "dimensions": {
+      "width": 51.84,
+      "height": 89.89,
+      "depth": 38.85
+    },
+    "price": 110.21,
+    "discount": 40.6,
+    "stock": 575
+  },
+  {
+    "id": "114",
+    "name": "Training Dog Treats  Max",
+    "description": "High-quality training dog treats  max from SoundWave. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-114",
+    "brand": "SoundWave",
+    "category": "Home & Garden",
+    "tags": [
+      "eco-friendly",
+      "lightweight",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod114a/200",
+    "images": [
+      "https://picsum.photos/seed/prod114a/400",
+      "https://picsum.photos/seed/prod114b/400"
+    ],
+    "weight": 2.08,
+    "dimensions": {
+      "width": 29.64,
+      "height": 162.8,
+      "depth": 8.76
+    },
+    "price": 223.6,
+    "discount": 0.0,
+    "stock": 741
+  },
+  {
+    "id": "115",
+    "name": "Left Hand Golf Glove  Elite",
+    "description": "High-quality left hand golf glove  elite from SafeRide. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-115",
+    "brand": "SafeRide",
+    "category": "Clothing",
+    "tags": [
+      "premium",
+      "eco-friendly",
+      "compact",
+      "professional",
+      "adjustable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod115a/200",
+    "images": [
+      "https://picsum.photos/seed/prod115a/400",
+      "https://picsum.photos/seed/prod115b/400"
+    ],
+    "weight": 11.73,
+    "dimensions": {
+      "width": 88.82,
+      "height": 84.56,
+      "depth": 96.33
+    },
+    "price": 342.3,
+    "discount": 0.0,
+    "stock": 864
+  },
+  {
+    "id": "116",
+    "name": "Liquid Eyeliner Pen Plus",
+    "description": "High-quality liquid eyeliner pen plus from ActiveFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-116",
+    "brand": "ActiveFit",
+    "category": "Sports",
+    "tags": [
+      "durable",
+      "compact",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod116a/200",
+    "images": [
+      "https://picsum.photos/seed/prod116a/400",
+      "https://picsum.photos/seed/prod116b/400"
+    ],
+    "weight": 13.58,
+    "dimensions": {
+      "width": 50.19,
+      "height": 82.45,
+      "depth": 27.99
+    },
+    "price": 100.82,
+    "discount": 0.0,
+    "stock": 164
+  },
+  {
+    "id": "117",
+    "name": "Non-Slip Bath Mat",
+    "description": "High-quality non-slip bath mat from Mediterranean. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-117",
+    "brand": "Mediterranean",
+    "category": "Pets",
+    "tags": [
+      "professional",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod117a/200",
+    "images": [
+      "https://picsum.photos/seed/prod117a/400",
+      "https://picsum.photos/seed/prod117b/400"
+    ],
+    "weight": 2.35,
+    "dimensions": {
+      "width": 40.98,
+      "height": 27.31,
+      "depth": 38.46
+    },
+    "price": 450.91,
+    "discount": 13.01,
+    "stock": 259
+  },
+  {
+    "id": "118",
+    "name": "Knit Winter Beanie  Elite",
+    "description": "High-quality knit winter beanie  elite from SilkySleep. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-118",
+    "brand": "SilkySleep",
+    "category": "Sports",
+    "tags": [
+      "ergonomic",
+      "waterproof"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod118a/200",
+    "images": [
+      "https://picsum.photos/seed/prod118a/400",
+      "https://picsum.photos/seed/prod118b/400"
+    ],
+    "weight": 0.55,
+    "dimensions": {
+      "width": 75.12,
+      "height": 46.29,
+      "depth": 79.03
+    },
+    "price": 54.39,
+    "discount": 19.49,
+    "stock": 357
+  },
+  {
+    "id": "119",
+    "name": "Cat Tower  Max",
+    "description": "High-quality cat tower  max from SportMaster. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-119",
+    "brand": "SportMaster",
+    "category": "Electronics",
+    "tags": [
+      "ergonomic",
+      "adjustable",
+      "portable",
+      "professional",
+      "insulated"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod119a/200",
+    "images": [
+      "https://picsum.photos/seed/prod119a/400",
+      "https://picsum.photos/seed/prod119b/400"
+    ],
+    "weight": 4.17,
+    "dimensions": {
+      "width": 56.42,
+      "height": 57.23,
+      "depth": 53.24
+    },
+    "price": 431.12,
+    "discount": 0.0,
+    "stock": 809
+  },
+  {
+    "id": "120",
+    "name": "Adjustable Jump Rope Pro",
+    "description": "High-quality adjustable jump rope pro from ActiveFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-120",
+    "brand": "ActiveFit",
+    "category": "Beauty",
+    "tags": [
+      "waterproof",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod120a/200",
+    "images": [
+      "https://picsum.photos/seed/prod120a/400",
+      "https://picsum.photos/seed/prod120b/400"
+    ],
+    "weight": 9.9,
+    "dimensions": {
+      "width": 96.18,
+      "height": 198.67,
+      "depth": 92.49
+    },
+    "price": 387.17,
+    "discount": 0.0,
+    "stock": 812
+  },
+  {
+    "id": "121",
+    "name": "Electronic Dart Board",
+    "description": "High-quality electronic dart board from WildlifeWatch. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-121",
+    "brand": "WildlifeWatch",
+    "category": "Sports",
+    "tags": [
+      "adjustable",
+      "breathable",
+      "insulated",
+      "waterproof",
+      "portable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod121a/200",
+    "images": [
+      "https://picsum.photos/seed/prod121a/400",
+      "https://picsum.photos/seed/prod121b/400"
+    ],
+    "weight": 4.83,
+    "dimensions": {
+      "width": 17.99,
+      "height": 42.06,
+      "depth": 16.62
+    },
+    "price": 354.79,
+    "discount": 0.0,
+    "stock": 572
+  },
+  {
+    "id": "122",
+    "name": "Slim Fit Dress Shirt Pro",
+    "description": "High-quality slim fit dress shirt pro from UrbanStyle. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-122",
+    "brand": "UrbanStyle",
+    "category": "Sports",
+    "tags": [
+      "portable",
+      "eco-friendly",
+      "quality",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod122a/200",
+    "images": [
+      "https://picsum.photos/seed/prod122a/400",
+      "https://picsum.photos/seed/prod122b/400"
+    ],
+    "weight": 14.16,
+    "dimensions": {
+      "width": 77.13,
+      "height": 66.38,
+      "depth": 10.74
+    },
+    "price": 282.0,
+    "discount": 0.0,
+    "stock": 353
+  },
+  {
+    "id": "123",
+    "name": "Organic Catnip Dried  Elite",
+    "description": "High-quality organic catnip dried  elite from BlendPro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-123",
+    "brand": "BlendPro",
+    "category": "Accessories",
+    "tags": [
+      "eco-friendly",
+      "portable",
+      "waterproof",
+      "quality",
+      "adjustable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod123a/200",
+    "images": [
+      "https://picsum.photos/seed/prod123a/400",
+      "https://picsum.photos/seed/prod123b/400"
+    ],
+    "weight": 11.41,
+    "dimensions": {
+      "width": 84.74,
+      "height": 95.0,
+      "depth": 98.62
+    },
+    "price": 300.17,
+    "discount": 0.0,
+    "stock": 509
+  },
+  {
+    "id": "124",
+    "name": "Compression Socks Pro",
+    "description": "High-quality compression socks pro from GolfPro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-124",
+    "brand": "GolfPro",
+    "category": "Beauty",
+    "tags": [
+      "ergonomic",
+      "waterproof",
+      "breathable",
+      "adjustable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod124a/200",
+    "images": [
+      "https://picsum.photos/seed/prod124a/400",
+      "https://picsum.photos/seed/prod124b/400"
+    ],
+    "weight": 7.4,
+    "dimensions": {
+      "width": 13.84,
+      "height": 14.89,
+      "depth": 64.67
+    },
+    "price": 138.8,
+    "discount": 0.0,
+    "stock": 465
+  },
+  {
+    "id": "125",
+    "name": "Digital Kitchen Scale  Elite",
+    "description": "High-quality digital kitchen scale  elite from SoundWave. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-125",
+    "brand": "SoundWave",
+    "category": "Sports",
+    "tags": [
+      "waterproof",
+      "moisture-wicking"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod125a/200",
+    "images": [
+      "https://picsum.photos/seed/prod125a/400",
+      "https://picsum.photos/seed/prod125b/400"
+    ],
+    "weight": 12.45,
+    "dimensions": {
+      "width": 80.95,
+      "height": 42.17,
+      "depth": 90.49
+    },
+    "price": 165.64,
+    "discount": 0.0,
+    "stock": 897
+  },
+  {
+    "id": "126",
+    "name": "Moisturizing Shampoo",
+    "description": "High-quality moisturizing shampoo from GlowMax. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-126",
+    "brand": "GlowMax",
+    "category": "Clothing",
+    "tags": [
+      "professional",
+      "durable",
+      "breathable",
+      "quality",
+      "eco-friendly"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod126a/200",
+    "images": [
+      "https://picsum.photos/seed/prod126a/400",
+      "https://picsum.photos/seed/prod126b/400"
+    ],
+    "weight": 12.73,
+    "dimensions": {
+      "width": 66.78,
+      "height": 19.42,
+      "depth": 92.57
+    },
+    "price": 334.55,
+    "discount": 48.92,
+    "stock": 405
+  },
+  {
+    "id": "127",
+    "name": "Resistance Bands  Elite",
+    "description": "High-quality resistance bands  elite from StreetStep. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-127",
+    "brand": "StreetStep",
+    "category": "Home & Garden",
+    "tags": [
+      "wireless",
+      "waterproof",
+      "compact",
+      "ergonomic"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod127a/200",
+    "images": [
+      "https://picsum.photos/seed/prod127a/400",
+      "https://picsum.photos/seed/prod127b/400"
+    ],
+    "weight": 6.53,
+    "dimensions": {
+      "width": 56.81,
+      "height": 36.83,
+      "depth": 51.3
+    },
+    "price": 138.75,
+    "discount": 0.0,
+    "stock": 518
+  },
+  {
+    "id": "128",
+    "name": "Electronic Dart Board",
+    "description": "High-quality electronic dart board from TechTime. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-128",
+    "brand": "TechTime",
+    "category": "Pets",
+    "tags": [
+      "eco-friendly",
+      "portable",
+      "adjustable",
+      "rechargeable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod128a/200",
+    "images": [
+      "https://picsum.photos/seed/prod128a/400",
+      "https://picsum.photos/seed/prod128b/400"
+    ],
+    "weight": 9.98,
+    "dimensions": {
+      "width": 26.13,
+      "height": 129.25,
+      "depth": 1.04
+    },
+    "price": 170.82,
+    "discount": 0.0,
+    "stock": 274
+  },
+  {
+    "id": "129",
+    "name": "Elevated Dog Bowl",
+    "description": "High-quality elevated dog bowl from FreshJuice. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-129",
+    "brand": "FreshJuice",
+    "category": "Accessories",
+    "tags": [
+      "eco-friendly",
+      "ergonomic",
+      "quality",
+      "moisture-wicking"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod129a/200",
+    "images": [
+      "https://picsum.photos/seed/prod129a/400",
+      "https://picsum.photos/seed/prod129b/400"
+    ],
+    "weight": 4.71,
+    "dimensions": {
+      "width": 52.66,
+      "height": 39.06,
+      "depth": 53.29
+    },
+    "price": 376.77,
+    "discount": 15.43,
+    "stock": 517
+  },
+  {
+    "id": "130",
+    "name": "Cotton T-Shirt Plus",
+    "description": "High-quality cotton t-shirt plus from ConnectPro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-130",
+    "brand": "ConnectPro",
+    "category": "Home & Garden",
+    "tags": [
+      "waterproof",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod130a/200",
+    "images": [
+      "https://picsum.photos/seed/prod130a/400",
+      "https://picsum.photos/seed/prod130b/400"
+    ],
+    "weight": 8.24,
+    "dimensions": {
+      "width": 38.93,
+      "height": 138.55,
+      "depth": 94.29
+    },
+    "price": 359.87,
+    "discount": 0.0,
+    "stock": 868
+  },
+  {
+    "id": "131",
+    "name": "Bluetooth Speaker  Elite",
+    "description": "High-quality bluetooth speaker  elite from AquaLife. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-131",
+    "brand": "AquaLife",
+    "category": "Beauty",
+    "tags": [
+      "wireless",
+      "rechargeable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod131a/200",
+    "images": [
+      "https://picsum.photos/seed/prod131a/400",
+      "https://picsum.photos/seed/prod131b/400"
+    ],
+    "weight": 8.57,
+    "dimensions": {
+      "width": 63.16,
+      "height": 88.34,
+      "depth": 85.31
+    },
+    "price": 295.17,
+    "discount": 39.14,
+    "stock": 327
+  },
+  {
+    "id": "132",
+    "name": "Electronic Dart Board Pro",
+    "description": "High-quality electronic dart board pro from ArtStudio. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-132",
+    "brand": "ArtStudio",
+    "category": "Clothing",
+    "tags": [
+      "durable",
+      "wireless",
+      "professional",
+      "ergonomic",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod132a/200",
+    "images": [
+      "https://picsum.photos/seed/prod132a/400",
+      "https://picsum.photos/seed/prod132b/400"
+    ],
+    "weight": 12.94,
+    "dimensions": {
+      "width": 96.97,
+      "height": 143.11,
+      "depth": 65.81
+    },
+    "price": 225.81,
+    "discount": 0.0,
+    "stock": 780
+  },
+  {
+    "id": "133",
+    "name": "Wool Sweater  Max",
+    "description": "High-quality wool sweater  max from ModernTime. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-133",
+    "brand": "ModernTime",
+    "category": "Electronics",
+    "tags": [
+      "moisture-wicking",
+      "premium",
+      "adjustable",
+      "eco-friendly"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod133a/200",
+    "images": [
+      "https://picsum.photos/seed/prod133a/400",
+      "https://picsum.photos/seed/prod133b/400"
+    ],
+    "weight": 9.95,
+    "dimensions": {
+      "width": 21.93,
+      "height": 180.73,
+      "depth": 18.87
+    },
+    "price": 476.5,
+    "discount": 25.04,
+    "stock": 495
+  },
+  {
+    "id": "134",
+    "name": "LED Camping Lantern  Max",
+    "description": "High-quality led camping lantern  max from EcoWear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-134",
+    "brand": "EcoWear",
+    "category": "Electronics",
+    "tags": [
+      "wireless",
+      "durable",
+      "insulated"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod134a/200",
+    "images": [
+      "https://picsum.photos/seed/prod134a/400",
+      "https://picsum.photos/seed/prod134b/400"
+    ],
+    "weight": 6.4,
+    "dimensions": {
+      "width": 33.39,
+      "height": 161.16,
+      "depth": 73.5
+    },
+    "price": 101.35,
+    "discount": 0.0,
+    "stock": 334
+  },
+  {
+    "id": "135",
+    "name": "Aromatic Cologne",
+    "description": "High-quality aromatic cologne from SpeedRun. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-135",
+    "brand": "SpeedRun",
+    "category": "Sports",
+    "tags": [
+      "waterproof",
+      "insulated",
+      "durable",
+      "wireless"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod135a/200",
+    "images": [
+      "https://picsum.photos/seed/prod135a/400",
+      "https://picsum.photos/seed/prod135b/400"
+    ],
+    "weight": 7.87,
+    "dimensions": {
+      "width": 23.47,
+      "height": 34.78,
+      "depth": 4.8
+    },
+    "price": 288.28,
+    "discount": 0.0,
+    "stock": 330
+  },
+  {
+    "id": "136",
+    "name": "Belgian Waffle Maker  Max",
+    "description": "High-quality belgian waffle maker  max from PowerFlow. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-136",
+    "brand": "PowerFlow",
+    "category": "Electronics",
+    "tags": [
+      "breathable",
+      "adjustable",
+      "ergonomic"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod136a/200",
+    "images": [
+      "https://picsum.photos/seed/prod136a/400",
+      "https://picsum.photos/seed/prod136b/400"
+    ],
+    "weight": 12.6,
+    "dimensions": {
+      "width": 82.1,
+      "height": 121.89,
+      "depth": 89.33
+    },
+    "price": 269.56,
+    "discount": 0.0,
+    "stock": 148
+  },
+  {
+    "id": "137",
+    "name": "Slim Fit Dress Shirt Pro",
+    "description": "High-quality slim fit dress shirt pro from TechTime. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-137",
+    "brand": "TechTime",
+    "category": "Electronics",
+    "tags": [
+      "ergonomic",
+      "moisture-wicking",
+      "professional"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod137a/200",
+    "images": [
+      "https://picsum.photos/seed/prod137a/400",
+      "https://picsum.photos/seed/prod137b/400"
+    ],
+    "weight": 2.66,
+    "dimensions": {
+      "width": 99.36,
+      "height": 188.05,
+      "depth": 98.94
+    },
+    "price": 222.38,
+    "discount": 16.75,
+    "stock": 193
+  },
+  {
+    "id": "138",
+    "name": "Bluetooth Speaker",
+    "description": "High-quality bluetooth speaker from DryGuard. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-138",
+    "brand": "DryGuard",
+    "category": "Beauty",
+    "tags": [
+      "quality",
+      "portable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod138a/200",
+    "images": [
+      "https://picsum.photos/seed/prod138a/400",
+      "https://picsum.photos/seed/prod138b/400"
+    ],
+    "weight": 9.75,
+    "dimensions": {
+      "width": 49.79,
+      "height": 81.16,
+      "depth": 26.89
+    },
+    "price": 420.03,
+    "discount": 0.0,
+    "stock": 413
+  },
+  {
+    "id": "139",
+    "name": "Non-Slip Yoga Towel  Elite",
+    "description": "High-quality non-slip yoga towel  elite from ShadeCraft. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-139",
+    "brand": "ShadeCraft",
+    "category": "Beauty",
+    "tags": [
+      "premium",
+      "ergonomic",
+      "breathable",
+      "portable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod139a/200",
+    "images": [
+      "https://picsum.photos/seed/prod139a/400",
+      "https://picsum.photos/seed/prod139b/400"
+    ],
+    "weight": 9.75,
+    "dimensions": {
+      "width": 76.52,
+      "height": 144.82,
+      "depth": 72.9
+    },
+    "price": 62.83,
+    "discount": 45.24,
+    "stock": 605
+  },
+  {
+    "id": "140",
+    "name": "Complete Skateboard",
+    "description": "High-quality complete skateboard from RefreshSkin. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-140",
+    "brand": "RefreshSkin",
+    "category": "Beauty",
+    "tags": [
+      "ergonomic",
+      "breathable",
+      "durable",
+      "insulated",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod140a/200",
+    "images": [
+      "https://picsum.photos/seed/prod140a/400",
+      "https://picsum.photos/seed/prod140b/400"
+    ],
+    "weight": 4.62,
+    "dimensions": {
+      "width": 10.21,
+      "height": 93.74,
+      "depth": 14.66
+    },
+    "price": 373.62,
+    "discount": 28.23,
+    "stock": 441
+  },
+  {
+    "id": "141",
+    "name": "Moisturizing Shampoo  Max",
+    "description": "High-quality moisturizing shampoo  max from UrbanStyle. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-141",
+    "brand": "UrbanStyle",
+    "category": "Accessories",
+    "tags": [
+      "durable",
+      "lightweight",
+      "insulated"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod141a/200",
+    "images": [
+      "https://picsum.photos/seed/prod141a/400",
+      "https://picsum.photos/seed/prod141b/400"
+    ],
+    "weight": 12.79,
+    "dimensions": {
+      "width": 94.28,
+      "height": 146.89,
+      "depth": 76.41
+    },
+    "price": 220.19,
+    "discount": 47.78,
+    "stock": 248
+  },
+  {
+    "id": "142",
+    "name": "Deshedding Cat Brush Pro",
+    "description": "High-quality deshedding cat brush pro from GolfPro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-142",
+    "brand": "GolfPro",
+    "category": "Sports",
+    "tags": [
+      "adjustable",
+      "moisture-wicking"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod142a/200",
+    "images": [
+      "https://picsum.photos/seed/prod142a/400",
+      "https://picsum.photos/seed/prod142b/400"
+    ],
+    "weight": 13.66,
+    "dimensions": {
+      "width": 64.76,
+      "height": 138.42,
+      "depth": 31.01
+    },
+    "price": 269.67,
+    "discount": 22.67,
+    "stock": 166
+  },
+  {
+    "id": "143",
+    "name": "Air Fryer Pro",
+    "description": "High-quality air fryer pro from GreenThumb. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-143",
+    "brand": "GreenThumb",
+    "category": "Home & Garden",
+    "tags": [
+      "professional",
+      "moisture-wicking",
+      "insulated",
+      "portable",
+      "wireless"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod143a/200",
+    "images": [
+      "https://picsum.photos/seed/prod143a/400",
+      "https://picsum.photos/seed/prod143b/400"
+    ],
+    "weight": 0.63,
+    "dimensions": {
+      "width": 43.46,
+      "height": 60.73,
+      "depth": 65.91
+    },
+    "price": 257.34,
+    "discount": 0.0,
+    "stock": 266
+  },
+  {
+    "id": "144",
+    "name": "Office Chair Plus",
+    "description": "High-quality office chair plus from WildlifeWatch. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-144",
+    "brand": "WildlifeWatch",
+    "category": "Pets",
+    "tags": [
+      "compact",
+      "quality",
+      "durable",
+      "waterproof",
+      "wireless"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod144a/200",
+    "images": [
+      "https://picsum.photos/seed/prod144a/400",
+      "https://picsum.photos/seed/prod144b/400"
+    ],
+    "weight": 9.61,
+    "dimensions": {
+      "width": 51.83,
+      "height": 5.35,
+      "depth": 81.56
+    },
+    "price": 18.04,
+    "discount": 47.55,
+    "stock": 514
+  },
+  {
+    "id": "145",
+    "name": "Aromatic Cologne",
+    "description": "High-quality aromatic cologne from SoftTouch. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-145",
+    "brand": "SoftTouch",
+    "category": "Accessories",
+    "tags": [
+      "waterproof",
+      "insulated",
+      "professional"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod145a/200",
+    "images": [
+      "https://picsum.photos/seed/prod145a/400",
+      "https://picsum.photos/seed/prod145b/400"
+    ],
+    "weight": 7.23,
+    "dimensions": {
+      "width": 57.81,
+      "height": 172.43,
+      "depth": 36.35
+    },
+    "price": 339.93,
+    "discount": 22.25,
+    "stock": 845
+  },
+  {
+    "id": "146",
+    "name": "6-Racket Tennis Bag Plus",
+    "description": "High-quality 6-racket tennis bag plus from GamePro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-146",
+    "brand": "GamePro",
+    "category": "Beauty",
+    "tags": [
+      "waterproof",
+      "quality",
+      "portable",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod146a/200",
+    "images": [
+      "https://picsum.photos/seed/prod146a/400",
+      "https://picsum.photos/seed/prod146b/400"
+    ],
+    "weight": 10.19,
+    "dimensions": {
+      "width": 74.74,
+      "height": 104.17,
+      "depth": 6.76
+    },
+    "price": 194.66,
+    "discount": 0.0,
+    "stock": 787
+  },
+  {
+    "id": "147",
+    "name": "Merino Hiking Socks Plus",
+    "description": "High-quality merino hiking socks plus from TimeKeeper. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-147",
+    "brand": "TimeKeeper",
+    "category": "Accessories",
+    "tags": [
+      "premium",
+      "durable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod147a/200",
+    "images": [
+      "https://picsum.photos/seed/prod147a/400",
+      "https://picsum.photos/seed/prod147b/400"
+    ],
+    "weight": 14.52,
+    "dimensions": {
+      "width": 62.55,
+      "height": 178.59,
+      "depth": 47.09
+    },
+    "price": 74.14,
+    "discount": 0.0,
+    "stock": 626
+  },
+  {
+    "id": "148",
+    "name": "Variety Lip Balm Pro",
+    "description": "High-quality variety lip balm pro from HairLux. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-148",
+    "brand": "HairLux",
+    "category": "Sports",
+    "tags": [
+      "premium",
+      "wireless",
+      "adjustable",
+      "waterproof",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod148a/200",
+    "images": [
+      "https://picsum.photos/seed/prod148a/400",
+      "https://picsum.photos/seed/prod148b/400"
+    ],
+    "weight": 5.79,
+    "dimensions": {
+      "width": 4.28,
+      "height": 175.69,
+      "depth": 19.23
+    },
+    "price": 235.81,
+    "discount": 49.65,
+    "stock": 346
+  },
+  {
+    "id": "149",
+    "name": "Wireless Mouse  Elite",
+    "description": "High-quality wireless mouse  elite from SlimFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-149",
+    "brand": "SlimFit",
+    "category": "Pets",
+    "tags": [
+      "eco-friendly",
+      "premium"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod149a/200",
+    "images": [
+      "https://picsum.photos/seed/prod149a/400",
+      "https://picsum.photos/seed/prod149b/400"
+    ],
+    "weight": 5.37,
+    "dimensions": {
+      "width": 85.31,
+      "height": 170.55,
+      "depth": 8.08
+    },
+    "price": 32.03,
+    "discount": 45.27,
+    "stock": 174
+  },
+  {
+    "id": "150",
+    "name": "Cardboard Cat Scratcher",
+    "description": "High-quality cardboard cat scratcher from BreezeWear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-150",
+    "brand": "BreezeWear",
+    "category": "Beauty",
+    "tags": [
+      "premium",
+      "durable",
+      "waterproof",
+      "portable",
+      "moisture-wicking"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod150a/200",
+    "images": [
+      "https://picsum.photos/seed/prod150a/400",
+      "https://picsum.photos/seed/prod150b/400"
+    ],
+    "weight": 1.32,
+    "dimensions": {
+      "width": 75.92,
+      "height": 31.27,
+      "depth": 3.66
+    },
+    "price": 167.22,
+    "discount": 45.27,
+    "stock": 851
+  },
+  {
+    "id": "151",
+    "name": "Liquid Eyeliner Pen  Max",
+    "description": "High-quality liquid eyeliner pen  max from GlowMax. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-151",
+    "brand": "GlowMax",
+    "category": "Pets",
+    "tags": [
+      "portable",
+      "wireless",
+      "moisture-wicking",
+      "ergonomic"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod151a/200",
+    "images": [
+      "https://picsum.photos/seed/prod151a/400",
+      "https://picsum.photos/seed/prod151b/400"
+    ],
+    "weight": 13.09,
+    "dimensions": {
+      "width": 86.4,
+      "height": 82.21,
+      "depth": 67.87
+    },
+    "price": 44.94,
+    "discount": 0.0,
+    "stock": 587
+  },
+  {
+    "id": "152",
+    "name": "Non-Slip Bath Mat  Elite",
+    "description": "High-quality non-slip bath mat  elite from WarmWear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-152",
+    "brand": "WarmWear",
+    "category": "Accessories",
+    "tags": [
+      "durable",
+      "lightweight",
+      "insulated"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod152a/200",
+    "images": [
+      "https://picsum.photos/seed/prod152a/400",
+      "https://picsum.photos/seed/prod152b/400"
+    ],
+    "weight": 11.03,
+    "dimensions": {
+      "width": 97.65,
+      "height": 94.38,
+      "depth": 45.33
+    },
+    "price": 356.26,
+    "discount": 0.0,
+    "stock": 269
+  },
+  {
+    "id": "153",
+    "name": "Yoga Block Pro",
+    "description": "High-quality yoga block pro from HealthWatch. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-153",
+    "brand": "HealthWatch",
+    "category": "Clothing",
+    "tags": [
+      "wireless",
+      "insulated",
+      "premium",
+      "eco-friendly",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod153a/200",
+    "images": [
+      "https://picsum.photos/seed/prod153a/400",
+      "https://picsum.photos/seed/prod153b/400"
+    ],
+    "weight": 10.29,
+    "dimensions": {
+      "width": 84.39,
+      "height": 84.82,
+      "depth": 73.78
+    },
+    "price": 99.08,
+    "discount": 0.0,
+    "stock": 201
+  },
+  {
+    "id": "154",
+    "name": "Watch Repair Kit Plus",
+    "description": "High-quality watch repair kit plus from ZenFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-154",
+    "brand": "ZenFit",
+    "category": "Beauty",
+    "tags": [
+      "moisture-wicking",
+      "wireless",
+      "adjustable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod154a/200",
+    "images": [
+      "https://picsum.photos/seed/prod154a/400",
+      "https://picsum.photos/seed/prod154b/400"
+    ],
+    "weight": 9.78,
+    "dimensions": {
+      "width": 67.69,
+      "height": 11.28,
+      "depth": 32.86
+    },
+    "price": 24.42,
+    "discount": 0.0,
+    "stock": 828
+  },
+  {
+    "id": "155",
+    "name": "Sneaker Care Kit",
+    "description": "High-quality sneaker care kit from FreshJuice. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-155",
+    "brand": "FreshJuice",
+    "category": "Accessories",
+    "tags": [
+      "lightweight",
+      "moisture-wicking"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod155a/200",
+    "images": [
+      "https://picsum.photos/seed/prod155a/400",
+      "https://picsum.photos/seed/prod155b/400"
+    ],
+    "weight": 0.8,
+    "dimensions": {
+      "width": 37.19,
+      "height": 135.74,
+      "depth": 49.32
+    },
+    "price": 153.89,
+    "discount": 0.0,
+    "stock": 184
+  },
+  {
+    "id": "156",
+    "name": "Recovery Yoga Sandals Plus",
+    "description": "High-quality recovery yoga sandals plus from EcoWear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-156",
+    "brand": "EcoWear",
+    "category": "Beauty",
+    "tags": [
+      "moisture-wicking",
+      "compact",
+      "lightweight",
+      "professional"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod156a/200",
+    "images": [
+      "https://picsum.photos/seed/prod156a/400",
+      "https://picsum.photos/seed/prod156b/400"
+    ],
+    "weight": 3.93,
+    "dimensions": {
+      "width": 97.02,
+      "height": 80.36,
+      "depth": 6.65
+    },
+    "price": 124.92,
+    "discount": 0.0,
+    "stock": 141
+  },
+  {
+    "id": "157",
+    "name": "Yoga Swing Hammock  Max",
+    "description": "High-quality yoga swing hammock  max from FlyHigh. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-157",
+    "brand": "FlyHigh",
+    "category": "Accessories",
+    "tags": [
+      "waterproof",
+      "adjustable",
+      "wireless",
+      "premium",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod157a/200",
+    "images": [
+      "https://picsum.photos/seed/prod157a/400",
+      "https://picsum.photos/seed/prod157b/400"
+    ],
+    "weight": 5.73,
+    "dimensions": {
+      "width": 36.04,
+      "height": 5.8,
+      "depth": 35.48
+    },
+    "price": 78.96,
+    "discount": 31.39,
+    "stock": 40
+  },
+  {
+    "id": "158",
+    "name": "HD Webcam Plus",
+    "description": "High-quality hd webcam plus from GamePro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-158",
+    "brand": "GamePro",
+    "category": "Sports",
+    "tags": [
+      "rechargeable",
+      "portable",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod158a/200",
+    "images": [
+      "https://picsum.photos/seed/prod158a/400",
+      "https://picsum.photos/seed/prod158b/400"
+    ],
+    "weight": 1.9,
+    "dimensions": {
+      "width": 34.65,
+      "height": 91.72,
+      "depth": 15.83
+    },
+    "price": 43.25,
+    "discount": 0.0,
+    "stock": 320
+  },
+  {
+    "id": "159",
+    "name": "Whistle Tea Kettle",
+    "description": "High-quality whistle tea kettle from VisionCam. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-159",
+    "brand": "VisionCam",
+    "category": "Home & Garden",
+    "tags": [
+      "compact",
+      "moisture-wicking",
+      "premium",
+      "quality",
+      "insulated"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod159a/200",
+    "images": [
+      "https://picsum.photos/seed/prod159a/400",
+      "https://picsum.photos/seed/prod159b/400"
+    ],
+    "weight": 4.72,
+    "dimensions": {
+      "width": 46.67,
+      "height": 151.03,
+      "depth": 19.48
+    },
+    "price": 362.88,
+    "discount": 0.0,
+    "stock": 462
+  },
+  {
+    "id": "160",
+    "name": "Yoga Block  Max",
+    "description": "High-quality yoga block  max from ConnectPro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-160",
+    "brand": "ConnectPro",
+    "category": "Home & Garden",
+    "tags": [
+      "adjustable",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod160a/200",
+    "images": [
+      "https://picsum.photos/seed/prod160a/400",
+      "https://picsum.photos/seed/prod160b/400"
+    ],
+    "weight": 11.27,
+    "dimensions": {
+      "width": 38.39,
+      "height": 65.03,
+      "depth": 86.27
+    },
+    "price": 330.35,
+    "discount": 0.0,
+    "stock": 825
+  },
+  {
+    "id": "161",
+    "name": "Exfoliating Body Wash",
+    "description": "High-quality exfoliating body wash from SkinGlow. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-161",
+    "brand": "SkinGlow",
+    "category": "Pets",
+    "tags": [
+      "eco-friendly",
+      "professional",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod161a/200",
+    "images": [
+      "https://picsum.photos/seed/prod161a/400",
+      "https://picsum.photos/seed/prod161b/400"
+    ],
+    "weight": 5.82,
+    "dimensions": {
+      "width": 22.94,
+      "height": 30.67,
+      "depth": 55.56
+    },
+    "price": 18.31,
+    "discount": 45.38,
+    "stock": 380
+  },
+  {
+    "id": "162",
+    "name": "Baby Diapers Size 4",
+    "description": "High-quality baby diapers size 4 from SoundWave. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-162",
+    "brand": "SoundWave",
+    "category": "Accessories",
+    "tags": [
+      "wireless",
+      "waterproof",
+      "premium",
+      "adjustable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod162a/200",
+    "images": [
+      "https://picsum.photos/seed/prod162a/400",
+      "https://picsum.photos/seed/prod162b/400"
+    ],
+    "weight": 7.43,
+    "dimensions": {
+      "width": 29.95,
+      "height": 145.39,
+      "depth": 61.27
+    },
+    "price": 417.87,
+    "discount": 10.98,
+    "stock": 398
+  },
+  {
+    "id": "163",
+    "name": "Scented Candle",
+    "description": "High-quality scented candle from SoundWave. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-163",
+    "brand": "SoundWave",
+    "category": "Pets",
+    "tags": [
+      "quality",
+      "ergonomic"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod163a/200",
+    "images": [
+      "https://picsum.photos/seed/prod163a/400",
+      "https://picsum.photos/seed/prod163b/400"
+    ],
+    "weight": 10.29,
+    "dimensions": {
+      "width": 56.67,
+      "height": 166.77,
+      "depth": 0.39
+    },
+    "price": 485.0,
+    "discount": 40.94,
+    "stock": 568
+  },
+  {
+    "id": "164",
+    "name": "Scented Candle",
+    "description": "High-quality scented candle from ShadeCraft. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-164",
+    "brand": "ShadeCraft",
+    "category": "Home & Garden",
+    "tags": [
+      "compact",
+      "rechargeable",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod164a/200",
+    "images": [
+      "https://picsum.photos/seed/prod164a/400",
+      "https://picsum.photos/seed/prod164b/400"
+    ],
+    "weight": 13.7,
+    "dimensions": {
+      "width": 9.63,
+      "height": 178.76,
+      "depth": 7.3
+    },
+    "price": 326.71,
+    "discount": 0.0,
+    "stock": 441
+  },
+  {
+    "id": "165",
+    "name": "Wide Brim Sun Hat",
+    "description": "High-quality wide brim sun hat from HydroSport. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-165",
+    "brand": "HydroSport",
+    "category": "Electronics",
+    "tags": [
+      "portable",
+      "compact",
+      "eco-friendly"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod165a/200",
+    "images": [
+      "https://picsum.photos/seed/prod165a/400",
+      "https://picsum.photos/seed/prod165b/400"
+    ],
+    "weight": 14.51,
+    "dimensions": {
+      "width": 81.7,
+      "height": 162.43,
+      "depth": 23.39
+    },
+    "price": 410.23,
+    "discount": 0.0,
+    "stock": 813
+  },
+  {
+    "id": "166",
+    "name": "Knife Set Pro",
+    "description": "High-quality knife set pro from DenimLab. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-166",
+    "brand": "DenimLab",
+    "category": "Sports",
+    "tags": [
+      "adjustable",
+      "ergonomic"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod166a/200",
+    "images": [
+      "https://picsum.photos/seed/prod166a/400",
+      "https://picsum.photos/seed/prod166b/400"
+    ],
+    "weight": 13.59,
+    "dimensions": {
+      "width": 63.09,
+      "height": 107.68,
+      "depth": 34.66
+    },
+    "price": 74.12,
+    "discount": 0.0,
+    "stock": 186
+  },
+  {
+    "id": "167",
+    "name": "Gaming Keyboard",
+    "description": "High-quality gaming keyboard from WarmWear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-167",
+    "brand": "WarmWear",
+    "category": "Home & Garden",
+    "tags": [
+      "premium",
+      "lightweight",
+      "professional",
+      "ergonomic",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod167a/200",
+    "images": [
+      "https://picsum.photos/seed/prod167a/400",
+      "https://picsum.photos/seed/prod167b/400"
+    ],
+    "weight": 14.92,
+    "dimensions": {
+      "width": 85.65,
+      "height": 129.87,
+      "depth": 12.61
+    },
+    "price": 83.55,
+    "discount": 27.09,
+    "stock": 543
+  },
+  {
+    "id": "168",
+    "name": "Waterproof Dog Paw Boots Pro",
+    "description": "High-quality waterproof dog paw boots pro from Lumiere. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-168",
+    "brand": "Lumiere",
+    "category": "Electronics",
+    "tags": [
+      "premium",
+      "professional",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod168a/200",
+    "images": [
+      "https://picsum.photos/seed/prod168a/400",
+      "https://picsum.photos/seed/prod168b/400"
+    ],
+    "weight": 11.76,
+    "dimensions": {
+      "width": 58.68,
+      "height": 54.12,
+      "depth": 63.97
+    },
+    "price": 191.6,
+    "discount": 0.0,
+    "stock": 888
+  },
+  {
+    "id": "169",
+    "name": "Wireless Bluetooth Headphones",
+    "description": "High-quality wireless bluetooth headphones from CaptureLife. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-169",
+    "brand": "CaptureLife",
+    "category": "Beauty",
+    "tags": [
+      "professional",
+      "wireless"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod169a/200",
+    "images": [
+      "https://picsum.photos/seed/prod169a/400",
+      "https://picsum.photos/seed/prod169b/400"
+    ],
+    "weight": 5.13,
+    "dimensions": {
+      "width": 65.85,
+      "height": 44.79,
+      "depth": 62.99
+    },
+    "price": 452.62,
+    "discount": 30.25,
+    "stock": 656
+  },
+  {
+    "id": "170",
+    "name": "UV Cycling Sunglasses Plus",
+    "description": "High-quality uv cycling sunglasses plus from GreenThumb. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-170",
+    "brand": "GreenThumb",
+    "category": "Home & Garden",
+    "tags": [
+      "rechargeable",
+      "insulated",
+      "professional",
+      "waterproof",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod170a/200",
+    "images": [
+      "https://picsum.photos/seed/prod170a/400",
+      "https://picsum.photos/seed/prod170b/400"
+    ],
+    "weight": 2.91,
+    "dimensions": {
+      "width": 37.87,
+      "height": 128.79,
+      "depth": 81.93
+    },
+    "price": 74.8,
+    "discount": 19.44,
+    "stock": 867
+  },
+  {
+    "id": "171",
+    "name": "Compression Socks Pro",
+    "description": "High-quality compression socks pro from SlimFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-171",
+    "brand": "SlimFit",
+    "category": "Electronics",
+    "tags": [
+      "breathable",
+      "moisture-wicking",
+      "wireless",
+      "eco-friendly"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod171a/200",
+    "images": [
+      "https://picsum.photos/seed/prod171a/400",
+      "https://picsum.photos/seed/prod171b/400"
+    ],
+    "weight": 3.39,
+    "dimensions": {
+      "width": 39.31,
+      "height": 183.44,
+      "depth": 97.8
+    },
+    "price": 361.74,
+    "discount": 28.92,
+    "stock": 644
+  },
+  {
+    "id": "172",
+    "name": "Tennis Balls",
+    "description": "High-quality tennis balls from BandFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-172",
+    "brand": "BandFit",
+    "category": "Electronics",
+    "tags": [
+      "moisture-wicking",
+      "durable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod172a/200",
+    "images": [
+      "https://picsum.photos/seed/prod172a/400",
+      "https://picsum.photos/seed/prod172b/400"
+    ],
+    "weight": 2.62,
+    "dimensions": {
+      "width": 16.77,
+      "height": 140.95,
+      "depth": 11.42
+    },
+    "price": 416.48,
+    "discount": 0.0,
+    "stock": 399
+  },
+  {
+    "id": "173",
+    "name": "Belgian Waffle Maker Plus",
+    "description": "High-quality belgian waffle maker plus from RideTech. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-173",
+    "brand": "RideTech",
+    "category": "Sports",
+    "tags": [
+      "eco-friendly",
+      "breathable",
+      "durable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod173a/200",
+    "images": [
+      "https://picsum.photos/seed/prod173a/400",
+      "https://picsum.photos/seed/prod173b/400"
+    ],
+    "weight": 8.79,
+    "dimensions": {
+      "width": 94.68,
+      "height": 35.23,
+      "depth": 79.78
+    },
+    "price": 239.63,
+    "discount": 0.0,
+    "stock": 106
+  },
+  {
+    "id": "174",
+    "name": "Baby Diapers Size 4 Plus",
+    "description": "High-quality baby diapers size 4 plus from FlyHigh. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-174",
+    "brand": "FlyHigh",
+    "category": "Sports",
+    "tags": [
+      "compact",
+      "professional",
+      "lightweight",
+      "waterproof"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod174a/200",
+    "images": [
+      "https://picsum.photos/seed/prod174a/400",
+      "https://picsum.photos/seed/prod174b/400"
+    ],
+    "weight": 1.03,
+    "dimensions": {
+      "width": 61.24,
+      "height": 64.44,
+      "depth": 90.79
+    },
+    "price": 127.69,
+    "discount": 39.34,
+    "stock": 341
+  },
+  {
+    "id": "175",
+    "name": "Silk Sleep Mask  Max",
+    "description": "High-quality silk sleep mask  max from FlyHigh. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-175",
+    "brand": "FlyHigh",
+    "category": "Accessories",
+    "tags": [
+      "quality",
+      "professional",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod175a/200",
+    "images": [
+      "https://picsum.photos/seed/prod175a/400",
+      "https://picsum.photos/seed/prod175b/400"
+    ],
+    "weight": 13.6,
+    "dimensions": {
+      "width": 88.58,
+      "height": 117.31,
+      "depth": 13.25
+    },
+    "price": 316.12,
+    "discount": 0.0,
+    "stock": 325
+  },
+  {
+    "id": "176",
+    "name": "Ceramic Rice Bowl Set Pro",
+    "description": "High-quality ceramic rice bowl set pro from TimeKeeper. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-176",
+    "brand": "TimeKeeper",
+    "category": "Home & Garden",
+    "tags": [
+      "portable",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod176a/200",
+    "images": [
+      "https://picsum.photos/seed/prod176a/400",
+      "https://picsum.photos/seed/prod176b/400"
+    ],
+    "weight": 0.89,
+    "dimensions": {
+      "width": 3.45,
+      "height": 101.02,
+      "depth": 91.39
+    },
+    "price": 334.73,
+    "discount": 0.0,
+    "stock": 123
+  },
+  {
+    "id": "177",
+    "name": "Adjustable Keyboard Stand",
+    "description": "High-quality adjustable keyboard stand from WildlifeWatch. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-177",
+    "brand": "WildlifeWatch",
+    "category": "Clothing",
+    "tags": [
+      "insulated",
+      "portable",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod177a/200",
+    "images": [
+      "https://picsum.photos/seed/prod177a/400",
+      "https://picsum.photos/seed/prod177b/400"
+    ],
+    "weight": 2.32,
+    "dimensions": {
+      "width": 59.01,
+      "height": 159.79,
+      "depth": 14.53
+    },
+    "price": 308.06,
+    "discount": 0.0,
+    "stock": 708
+  },
+  {
+    "id": "178",
+    "name": "Waterproof Dog Booties Plus",
+    "description": "High-quality waterproof dog booties plus from SportMaster. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-178",
+    "brand": "SportMaster",
+    "category": "Beauty",
+    "tags": [
+      "ergonomic",
+      "professional",
+      "rechargeable",
+      "premium",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod178a/200",
+    "images": [
+      "https://picsum.photos/seed/prod178a/400",
+      "https://picsum.photos/seed/prod178b/400"
+    ],
+    "weight": 3.73,
+    "dimensions": {
+      "width": 65.75,
+      "height": 181.61,
+      "depth": 48.48
+    },
+    "price": 104.8,
+    "discount": 39.25,
+    "stock": 639
+  },
+  {
+    "id": "179",
+    "name": "Wireless Earbuds  Max",
+    "description": "High-quality wireless earbuds  max from HealthWatch. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-179",
+    "brand": "HealthWatch",
+    "category": "Pets",
+    "tags": [
+      "durable",
+      "compact",
+      "breathable",
+      "professional"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod179a/200",
+    "images": [
+      "https://picsum.photos/seed/prod179a/400",
+      "https://picsum.photos/seed/prod179b/400"
+    ],
+    "weight": 3.26,
+    "dimensions": {
+      "width": 26.0,
+      "height": 43.74,
+      "depth": 21.24
+    },
+    "price": 240.84,
+    "discount": 0.0,
+    "stock": 54
+  },
+  {
+    "id": "180",
+    "name": "Portable Blender Pro",
+    "description": "High-quality portable blender pro from SilkySleep. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-180",
+    "brand": "SilkySleep",
+    "category": "Sports",
+    "tags": [
+      "ergonomic",
+      "premium"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod180a/200",
+    "images": [
+      "https://picsum.photos/seed/prod180a/400",
+      "https://picsum.photos/seed/prod180b/400"
+    ],
+    "weight": 2.72,
+    "dimensions": {
+      "width": 70.46,
+      "height": 155.47,
+      "depth": 65.49
+    },
+    "price": 340.41,
+    "discount": 16.03,
+    "stock": 866
+  },
+  {
+    "id": "181",
+    "name": "Slim Fit Dress Shirt Plus",
+    "description": "High-quality slim fit dress shirt plus from UrbanStyle. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-181",
+    "brand": "UrbanStyle",
+    "category": "Pets",
+    "tags": [
+      "rechargeable",
+      "waterproof",
+      "insulated",
+      "portable",
+      "professional"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod181a/200",
+    "images": [
+      "https://picsum.photos/seed/prod181a/400",
+      "https://picsum.photos/seed/prod181b/400"
+    ],
+    "weight": 7.88,
+    "dimensions": {
+      "width": 99.55,
+      "height": 16.21,
+      "depth": 30.01
+    },
+    "price": 318.99,
+    "discount": 0.0,
+    "stock": 216
+  },
+  {
+    "id": "182",
+    "name": "Running Phone Armband  Max",
+    "description": "High-quality running phone armband  max from BlendPro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-182",
+    "brand": "BlendPro",
+    "category": "Home & Garden",
+    "tags": [
+      "portable",
+      "moisture-wicking",
+      "professional"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod182a/200",
+    "images": [
+      "https://picsum.photos/seed/prod182a/400",
+      "https://picsum.photos/seed/prod182b/400"
+    ],
+    "weight": 3.51,
+    "dimensions": {
+      "width": 94.09,
+      "height": 118.72,
+      "depth": 59.12
+    },
+    "price": 426.62,
+    "discount": 0.0,
+    "stock": 236
+  },
+  {
+    "id": "183",
+    "name": "HD Webcam  Elite",
+    "description": "High-quality hd webcam  elite from SafeRide. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-183",
+    "brand": "SafeRide",
+    "category": "Accessories",
+    "tags": [
+      "waterproof",
+      "quality",
+      "premium",
+      "professional"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod183a/200",
+    "images": [
+      "https://picsum.photos/seed/prod183a/400",
+      "https://picsum.photos/seed/prod183b/400"
+    ],
+    "weight": 4.07,
+    "dimensions": {
+      "width": 94.66,
+      "height": 45.57,
+      "depth": 48.46
+    },
+    "price": 86.67,
+    "discount": 0.0,
+    "stock": 478
+  },
+  {
+    "id": "184",
+    "name": "Ceramic Hair Straightener  Max",
+    "description": "High-quality ceramic hair straightener  max from HairLux. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-184",
+    "brand": "HairLux",
+    "category": "Beauty",
+    "tags": [
+      "waterproof",
+      "eco-friendly",
+      "moisture-wicking",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod184a/200",
+    "images": [
+      "https://picsum.photos/seed/prod184a/400",
+      "https://picsum.photos/seed/prod184b/400"
+    ],
+    "weight": 8.87,
+    "dimensions": {
+      "width": 67.33,
+      "height": 81.85,
+      "depth": 96.5
+    },
+    "price": 8.88,
+    "discount": 0.0,
+    "stock": 696
+  },
+  {
+    "id": "185",
+    "name": "Laptop Sleeve  Elite",
+    "description": "High-quality laptop sleeve  elite from FlyHigh. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-185",
+    "brand": "FlyHigh",
+    "category": "Clothing",
+    "tags": [
+      "wireless",
+      "insulated",
+      "adjustable",
+      "ergonomic",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod185a/200",
+    "images": [
+      "https://picsum.photos/seed/prod185a/400",
+      "https://picsum.photos/seed/prod185b/400"
+    ],
+    "weight": 13.32,
+    "dimensions": {
+      "width": 53.02,
+      "height": 128.99,
+      "depth": 89.75
+    },
+    "price": 219.39,
+    "discount": 30.92,
+    "stock": 349
+  },
+  {
+    "id": "186",
+    "name": "Olive Oil",
+    "description": "High-quality olive oil from HomeCare. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-186",
+    "brand": "HomeCare",
+    "category": "Beauty",
+    "tags": [
+      "moisture-wicking",
+      "rechargeable",
+      "breathable",
+      "premium",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod186a/200",
+    "images": [
+      "https://picsum.photos/seed/prod186a/400",
+      "https://picsum.photos/seed/prod186b/400"
+    ],
+    "weight": 9.38,
+    "dimensions": {
+      "width": 37.29,
+      "height": 28.67,
+      "depth": 33.95
+    },
+    "price": 104.89,
+    "discount": 0.0,
+    "stock": 53
+  },
+  {
+    "id": "187",
+    "name": "WiFi Smart Plug Pro",
+    "description": "High-quality wifi smart plug pro from GamePro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-187",
+    "brand": "GamePro",
+    "category": "Home & Garden",
+    "tags": [
+      "eco-friendly",
+      "quality",
+      "ergonomic",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod187a/200",
+    "images": [
+      "https://picsum.photos/seed/prod187a/400",
+      "https://picsum.photos/seed/prod187b/400"
+    ],
+    "weight": 8.98,
+    "dimensions": {
+      "width": 95.04,
+      "height": 27.12,
+      "depth": 14.54
+    },
+    "price": 494.43,
+    "discount": 0.0,
+    "stock": 363
+  },
+  {
+    "id": "188",
+    "name": "Wool Plaid Scarf  Max",
+    "description": "High-quality wool plaid scarf  max from TechTime. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-188",
+    "brand": "TechTime",
+    "category": "Electronics",
+    "tags": [
+      "portable",
+      "adjustable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod188a/200",
+    "images": [
+      "https://picsum.photos/seed/prod188a/400",
+      "https://picsum.photos/seed/prod188b/400"
+    ],
+    "weight": 0.45,
+    "dimensions": {
+      "width": 25.69,
+      "height": 145.31,
+      "depth": 25.5
+    },
+    "price": 69.56,
+    "discount": 11.14,
+    "stock": 698
+  },
+  {
+    "id": "189",
+    "name": "Electric Toothbrush  Elite",
+    "description": "High-quality electric toothbrush  elite from GreenThumb. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-189",
+    "brand": "GreenThumb",
+    "category": "Sports",
+    "tags": [
+      "adjustable",
+      "durable",
+      "portable",
+      "rechargeable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod189a/200",
+    "images": [
+      "https://picsum.photos/seed/prod189a/400",
+      "https://picsum.photos/seed/prod189b/400"
+    ],
+    "weight": 2.32,
+    "dimensions": {
+      "width": 4.49,
+      "height": 112.84,
+      "depth": 83.13
+    },
+    "price": 333.62,
+    "discount": 31.52,
+    "stock": 883
+  },
+  {
+    "id": "190",
+    "name": "Stainless Pet Bowl",
+    "description": "High-quality stainless pet bowl from TechGuard. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-190",
+    "brand": "TechGuard",
+    "category": "Electronics",
+    "tags": [
+      "rechargeable",
+      "moisture-wicking",
+      "premium"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod190a/200",
+    "images": [
+      "https://picsum.photos/seed/prod190a/400",
+      "https://picsum.photos/seed/prod190b/400"
+    ],
+    "weight": 7.43,
+    "dimensions": {
+      "width": 72.35,
+      "height": 54.1,
+      "depth": 89.84
+    },
+    "price": 225.33,
+    "discount": 42.93,
+    "stock": 23
+  },
+  {
+    "id": "191",
+    "name": "Coffee Maker",
+    "description": "High-quality coffee maker from WildlifeWatch. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-191",
+    "brand": "WildlifeWatch",
+    "category": "Electronics",
+    "tags": [
+      "breathable",
+      "quality",
+      "moisture-wicking"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod191a/200",
+    "images": [
+      "https://picsum.photos/seed/prod191a/400",
+      "https://picsum.photos/seed/prod191b/400"
+    ],
+    "weight": 12.16,
+    "dimensions": {
+      "width": 56.97,
+      "height": 104.33,
+      "depth": 7.3
+    },
+    "price": 443.09,
+    "discount": 0.0,
+    "stock": 846
+  },
+  {
+    "id": "192",
+    "name": "Kids Toothbrush Set",
+    "description": "High-quality kids toothbrush set from Lumiere. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-192",
+    "brand": "Lumiere",
+    "category": "Electronics",
+    "tags": [
+      "durable",
+      "portable",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod192a/200",
+    "images": [
+      "https://picsum.photos/seed/prod192a/400",
+      "https://picsum.photos/seed/prod192b/400"
+    ],
+    "weight": 12.1,
+    "dimensions": {
+      "width": 45.15,
+      "height": 162.48,
+      "depth": 39.3
+    },
+    "price": 416.68,
+    "discount": 47.66,
+    "stock": 868
+  },
+  {
+    "id": "193",
+    "name": "Premium Fish Food Plus",
+    "description": "High-quality premium fish food plus from ZenFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-193",
+    "brand": "ZenFit",
+    "category": "Home & Garden",
+    "tags": [
+      "waterproof",
+      "adjustable",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod193a/200",
+    "images": [
+      "https://picsum.photos/seed/prod193a/400",
+      "https://picsum.photos/seed/prod193b/400"
+    ],
+    "weight": 8.34,
+    "dimensions": {
+      "width": 17.41,
+      "height": 146.9,
+      "depth": 92.48
+    },
+    "price": 32.33,
+    "discount": 0.0,
+    "stock": 57
+  },
+  {
+    "id": "194",
+    "name": "Hiking Boots",
+    "description": "High-quality hiking boots from ArtFrame. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-194",
+    "brand": "ArtFrame",
+    "category": "Sports",
+    "tags": [
+      "wireless",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod194a/200",
+    "images": [
+      "https://picsum.photos/seed/prod194a/400",
+      "https://picsum.photos/seed/prod194b/400"
+    ],
+    "weight": 9.46,
+    "dimensions": {
+      "width": 19.5,
+      "height": 13.38,
+      "depth": 82.41
+    },
+    "price": 347.05,
+    "discount": 0.0,
+    "stock": 194
+  },
+  {
+    "id": "195",
+    "name": "Yoga Block Plus",
+    "description": "High-quality yoga block plus from HealthWatch. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-195",
+    "brand": "HealthWatch",
+    "category": "Home & Garden",
+    "tags": [
+      "breathable",
+      "waterproof",
+      "ergonomic",
+      "portable",
+      "moisture-wicking"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod195a/200",
+    "images": [
+      "https://picsum.photos/seed/prod195a/400",
+      "https://picsum.photos/seed/prod195b/400"
+    ],
+    "weight": 4.45,
+    "dimensions": {
+      "width": 23.96,
+      "height": 35.96,
+      "depth": 25.85
+    },
+    "price": 234.86,
+    "discount": 9.39,
+    "stock": 768
+  },
+  {
+    "id": "196",
+    "name": "Digital Rice Cooker  Max",
+    "description": "High-quality digital rice cooker  max from HydroLife. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-196",
+    "brand": "HydroLife",
+    "category": "Accessories",
+    "tags": [
+      "compact",
+      "adjustable",
+      "eco-friendly"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod196a/200",
+    "images": [
+      "https://picsum.photos/seed/prod196a/400",
+      "https://picsum.photos/seed/prod196b/400"
+    ],
+    "weight": 1.96,
+    "dimensions": {
+      "width": 12.91,
+      "height": 184.81,
+      "depth": 35.43
+    },
+    "price": 140.4,
+    "discount": 0.0,
+    "stock": 380
+  },
+  {
+    "id": "197",
+    "name": "Whistle Tea Kettle  Max",
+    "description": "High-quality whistle tea kettle  max from EcoWear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-197",
+    "brand": "EcoWear",
+    "category": "Home & Garden",
+    "tags": [
+      "quality",
+      "lightweight",
+      "portable",
+      "ergonomic"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod197a/200",
+    "images": [
+      "https://picsum.photos/seed/prod197a/400",
+      "https://picsum.photos/seed/prod197b/400"
+    ],
+    "weight": 11.61,
+    "dimensions": {
+      "width": 19.32,
+      "height": 177.07,
+      "depth": 76.91
+    },
+    "price": 411.53,
+    "discount": 0.0,
+    "stock": 684
+  },
+  {
+    "id": "198",
+    "name": "Golf Auto Umbrella",
+    "description": "High-quality golf auto umbrella from ArcticGear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-198",
+    "brand": "ArcticGear",
+    "category": "Sports",
+    "tags": [
+      "rechargeable",
+      "durable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod198a/200",
+    "images": [
+      "https://picsum.photos/seed/prod198a/400",
+      "https://picsum.photos/seed/prod198b/400"
+    ],
+    "weight": 2.74,
+    "dimensions": {
+      "width": 39.62,
+      "height": 5.77,
+      "depth": 97.69
+    },
+    "price": 472.17,
+    "discount": 0.0,
+    "stock": 599
+  },
+  {
+    "id": "199",
+    "name": "Makeup Remover Wipes",
+    "description": "High-quality makeup remover wipes from CapCrew. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-199",
+    "brand": "CapCrew",
+    "category": "Accessories",
+    "tags": [
+      "lightweight",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod199a/200",
+    "images": [
+      "https://picsum.photos/seed/prod199a/400",
+      "https://picsum.photos/seed/prod199b/400"
+    ],
+    "weight": 2.73,
+    "dimensions": {
+      "width": 34.48,
+      "height": 133.7,
+      "depth": 60.95
+    },
+    "price": 301.69,
+    "discount": 41.47,
+    "stock": 124
+  },
+  {
+    "id": "200",
+    "name": "Non-Slip Bath Mat Plus",
+    "description": "High-quality non-slip bath mat plus from TravelPro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-200",
+    "brand": "TravelPro",
+    "category": "Accessories",
+    "tags": [
+      "rechargeable",
+      "quality",
+      "wireless",
+      "premium"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod200a/200",
+    "images": [
+      "https://picsum.photos/seed/prod200a/400",
+      "https://picsum.photos/seed/prod200b/400"
+    ],
+    "weight": 13.34,
+    "dimensions": {
+      "width": 42.25,
+      "height": 137.95,
+      "depth": 17.59
+    },
+    "price": 79.06,
+    "discount": 0.0,
+    "stock": 336
+  },
+  {
+    "id": "201",
+    "name": "Picture Frame Set Pro",
+    "description": "High-quality picture frame set pro from ActiveFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-201",
+    "brand": "ActiveFit",
+    "category": "Clothing",
+    "tags": [
+      "insulated",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod201a/200",
+    "images": [
+      "https://picsum.photos/seed/prod201a/400",
+      "https://picsum.photos/seed/prod201b/400"
+    ],
+    "weight": 5.75,
+    "dimensions": {
+      "width": 65.39,
+      "height": 26.43,
+      "depth": 23.01
+    },
+    "price": 395.96,
+    "discount": 0.0,
+    "stock": 683
+  },
+  {
+    "id": "202",
+    "name": "Wool Sweater  Max",
+    "description": "High-quality wool sweater  max from GreenThumb. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-202",
+    "brand": "GreenThumb",
+    "category": "Beauty",
+    "tags": [
+      "breathable",
+      "waterproof",
+      "professional",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod202a/200",
+    "images": [
+      "https://picsum.photos/seed/prod202a/400",
+      "https://picsum.photos/seed/prod202b/400"
+    ],
+    "weight": 10.26,
+    "dimensions": {
+      "width": 30.22,
+      "height": 92.77,
+      "depth": 44.34
+    },
+    "price": 444.85,
+    "discount": 20.79,
+    "stock": 852
+  },
+  {
+    "id": "203",
+    "name": "Skincare Gift Set  Elite",
+    "description": "High-quality skincare gift set  elite from ShadeCraft. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-203",
+    "brand": "ShadeCraft",
+    "category": "Clothing",
+    "tags": [
+      "adjustable",
+      "portable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod203a/200",
+    "images": [
+      "https://picsum.photos/seed/prod203a/400",
+      "https://picsum.photos/seed/prod203b/400"
+    ],
+    "weight": 8.99,
+    "dimensions": {
+      "width": 25.08,
+      "height": 181.45,
+      "depth": 27.09
+    },
+    "price": 373.31,
+    "discount": 0.0,
+    "stock": 649
+  },
+  {
+    "id": "204",
+    "name": "Analog Watch Pro",
+    "description": "High-quality analog watch pro from HairLux. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-204",
+    "brand": "HairLux",
+    "category": "Electronics",
+    "tags": [
+      "professional",
+      "rechargeable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod204a/200",
+    "images": [
+      "https://picsum.photos/seed/prod204a/400",
+      "https://picsum.photos/seed/prod204b/400"
+    ],
+    "weight": 11.52,
+    "dimensions": {
+      "width": 17.0,
+      "height": 143.52,
+      "depth": 2.65
+    },
+    "price": 127.72,
+    "discount": 31.69,
+    "stock": 73
+  },
+  {
+    "id": "205",
+    "name": "Wireless Bluetooth Headphones Pro",
+    "description": "High-quality wireless bluetooth headphones pro from WarmWear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-205",
+    "brand": "WarmWear",
+    "category": "Pets",
+    "tags": [
+      "ergonomic",
+      "moisture-wicking",
+      "premium"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod205a/200",
+    "images": [
+      "https://picsum.photos/seed/prod205a/400",
+      "https://picsum.photos/seed/prod205b/400"
+    ],
+    "weight": 2.32,
+    "dimensions": {
+      "width": 62.82,
+      "height": 123.38,
+      "depth": 58.75
+    },
+    "price": 218.94,
+    "discount": 32.53,
+    "stock": 585
+  },
+  {
+    "id": "206",
+    "name": "Kids Electric Toothbrush Pro",
+    "description": "High-quality kids electric toothbrush pro from Mediterranean. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-206",
+    "brand": "Mediterranean",
+    "category": "Beauty",
+    "tags": [
+      "breathable",
+      "adjustable",
+      "rechargeable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod206a/200",
+    "images": [
+      "https://picsum.photos/seed/prod206a/400",
+      "https://picsum.photos/seed/prod206b/400"
+    ],
+    "weight": 11.79,
+    "dimensions": {
+      "width": 59.22,
+      "height": 89.09,
+      "depth": 23.31
+    },
+    "price": 412.05,
+    "discount": 0.0,
+    "stock": 846
+  },
+  {
+    "id": "207",
+    "name": "Pet Carrier  Max",
+    "description": "High-quality pet carrier  max from ModernTime. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-207",
+    "brand": "ModernTime",
+    "category": "Clothing",
+    "tags": [
+      "durable",
+      "premium",
+      "breathable",
+      "lightweight",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod207a/200",
+    "images": [
+      "https://picsum.photos/seed/prod207a/400",
+      "https://picsum.photos/seed/prod207b/400"
+    ],
+    "weight": 3.02,
+    "dimensions": {
+      "width": 22.68,
+      "height": 79.39,
+      "depth": 38.45
+    },
+    "price": 262.54,
+    "discount": 16.93,
+    "stock": 47
+  },
+  {
+    "id": "208",
+    "name": "Enzyme Pet Stain Cleaner Plus",
+    "description": "High-quality enzyme pet stain cleaner plus from CrispyLife. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-208",
+    "brand": "CrispyLife",
+    "category": "Home & Garden",
+    "tags": [
+      "compact",
+      "lightweight",
+      "quality",
+      "moisture-wicking"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod208a/200",
+    "images": [
+      "https://picsum.photos/seed/prod208a/400",
+      "https://picsum.photos/seed/prod208b/400"
+    ],
+    "weight": 5.48,
+    "dimensions": {
+      "width": 56.27,
+      "height": 33.77,
+      "depth": 59.57
+    },
+    "price": 27.58,
+    "discount": 49.58,
+    "stock": 391
+  },
+  {
+    "id": "209",
+    "name": "Makeup Remover Wipes  Max",
+    "description": "High-quality makeup remover wipes  max from PetComfort. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-209",
+    "brand": "PetComfort",
+    "category": "Beauty",
+    "tags": [
+      "eco-friendly",
+      "wireless",
+      "rechargeable",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod209a/200",
+    "images": [
+      "https://picsum.photos/seed/prod209a/400",
+      "https://picsum.photos/seed/prod209b/400"
+    ],
+    "weight": 4.22,
+    "dimensions": {
+      "width": 83.84,
+      "height": 194.13,
+      "depth": 36.8
+    },
+    "price": 461.36,
+    "discount": 27.45,
+    "stock": 676
+  },
+  {
+    "id": "210",
+    "name": "Cat Carrier Backpack  Elite",
+    "description": "High-quality cat carrier backpack  elite from WindowStyle. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-210",
+    "brand": "WindowStyle",
+    "category": "Beauty",
+    "tags": [
+      "portable",
+      "professional",
+      "compact",
+      "ergonomic",
+      "insulated"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod210a/200",
+    "images": [
+      "https://picsum.photos/seed/prod210a/400",
+      "https://picsum.photos/seed/prod210b/400"
+    ],
+    "weight": 4.44,
+    "dimensions": {
+      "width": 86.19,
+      "height": 15.71,
+      "depth": 99.98
+    },
+    "price": 416.46,
+    "discount": 9.23,
+    "stock": 590
+  },
+  {
+    "id": "211",
+    "name": "Water Bottle",
+    "description": "High-quality water bottle from BrewMaster. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-211",
+    "brand": "BrewMaster",
+    "category": "Beauty",
+    "tags": [
+      "breathable",
+      "waterproof"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod211a/200",
+    "images": [
+      "https://picsum.photos/seed/prod211a/400",
+      "https://picsum.photos/seed/prod211b/400"
+    ],
+    "weight": 13.89,
+    "dimensions": {
+      "width": 88.89,
+      "height": 67.91,
+      "depth": 65.1
+    },
+    "price": 445.04,
+    "discount": 23.46,
+    "stock": 436
+  },
+  {
+    "id": "212",
+    "name": "Inflatable Camping Pillow Pro",
+    "description": "High-quality inflatable camping pillow pro from TargetPro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-212",
+    "brand": "TargetPro",
+    "category": "Accessories",
+    "tags": [
+      "compact",
+      "premium",
+      "ergonomic",
+      "waterproof"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod212a/200",
+    "images": [
+      "https://picsum.photos/seed/prod212a/400",
+      "https://picsum.photos/seed/prod212b/400"
+    ],
+    "weight": 14.92,
+    "dimensions": {
+      "width": 37.1,
+      "height": 152.3,
+      "depth": 55.99
+    },
+    "price": 71.85,
+    "discount": 0.0,
+    "stock": 675
+  },
+  {
+    "id": "213",
+    "name": "Yoga Block  Max",
+    "description": "High-quality yoga block  max from PetComfort. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-213",
+    "brand": "PetComfort",
+    "category": "Sports",
+    "tags": [
+      "professional",
+      "quality",
+      "moisture-wicking",
+      "durable",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod213a/200",
+    "images": [
+      "https://picsum.photos/seed/prod213a/400",
+      "https://picsum.photos/seed/prod213b/400"
+    ],
+    "weight": 5.82,
+    "dimensions": {
+      "width": 6.08,
+      "height": 129.41,
+      "depth": 71.63
+    },
+    "price": 98.03,
+    "discount": 21.43,
+    "stock": 81
+  },
+  {
+    "id": "214",
+    "name": "Makeup Brush Set Pro",
+    "description": "High-quality makeup brush set pro from ViewMax. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-214",
+    "brand": "ViewMax",
+    "category": "Home & Garden",
+    "tags": [
+      "rechargeable",
+      "eco-friendly"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod214a/200",
+    "images": [
+      "https://picsum.photos/seed/prod214a/400",
+      "https://picsum.photos/seed/prod214b/400"
+    ],
+    "weight": 3.24,
+    "dimensions": {
+      "width": 52.6,
+      "height": 7.2,
+      "depth": 94.97
+    },
+    "price": 120.2,
+    "discount": 0.0,
+    "stock": 822
+  },
+  {
+    "id": "215",
+    "name": "Deshedding Cat Brush Plus",
+    "description": "High-quality deshedding cat brush plus from ChefMaster. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-215",
+    "brand": "ChefMaster",
+    "category": "Electronics",
+    "tags": [
+      "breathable",
+      "lightweight",
+      "professional"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod215a/200",
+    "images": [
+      "https://picsum.photos/seed/prod215a/400",
+      "https://picsum.photos/seed/prod215b/400"
+    ],
+    "weight": 11.04,
+    "dimensions": {
+      "width": 31.73,
+      "height": 53.59,
+      "depth": 92.49
+    },
+    "price": 197.88,
+    "discount": 43.04,
+    "stock": 767
+  },
+  {
+    "id": "216",
+    "name": "Denim Jacket  Elite",
+    "description": "High-quality denim jacket  elite from GlowMax. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-216",
+    "brand": "GlowMax",
+    "category": "Home & Garden",
+    "tags": [
+      "moisture-wicking",
+      "eco-friendly"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod216a/200",
+    "images": [
+      "https://picsum.photos/seed/prod216a/400",
+      "https://picsum.photos/seed/prod216b/400"
+    ],
+    "weight": 3.04,
+    "dimensions": {
+      "width": 67.29,
+      "height": 167.71,
+      "depth": 95.95
+    },
+    "price": 424.03,
+    "discount": 0.0,
+    "stock": 635
+  },
+  {
+    "id": "217",
+    "name": "Sensitive Baby Wipes  Elite",
+    "description": "High-quality sensitive baby wipes  elite from StreetStep. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-217",
+    "brand": "StreetStep",
+    "category": "Sports",
+    "tags": [
+      "quality",
+      "eco-friendly"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod217a/200",
+    "images": [
+      "https://picsum.photos/seed/prod217a/400",
+      "https://picsum.photos/seed/prod217b/400"
+    ],
+    "weight": 3.82,
+    "dimensions": {
+      "width": 78.07,
+      "height": 25.95,
+      "depth": 19.6
+    },
+    "price": 247.83,
+    "discount": 0.0,
+    "stock": 374
+  },
+  {
+    "id": "218",
+    "name": "6-Racket Tennis Bag",
+    "description": "High-quality 6-racket tennis bag from DentaCare. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-218",
+    "brand": "DentaCare",
+    "category": "Accessories",
+    "tags": [
+      "portable",
+      "lightweight",
+      "premium",
+      "wireless",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod218a/200",
+    "images": [
+      "https://picsum.photos/seed/prod218a/400",
+      "https://picsum.photos/seed/prod218b/400"
+    ],
+    "weight": 11.9,
+    "dimensions": {
+      "width": 27.62,
+      "height": 37.54,
+      "depth": 75.4
+    },
+    "price": 407.29,
+    "discount": 37.69,
+    "stock": 195
+  },
+  {
+    "id": "219",
+    "name": "Cat Tower",
+    "description": "High-quality cat tower from GlowMax. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-219",
+    "brand": "GlowMax",
+    "category": "Pets",
+    "tags": [
+      "ergonomic",
+      "waterproof"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod219a/200",
+    "images": [
+      "https://picsum.photos/seed/prod219a/400",
+      "https://picsum.photos/seed/prod219b/400"
+    ],
+    "weight": 7.86,
+    "dimensions": {
+      "width": 22.29,
+      "height": 183.51,
+      "depth": 47.54
+    },
+    "price": 262.61,
+    "discount": 34.04,
+    "stock": 664
+  },
+  {
+    "id": "220",
+    "name": "Deshedding Cat Brush  Max",
+    "description": "High-quality deshedding cat brush  max from ChefMaster. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-220",
+    "brand": "ChefMaster",
+    "category": "Clothing",
+    "tags": [
+      "waterproof",
+      "rechargeable",
+      "insulated",
+      "wireless",
+      "premium"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod220a/200",
+    "images": [
+      "https://picsum.photos/seed/prod220a/400",
+      "https://picsum.photos/seed/prod220b/400"
+    ],
+    "weight": 6.72,
+    "dimensions": {
+      "width": 59.63,
+      "height": 152.3,
+      "depth": 27.53
+    },
+    "price": 226.89,
+    "discount": 0.0,
+    "stock": 183
+  },
+  {
+    "id": "221",
+    "name": "Watch Repair Kit",
+    "description": "High-quality watch repair kit from IronPump. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-221",
+    "brand": "IronPump",
+    "category": "Electronics",
+    "tags": [
+      "insulated",
+      "durable",
+      "waterproof",
+      "adjustable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod221a/200",
+    "images": [
+      "https://picsum.photos/seed/prod221a/400",
+      "https://picsum.photos/seed/prod221b/400"
+    ],
+    "weight": 6.22,
+    "dimensions": {
+      "width": 44.15,
+      "height": 165.81,
+      "depth": 26.09
+    },
+    "price": 85.69,
+    "discount": 0.0,
+    "stock": 179
+  },
+  {
+    "id": "222",
+    "name": "Wooden Bird House Pro",
+    "description": "High-quality wooden bird house pro from TechTime. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-222",
+    "brand": "TechTime",
+    "category": "Beauty",
+    "tags": [
+      "insulated",
+      "moisture-wicking"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod222a/200",
+    "images": [
+      "https://picsum.photos/seed/prod222a/400",
+      "https://picsum.photos/seed/prod222b/400"
+    ],
+    "weight": 4.25,
+    "dimensions": {
+      "width": 23.63,
+      "height": 183.61,
+      "depth": 42.79
+    },
+    "price": 152.36,
+    "discount": 0.0,
+    "stock": 317
+  },
+  {
+    "id": "223",
+    "name": "Training Dog Treats  Elite",
+    "description": "High-quality training dog treats  elite from TechTime. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-223",
+    "brand": "TechTime",
+    "category": "Beauty",
+    "tags": [
+      "moisture-wicking",
+      "lightweight",
+      "rechargeable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod223a/200",
+    "images": [
+      "https://picsum.photos/seed/prod223a/400",
+      "https://picsum.photos/seed/prod223b/400"
+    ],
+    "weight": 7.53,
+    "dimensions": {
+      "width": 73.61,
+      "height": 112.11,
+      "depth": 11.79
+    },
+    "price": 30.81,
+    "discount": 30.95,
+    "stock": 730
+  },
+  {
+    "id": "224",
+    "name": "Training Dog Treats Pro",
+    "description": "High-quality training dog treats pro from TechRest. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-224",
+    "brand": "TechRest",
+    "category": "Electronics",
+    "tags": [
+      "quality",
+      "ergonomic",
+      "portable",
+      "wireless"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod224a/200",
+    "images": [
+      "https://picsum.photos/seed/prod224a/400",
+      "https://picsum.photos/seed/prod224b/400"
+    ],
+    "weight": 14.45,
+    "dimensions": {
+      "width": 28.22,
+      "height": 127.71,
+      "depth": 31.9
+    },
+    "price": 210.16,
+    "discount": 0.0,
+    "stock": 32
+  },
+  {
+    "id": "225",
+    "name": "Yoga Swing Hammock",
+    "description": "High-quality yoga swing hammock from SoundMax. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-225",
+    "brand": "SoundMax",
+    "category": "Pets",
+    "tags": [
+      "eco-friendly",
+      "premium",
+      "insulated",
+      "durable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod225a/200",
+    "images": [
+      "https://picsum.photos/seed/prod225a/400",
+      "https://picsum.photos/seed/prod225b/400"
+    ],
+    "weight": 13.84,
+    "dimensions": {
+      "width": 39.56,
+      "height": 191.51,
+      "depth": 9.64
+    },
+    "price": 201.91,
+    "discount": 0.0,
+    "stock": 446
+  },
+  {
+    "id": "226",
+    "name": "Rubber Chew Toy  Elite",
+    "description": "High-quality rubber chew toy  elite from StarGaze. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-226",
+    "brand": "StarGaze",
+    "category": "Clothing",
+    "tags": [
+      "durable",
+      "adjustable",
+      "premium",
+      "lightweight",
+      "insulated"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod226a/200",
+    "images": [
+      "https://picsum.photos/seed/prod226a/400",
+      "https://picsum.photos/seed/prod226b/400"
+    ],
+    "weight": 11.61,
+    "dimensions": {
+      "width": 51.6,
+      "height": 172.07,
+      "depth": 59.07
+    },
+    "price": 399.0,
+    "discount": 49.56,
+    "stock": 414
+  },
+  {
+    "id": "227",
+    "name": "Lightweight Windbreaker Pro",
+    "description": "High-quality lightweight windbreaker pro from ZenFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-227",
+    "brand": "ZenFit",
+    "category": "Accessories",
+    "tags": [
+      "ergonomic",
+      "eco-friendly"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod227a/200",
+    "images": [
+      "https://picsum.photos/seed/prod227a/400",
+      "https://picsum.photos/seed/prod227b/400"
+    ],
+    "weight": 5.75,
+    "dimensions": {
+      "width": 77.5,
+      "height": 30.35,
+      "depth": 7.07
+    },
+    "price": 291.59,
+    "discount": 0.0,
+    "stock": 336
+  },
+  {
+    "id": "228",
+    "name": "Multi-Level Hamster Cage  Elite",
+    "description": "High-quality multi-level hamster cage  elite from WarmWear. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-228",
+    "brand": "WarmWear",
+    "category": "Accessories",
+    "tags": [
+      "quality",
+      "adjustable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod228a/200",
+    "images": [
+      "https://picsum.photos/seed/prod228a/400",
+      "https://picsum.photos/seed/prod228b/400"
+    ],
+    "weight": 13.84,
+    "dimensions": {
+      "width": 31.64,
+      "height": 150.29,
+      "depth": 37.85
+    },
+    "price": 320.3,
+    "discount": 0.0,
+    "stock": 103
+  },
+  {
+    "id": "229",
+    "name": "LED Strip Lights",
+    "description": "High-quality led strip lights from GamePro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-229",
+    "brand": "GamePro",
+    "category": "Sports",
+    "tags": [
+      "insulated",
+      "quality",
+      "moisture-wicking",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod229a/200",
+    "images": [
+      "https://picsum.photos/seed/prod229a/400",
+      "https://picsum.photos/seed/prod229b/400"
+    ],
+    "weight": 13.3,
+    "dimensions": {
+      "width": 27.47,
+      "height": 185.64,
+      "depth": 78.84
+    },
+    "price": 448.35,
+    "discount": 0.0,
+    "stock": 381
+  },
+  {
+    "id": "230",
+    "name": "Wool Plaid Scarf Pro",
+    "description": "High-quality wool plaid scarf pro from PetComfort. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-230",
+    "brand": "PetComfort",
+    "category": "Sports",
+    "tags": [
+      "rechargeable",
+      "adjustable",
+      "quality",
+      "eco-friendly"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod230a/200",
+    "images": [
+      "https://picsum.photos/seed/prod230a/400",
+      "https://picsum.photos/seed/prod230b/400"
+    ],
+    "weight": 10.63,
+    "dimensions": {
+      "width": 29.53,
+      "height": 107.8,
+      "depth": 29.91
+    },
+    "price": 14.01,
+    "discount": 12.87,
+    "stock": 250
+  },
+  {
+    "id": "231",
+    "name": "Merino Hiking Socks",
+    "description": "High-quality merino hiking socks from GreenThumb. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-231",
+    "brand": "GreenThumb",
+    "category": "Sports",
+    "tags": [
+      "ergonomic",
+      "durable",
+      "quality",
+      "professional",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod231a/200",
+    "images": [
+      "https://picsum.photos/seed/prod231a/400",
+      "https://picsum.photos/seed/prod231b/400"
+    ],
+    "weight": 12.11,
+    "dimensions": {
+      "width": 31.26,
+      "height": 179.7,
+      "depth": 3.82
+    },
+    "price": 78.09,
+    "discount": 29.48,
+    "stock": 89
+  },
+  {
+    "id": "232",
+    "name": "Casual Belt",
+    "description": "High-quality casual belt from ComfortZone. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-232",
+    "brand": "ComfortZone",
+    "category": "Home & Garden",
+    "tags": [
+      "wireless",
+      "waterproof",
+      "breathable",
+      "eco-friendly",
+      "premium"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod232a/200",
+    "images": [
+      "https://picsum.photos/seed/prod232a/400",
+      "https://picsum.photos/seed/prod232b/400"
+    ],
+    "weight": 8.16,
+    "dimensions": {
+      "width": 32.46,
+      "height": 12.09,
+      "depth": 79.11
+    },
+    "price": 41.38,
+    "discount": 0.0,
+    "stock": 117
+  },
+  {
+    "id": "233",
+    "name": "Digital Cooking Timer Pro",
+    "description": "High-quality digital cooking timer pro from ChefMaster. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ELEC-ELE-233",
+    "brand": "ChefMaster",
+    "category": "Electronics",
+    "tags": [
+      "waterproof",
+      "rechargeable",
+      "portable",
+      "moisture-wicking",
+      "compact"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod233a/200",
+    "images": [
+      "https://picsum.photos/seed/prod233a/400",
+      "https://picsum.photos/seed/prod233b/400"
+    ],
+    "weight": 4.28,
+    "dimensions": {
+      "width": 9.01,
+      "height": 122.11,
+      "depth": 86.69
+    },
+    "price": 66.37,
+    "discount": 0.0,
+    "stock": 162
+  },
+  {
+    "id": "234",
+    "name": "LED Camping Lantern  Elite",
+    "description": "High-quality led camping lantern  elite from SpeedRun. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-234",
+    "brand": "SpeedRun",
+    "category": "Beauty",
+    "tags": [
+      "portable",
+      "insulated"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod234a/200",
+    "images": [
+      "https://picsum.photos/seed/prod234a/400",
+      "https://picsum.photos/seed/prod234b/400"
+    ],
+    "weight": 1.62,
+    "dimensions": {
+      "width": 90.51,
+      "height": 172.94,
+      "depth": 30.68
+    },
+    "price": 131.67,
+    "discount": 30.58,
+    "stock": 744
+  },
+  {
+    "id": "235",
+    "name": "Premium Cooking Apron Pro",
+    "description": "High-quality premium cooking apron pro from VisionCam. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-235",
+    "brand": "VisionCam",
+    "category": "Beauty",
+    "tags": [
+      "breathable",
+      "adjustable",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod235a/200",
+    "images": [
+      "https://picsum.photos/seed/prod235a/400",
+      "https://picsum.photos/seed/prod235b/400"
+    ],
+    "weight": 7.83,
+    "dimensions": {
+      "width": 59.1,
+      "height": 83.4,
+      "depth": 86.15
+    },
+    "price": 21.57,
+    "discount": 35.62,
+    "stock": 528
+  },
+  {
+    "id": "236",
+    "name": "Smart Thermometer Plus",
+    "description": "High-quality smart thermometer plus from UrbanStyle. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-236",
+    "brand": "UrbanStyle",
+    "category": "Home & Garden",
+    "tags": [
+      "rechargeable",
+      "ergonomic",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod236a/200",
+    "images": [
+      "https://picsum.photos/seed/prod236a/400",
+      "https://picsum.photos/seed/prod236b/400"
+    ],
+    "weight": 9.9,
+    "dimensions": {
+      "width": 96.62,
+      "height": 45.09,
+      "depth": 14.58
+    },
+    "price": 321.24,
+    "discount": 36.03,
+    "stock": 688
+  },
+  {
+    "id": "237",
+    "name": "Window Bird Feeder",
+    "description": "High-quality window bird feeder from PowerFlow. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-237",
+    "brand": "PowerFlow",
+    "category": "Pets",
+    "tags": [
+      "compact",
+      "breathable",
+      "professional",
+      "adjustable",
+      "insulated"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod237a/200",
+    "images": [
+      "https://picsum.photos/seed/prod237a/400",
+      "https://picsum.photos/seed/prod237b/400"
+    ],
+    "weight": 11.91,
+    "dimensions": {
+      "width": 29.23,
+      "height": 20.59,
+      "depth": 94.75
+    },
+    "price": 156.37,
+    "discount": 0.0,
+    "stock": 541
+  },
+  {
+    "id": "238",
+    "name": "Bluetooth Speaker",
+    "description": "High-quality bluetooth speaker from LuxLeather. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "HOME-HOM-238",
+    "brand": "LuxLeather",
+    "category": "Home & Garden",
+    "tags": [
+      "ergonomic",
+      "compact",
+      "quality",
+      "rechargeable",
+      "waterproof"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod238a/200",
+    "images": [
+      "https://picsum.photos/seed/prod238a/400",
+      "https://picsum.photos/seed/prod238b/400"
+    ],
+    "weight": 2.83,
+    "dimensions": {
+      "width": 31.53,
+      "height": 51.19,
+      "depth": 72.36
+    },
+    "price": 56.14,
+    "discount": 0.0,
+    "stock": 121
+  },
+  {
+    "id": "239",
+    "name": "Metal Cat Litter Scoop  Max",
+    "description": "High-quality metal cat litter scoop  max from SlimFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-239",
+    "brand": "SlimFit",
+    "category": "Sports",
+    "tags": [
+      "quality",
+      "breathable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod239a/200",
+    "images": [
+      "https://picsum.photos/seed/prod239a/400",
+      "https://picsum.photos/seed/prod239b/400"
+    ],
+    "weight": 14.27,
+    "dimensions": {
+      "width": 57.22,
+      "height": 22.68,
+      "depth": 65.28
+    },
+    "price": 182.65,
+    "discount": 0.0,
+    "stock": 770
+  },
+  {
+    "id": "240",
+    "name": "Kids Electric Toothbrush Pro",
+    "description": "High-quality kids electric toothbrush pro from StylePro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-240",
+    "brand": "StylePro",
+    "category": "Beauty",
+    "tags": [
+      "eco-friendly",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod240a/200",
+    "images": [
+      "https://picsum.photos/seed/prod240a/400",
+      "https://picsum.photos/seed/prod240b/400"
+    ],
+    "weight": 12.81,
+    "dimensions": {
+      "width": 11.47,
+      "height": 160.09,
+      "depth": 86.12
+    },
+    "price": 33.87,
+    "discount": 0.0,
+    "stock": 695
+  },
+  {
+    "id": "241",
+    "name": "Rubber Chew Toy  Max",
+    "description": "High-quality rubber chew toy  max from TechGuard. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-241",
+    "brand": "TechGuard",
+    "category": "Pets",
+    "tags": [
+      "breathable",
+      "professional"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod241a/200",
+    "images": [
+      "https://picsum.photos/seed/prod241a/400",
+      "https://picsum.photos/seed/prod241b/400"
+    ],
+    "weight": 12.22,
+    "dimensions": {
+      "width": 90.25,
+      "height": 155.79,
+      "depth": 47.98
+    },
+    "price": 249.21,
+    "discount": 0.0,
+    "stock": 484
+  },
+  {
+    "id": "242",
+    "name": "Reading Sunglasses  Elite",
+    "description": "High-quality reading sunglasses  elite from ConnectPro. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-242",
+    "brand": "ConnectPro",
+    "category": "Clothing",
+    "tags": [
+      "moisture-wicking",
+      "durable",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod242a/200",
+    "images": [
+      "https://picsum.photos/seed/prod242a/400",
+      "https://picsum.photos/seed/prod242b/400"
+    ],
+    "weight": 3.74,
+    "dimensions": {
+      "width": 81.06,
+      "height": 67.05,
+      "depth": 65.48
+    },
+    "price": 137.73,
+    "discount": 0.0,
+    "stock": 500
+  },
+  {
+    "id": "243",
+    "name": "Water Bottle",
+    "description": "High-quality water bottle from FreshJuice. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-243",
+    "brand": "FreshJuice",
+    "category": "Clothing",
+    "tags": [
+      "compact",
+      "adjustable",
+      "quality",
+      "insulated",
+      "waterproof"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod243a/200",
+    "images": [
+      "https://picsum.photos/seed/prod243a/400",
+      "https://picsum.photos/seed/prod243b/400"
+    ],
+    "weight": 10.49,
+    "dimensions": {
+      "width": 24.36,
+      "height": 90.51,
+      "depth": 43.02
+    },
+    "price": 123.97,
+    "discount": 0.0,
+    "stock": 759
+  },
+  {
+    "id": "244",
+    "name": "GPS Dog Tracker Pro",
+    "description": "High-quality gps dog tracker pro from AromaRest. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-244",
+    "brand": "AromaRest",
+    "category": "Beauty",
+    "tags": [
+      "breathable",
+      "waterproof",
+      "durable",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod244a/200",
+    "images": [
+      "https://picsum.photos/seed/prod244a/400",
+      "https://picsum.photos/seed/prod244b/400"
+    ],
+    "weight": 12.1,
+    "dimensions": {
+      "width": 62.84,
+      "height": 95.97,
+      "depth": 54.08
+    },
+    "price": 9.67,
+    "discount": 0.0,
+    "stock": 292
+  },
+  {
+    "id": "245",
+    "name": "Resistance Bands",
+    "description": "High-quality resistance bands from BandFit. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "CLTH-CLT-245",
+    "brand": "BandFit",
+    "category": "Clothing",
+    "tags": [
+      "premium",
+      "adjustable",
+      "portable",
+      "eco-friendly"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod245a/200",
+    "images": [
+      "https://picsum.photos/seed/prod245a/400",
+      "https://picsum.photos/seed/prod245b/400"
+    ],
+    "weight": 14.81,
+    "dimensions": {
+      "width": 78.31,
+      "height": 47.37,
+      "depth": 11.31
+    },
+    "price": 56.29,
+    "discount": 27.62,
+    "stock": 98
+  },
+  {
+    "id": "246",
+    "name": "Leather Office Briefcase  Max",
+    "description": "High-quality leather office briefcase  max from HydroLife. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "SPRT-SPR-246",
+    "brand": "HydroLife",
+    "category": "Sports",
+    "tags": [
+      "insulated",
+      "rechargeable",
+      "portable"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod246a/200",
+    "images": [
+      "https://picsum.photos/seed/prod246a/400",
+      "https://picsum.photos/seed/prod246b/400"
+    ],
+    "weight": 12.99,
+    "dimensions": {
+      "width": 34.79,
+      "height": 77.97,
+      "depth": 16.94
+    },
+    "price": 460.96,
+    "discount": 16.61,
+    "stock": 874
+  },
+  {
+    "id": "247",
+    "name": "Organic Catnip Dried",
+    "description": "High-quality organic catnip dried from FlyHigh. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "BEAU-BEA-247",
+    "brand": "FlyHigh",
+    "category": "Beauty",
+    "tags": [
+      "waterproof",
+      "rechargeable",
+      "professional",
+      "premium"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod247a/200",
+    "images": [
+      "https://picsum.photos/seed/prod247a/400",
+      "https://picsum.photos/seed/prod247b/400"
+    ],
+    "weight": 4.36,
+    "dimensions": {
+      "width": 77.64,
+      "height": 43.12,
+      "depth": 84.09
+    },
+    "price": 98.26,
+    "discount": 0.0,
+    "stock": 865
+  },
+  {
+    "id": "248",
+    "name": "Cardboard Cat Scratcher Plus",
+    "description": "High-quality cardboard cat scratcher plus from SafeRide. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "ACCS-ACC-248",
+    "brand": "SafeRide",
+    "category": "Accessories",
+    "tags": [
+      "compact",
+      "insulated",
+      "professional",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod248a/200",
+    "images": [
+      "https://picsum.photos/seed/prod248a/400",
+      "https://picsum.photos/seed/prod248b/400"
+    ],
+    "weight": 4.92,
+    "dimensions": {
+      "width": 42.42,
+      "height": 135.34,
+      "depth": 96.19
+    },
+    "price": 202.31,
+    "discount": 15.69,
+    "stock": 24
+  },
+  {
+    "id": "249",
+    "name": "Electronic Dart Board Plus",
+    "description": "High-quality electronic dart board plus from TechGuard. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-249",
+    "brand": "TechGuard",
+    "category": "Pets",
+    "tags": [
+      "adjustable",
+      "quality"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod249a/200",
+    "images": [
+      "https://picsum.photos/seed/prod249a/400",
+      "https://picsum.photos/seed/prod249b/400"
+    ],
+    "weight": 13.22,
+    "dimensions": {
+      "width": 34.84,
+      "height": 33.68,
+      "depth": 43.76
+    },
+    "price": 326.35,
+    "discount": 0.0,
+    "stock": 673
+  },
+  {
+    "id": "250",
+    "name": "DEET-Free Insect Repellent  Max",
+    "description": "High-quality deet-free insect repellent  max from StarGaze. Perfect for everyday use with excellent craftsmanship and durability.",
+    "sku": "PETS-PET-250",
+    "brand": "StarGaze",
+    "category": "Pets",
+    "tags": [
+      "ergonomic",
+      "eco-friendly",
+      "lightweight"
+    ],
+    "thumbnail": "https://picsum.photos/seed/prod250a/200",
+    "images": [
+      "https://picsum.photos/seed/prod250a/400",
+      "https://picsum.photos/seed/prod250b/400"
+    ],
+    "weight": 6.63,
+    "dimensions": {
+      "width": 75.81,
+      "height": 164.65,
+      "depth": 94.45
+    },
+    "price": 53.12,
+    "discount": 0.0,
+    "stock": 41
+  }
+]

@@ -5,13 +5,16 @@ package entities
 import (
 	"fmt"
 	"time"
+
+	"github.com/shopspring/decimal"
 )
 
 const (
 	SCHEMA = "dummy"
 
-	COLLECTION_USER   = "users"
-	COLLECTION_RECIPE = "recipes"
+	COLLECTION_USER    = "users"
+	COLLECTION_PRODUCT = "products"
+	COLLECTION_RECIPE  = "recipes"
 )
 
 type BaseID struct {
@@ -21,6 +24,10 @@ type BaseID struct {
 type BaseTimestamp struct {
 	CreatedAt time.Time `json:"-"`
 	UpdatedAt time.Time `json:"-"`
+}
+
+func init() {
+	decimal.MarshalJSONWithoutQuotes = true
 }
 
 func GetCollectionName(collection string) string {

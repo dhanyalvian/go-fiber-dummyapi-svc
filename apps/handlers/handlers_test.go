@@ -92,12 +92,12 @@ func newMockTypesenseServer() *httptest.Server {
 			// If filter_by contains our test email, return a match
 			if strings.Contains(filterBy, testEmail) {
 				doc := map[string]interface{}{
-					"id":            testUserID,
-					"firstname":     testFirstname,
-					"lastname":      testLastname,
-					"email":         testEmail,
-					"avatar":        testAvatar,
-					"password_hash": testPasswordHash,
+					"id":           testUserID,
+					"firstname":    testFirstname,
+					"lastname":     testLastname,
+					"email":        testEmail,
+					"avatar":       testAvatar,
+					"passwordHash": testPasswordHash,
 				}
 				found := 1
 				hits := []map[string]interface{}{
@@ -121,10 +121,6 @@ func newMockTypesenseServer() *httptest.Server {
 			}
 
 			// General list search (no filter_by)
-			perPage := r.URL.Query().Get("per_page")
-			if perPage == "" {
-				perPage = "20"
-			}
 
 			users := []map[string]interface{}{
 				{
@@ -170,15 +166,15 @@ func newMockTypesenseServer() *httptest.Server {
 		switch docID {
 		case "1":
 			json.NewEncoder(w).Encode(map[string]interface{}{
-				"id":            "1",
-				"firstname":     "John",
-				"lastname":      "Doe",
-				"email":         "john@example.com",
-				"avatar":        testAvatar,
-				"password":      testPassword,
-				"password_hash": testPasswordHash,
-				"gender":        "M",
-				"phone":         "1234567890",
+				"id":           "1",
+				"firstname":    "John",
+				"lastname":     "Doe",
+				"email":        "john@example.com",
+				"avatar":       testAvatar,
+				"password":     testPassword,
+				"passwordHash": testPasswordHash,
+				"gender":       "M",
+				"phone":        "1234567890",
 			})
 		default:
 			w.WriteHeader(http.StatusNotFound)
@@ -208,14 +204,6 @@ type apiResponse struct {
 	Record  interface{}           `json:"record"`
 	Records interface{}           `json:"records"`
 	Errors  interface{}           `json:"errors"`
-}
-
-func decodeResponse(t *testing.T, resp *http.Response) apiResponse {
-	t.Helper()
-	var result apiResponse
-	err := json.NewDecoder(resp.Body).Decode(&result)
-	require.NoError(t, err)
-	return result
 }
 
 // ---------------------------------------------------------------------------
