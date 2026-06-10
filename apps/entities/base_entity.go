@@ -12,10 +12,11 @@ import (
 const (
 	SCHEMA = "dummy"
 
-	COLLECTION_USER    = "users"
+	COLLECTION_COMMENT = "comments"
+	COLLECTION_POST    = "posts"
 	COLLECTION_PRODUCT = "products"
 	COLLECTION_RECIPE  = "recipes"
-	COLLECTION_POST    = "posts"
+	COLLECTION_USER    = "users"
 )
 
 type BaseID struct {

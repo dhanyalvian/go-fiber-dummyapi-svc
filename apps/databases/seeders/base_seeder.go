@@ -9,10 +9,11 @@ import (
 func SeedAll(ts *tsclient.Client) {
 	fmt.Println("Seeding Typesense...")
 
-	SeedUserToTypesense(ts)
+	SeedCommentToTypesense(ts)
+	SeedPostToTypesense(ts)
 	SeedProductToTypesense(ts)
 	SeedRecipeToTypesense(ts)
-	SeedPostToTypesense(ts)
+	SeedUserToTypesense(ts)
 
 	fmt.Println("Typesense seeding completed!")
 }

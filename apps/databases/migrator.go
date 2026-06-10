@@ -23,10 +23,11 @@ func MigrateTypesense(ts *typesense.Client) {
 	fmt.Println("Running Typesense migrations...")
 
 	collections := []TypesenseCollection{
-		entities.User{},
+		entities.Comment{},
+		entities.Post{},
 		entities.Product{},
 		entities.Recipe{},
-		entities.Post{},
+		entities.User{},
 	}
 
 	ctx := context.Background()
