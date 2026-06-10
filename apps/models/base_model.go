@@ -5,6 +5,7 @@ package models
 import (
 	"encoding/json"
 	"go-fiber-dummyapi-svc/pkgs/request"
+	"net/http"
 
 	"github.com/dhanyalvian/go-fiber-packages/logger"
 	"github.com/gofiber/fiber/v2"
@@ -58,12 +59,38 @@ func GetList(
 
 	docs, err := tsClient.Collection(tsCollection).Documents().Search(c.Context(), searchParams)
 	if err != nil {
+		errCode := 500
+		errMsg := "Internal server error"
+
+		if tsErr, ok := err.(*typesense.HTTPError); ok {
+			switch tsErr.Status {
+			case http.StatusNotFound:
+				// collection tidak ada
+				errCode = fiber.StatusNotFound
+				errMsg = "Collection not found"
+
+			case http.StatusUnauthorized:
+				// API key salah
+				errCode = fiber.StatusUnauthorized
+				errMsg = "Invalid API key"
+
+			case http.StatusBadRequest:
+				// query salah / field tidak ada di schema
+				errCode = fiber.StatusBadRequest
+				errMsg = tsErr.Error()
+
+			default:
+				errCode = fiber.StatusInternalServerError
+				errMsg = tsErr.Error()
+			}
+		}
+
 		logData, _ = json.Marshal(map[string]any{
 			"type":       "GetList",
 			"collection": tsCollection,
-			"error":      err,
+			"error":      errMsg,
 		})
-		logger.Logging(500, "RESPONSE_TS", string(logData))
+		logger.Logging(errCode, "RESPONSE_TS", string(logData))
 
 		return nil, err
 	}
