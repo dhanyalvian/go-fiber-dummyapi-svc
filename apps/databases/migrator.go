@@ -26,6 +26,7 @@ func MigrateTypesense(ts *typesense.Client) {
 		entities.User{},
 		entities.Product{},
 		entities.Recipe{},
+		entities.Post{},
 	}
 
 	ctx := context.Background()

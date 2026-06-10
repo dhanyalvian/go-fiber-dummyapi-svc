@@ -15,6 +15,7 @@ const (
 	COLLECTION_USER    = "users"
 	COLLECTION_PRODUCT = "products"
 	COLLECTION_RECIPE  = "recipes"
+	COLLECTION_POST    = "posts"
 )
 
 type BaseID struct {

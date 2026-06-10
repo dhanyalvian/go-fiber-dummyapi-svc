@@ -12,6 +12,7 @@ func SeedAll(ts *tsclient.Client) {
 	SeedUserToTypesense(ts)
 	SeedProductToTypesense(ts)
 	SeedRecipeToTypesense(ts)
+	SeedPostToTypesense(ts)
 
 	fmt.Println("Typesense seeding completed!")
 }
