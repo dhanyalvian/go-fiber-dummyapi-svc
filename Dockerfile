@@ -28,8 +28,10 @@ ENV TZ=Asia/Jakarta
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=builder /usr/share/zoneinfo /usr/share/zoneinfo
 
-# Copy binary and config files from /build to root folder of scratch container.
-COPY --from=builder ["/build/dummyapi_svc", "/build/.env", "/"]
+# Copy binary, config files, and data from /build to root folder of scratch container.
+COPY --from=builder /build/dummyapi_svc /
+COPY --from=builder /build/.env /
+COPY --from=builder /build/apps/ /apps/
 
 # Command to run when starting the container.
 ENTRYPOINT ["/dummyapi_svc"]
