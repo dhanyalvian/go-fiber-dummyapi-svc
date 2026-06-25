@@ -18,8 +18,20 @@ func DeriveTypesenseFields[T any]() []api.Field {
 	return deriveFields(t, "")
 }
 
+func DeriveTypesenseFieldsWithDefaultSort[T any]() ([]api.Field, *string) {
+	var entity T
+	t := reflect.TypeOf(entity)
+
+	fields, defaultSort := deriveFieldsWithDefaultSort(t, "")
+	return fields, defaultSort
+}
+
 func deriveFields(t reflect.Type, prefix string) []api.Field {
 	return deriveFieldsInner(t, prefix, false)
+}
+
+func deriveFieldsWithDefaultSort(t reflect.Type, prefix string) ([]api.Field, *string) {
+	return deriveFieldsInnerWithDefaultSort(t, prefix, false)
 }
 
 func deriveFieldsInner(t reflect.Type, prefix string, insideArray bool) []api.Field {
@@ -76,6 +88,80 @@ func deriveFieldsInner(t reflect.Type, prefix string, insideArray bool) []api.Fi
 	}
 
 	return fields
+}
+
+func deriveFieldsInnerWithDefaultSort(t reflect.Type, prefix string, insideArray bool) ([]api.Field, *string) {
+	var fields []api.Field
+	var defaultSort *string
+
+	for i := range t.NumField() {
+		f := t.Field(i)
+
+		if !f.IsExported() {
+			continue
+		}
+
+		if f.Anonymous {
+			subFields, ds := deriveFieldsInnerWithDefaultSort(f.Type, prefix, insideArray)
+			fields = append(fields, subFields...)
+			if ds != nil {
+				defaultSort = ds
+			}
+			continue
+		}
+
+		tsTag := f.Tag.Get("typesense")
+
+		if tsTag == "skip" || tsTag == "-" {
+			continue
+		}
+
+		jsonName := jsonFieldName(f)
+		if jsonName == "" || jsonName == "-" {
+			continue
+		}
+
+		fullName := prefix + jsonName
+
+		opts := parseTypesenseTag(tsTag)
+		if hasOpt(opts, "defaultSort") {
+			defaultSort = pointer.String(fullName)
+		}
+
+		if f.Type.Kind() == reflect.Struct && f.Type != reflect.TypeOf(time.Time{}) {
+			field := api.Field{Name: fullName, Type: "object"}
+			applyFieldOptions(&field, tsTag)
+			fields = append(fields, field)
+			subFields, ds := deriveFieldsInnerWithDefaultSort(f.Type, fullName+".", insideArray)
+			fields = append(fields, subFields...)
+			if ds != nil {
+				defaultSort = ds
+			}
+			continue
+		}
+
+		if f.Type.Kind() == reflect.Slice && f.Type.Elem().Kind() == reflect.Struct {
+			field := api.Field{Name: fullName, Type: "object[]"}
+			applyFieldOptions(&field, tsTag)
+			fields = append(fields, field)
+			subFields, ds := deriveFieldsInnerWithDefaultSort(f.Type.Elem(), fullName+".", true)
+			fields = append(fields, subFields...)
+			if ds != nil {
+				defaultSort = ds
+			}
+			continue
+		}
+
+		tsType := resolveTypesenseType(f.Type)
+		if insideArray {
+			tsType = tsType + "[]"
+		}
+		field := api.Field{Name: fullName, Type: tsType}
+		applyFieldOptions(&field, tsTag, insideArray)
+		fields = append(fields, field)
+	}
+
+	return fields, defaultSort
 }
 
 func applyFieldOptions(field *api.Field, tsTag string, insideArray ...bool) {

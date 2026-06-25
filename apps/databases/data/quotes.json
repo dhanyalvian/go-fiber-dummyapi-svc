@@ -1,0 +1,752 @@
+[
+  {
+    "id": "1",
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": "2",
+    "quote": "Innovation distinguishes between a leader and a follower.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": "3",
+    "quote": "Stay hungry, stay foolish.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": "4",
+    "quote": "Life is what happens when you are busy making other plans.",
+    "author": "John Lennon"
+  },
+  {
+    "id": "5",
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "id": "6",
+    "quote": "It does not matter how slowly you go as long as you do not stop.",
+    "author": "Confucius"
+  },
+  {
+    "id": "7",
+    "quote": "In the middle of every difficulty lies opportunity.",
+    "author": "Albert Einstein"
+  },
+  {
+    "id": "8",
+    "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "author": "Winston Churchill"
+  },
+  {
+    "id": "9",
+    "quote": "Believe you can and you are halfway there.",
+    "author": "Theodore Roosevelt"
+  },
+  {
+    "id": "10",
+    "quote": "The only impossible journey is the one you never begin.",
+    "author": "Tony Robbins"
+  },
+  {
+    "id": "11",
+    "quote": "Act as if what you do makes a difference. It does.",
+    "author": "William James"
+  },
+  {
+    "id": "12",
+    "quote": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+    "author": "Zig Ziglar"
+  },
+  {
+    "id": "13",
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "author": "Chinese Proverb"
+  },
+  {
+    "id": "14",
+    "quote": "Your time is limited, so do not waste it living someone else's life.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": "15",
+    "quote": "If you look at what you have in life, you will always have more.",
+    "author": "Oprah Winfrey"
+  },
+  {
+    "id": "16",
+    "quote": "If you set your goals ridiculously high and if it is a failure, you will fail above everyone else's success.",
+    "author": "James Cameron"
+  },
+  {
+    "id": "17",
+    "quote": "Life is either a daring adventure or nothing at all.",
+    "author": "Helen Keller"
+  },
+  {
+    "id": "18",
+    "quote": "You must be the change you wish to see in the world.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": "19",
+    "quote": "Spread love everywhere you go. Let no one ever come to you without leaving happier.",
+    "author": "Mother Teresa"
+  },
+  {
+    "id": "20",
+    "quote": "Always remember that you are absolutely unique. Just like everyone else.",
+    "author": "Margaret Mead"
+  },
+  {
+    "id": "21",
+    "quote": "Do what you can, with what you have, where you are.",
+    "author": "Theodore Roosevelt"
+  },
+  {
+    "id": "22",
+    "quote": "If we all did the things we are really capable of doing, we would literally astound ourselves.",
+    "author": "Thomas Edison"
+  },
+  {
+    "id": "23",
+    "quote": "Never let the fear of striking out keep you from playing the game.",
+    "author": "Babe Ruth"
+  },
+  {
+    "id": "24",
+    "quote": "The mind is everything. What you think you become.",
+    "author": "Buddha"
+  },
+  {
+    "id": "25",
+    "quote": "Strive not to be a success, but rather to be of value.",
+    "author": "Albert Einstein"
+  },
+  {
+    "id": "26",
+    "quote": "Two roads diverged in a wood, and I took the one less traveled by, and that has made all the difference.",
+    "author": "Robert Frost"
+  },
+  {
+    "id": "27",
+    "quote": "The most difficult thing is the decision to act; the rest is merely tenacity.",
+    "author": "Amelia Earhart"
+  },
+  {
+    "id": "28",
+    "quote": "Every strike brings me closer to the next home run.",
+    "author": "Babe Ruth"
+  },
+  {
+    "id": "29",
+    "quote": "Definiteness of purpose is the starting point of all achievement.",
+    "author": "W. Clement Stone"
+  },
+  {
+    "id": "30",
+    "quote": "Life isn't about getting and having, it's about giving and being.",
+    "author": "Kevin Kruse"
+  },
+  {
+    "id": "31",
+    "quote": "Life is 10% what happens to me and 90% of how I react to it.",
+    "author": "Charles Swindoll"
+  },
+  {
+    "id": "32",
+    "quote": "The most common way people give up their power is by thinking they don't have any.",
+    "author": "Alice Walker"
+  },
+  {
+    "id": "33",
+    "quote": "Build your own dreams, or someone else will hire you to build theirs.",
+    "author": "Farrah Gray"
+  },
+  {
+    "id": "34",
+    "quote": "The battles that count aren't the ones for gold medals. The struggles within yourself the invisible, inevitable battles inside all of us that's where it's at.",
+    "author": "Jesse Owens"
+  },
+  {
+    "id": "35",
+    "quote": "Education costs money. But then so does ignorance.",
+    "author": "Sir Claus Moser"
+  },
+  {
+    "id": "36",
+    "quote": "I have learned over the years that when one's mind is made up, this diminishes fear.",
+    "author": "Rosa Parks"
+  },
+  {
+    "id": "37",
+    "quote": "It does not matter how long you are living, but how well you are living.",
+    "author": "Seneca"
+  },
+  {
+    "id": "38",
+    "quote": "When I hear somebody sigh, Life is hard, I am always tempted to ask, Compared to what?",
+    "author": "Sydney Harris"
+  },
+  {
+    "id": "39",
+    "quote": "Everything you can imagine is real.",
+    "author": "Pablo Picasso"
+  },
+  {
+    "id": "40",
+    "quote": "Do what you feel in your heart to be right for you will be criticized anyway.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "id": "41",
+    "quote": "Whatever you do, do it well.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": "42",
+    "quote": "Happiness is not something readymade. It comes from your own actions.",
+    "author": "Dalai Lama"
+  },
+  {
+    "id": "43",
+    "quote": "The only journey is the journey within.",
+    "author": "Rainer Maria Rilke"
+  },
+  {
+    "id": "44",
+    "quote": "Success usually comes to those who are too busy to be looking for it.",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "id": "45",
+    "quote": "Don't be afraid to give up the good to go for the great.",
+    "author": "John D. Rockefeller"
+  },
+  {
+    "id": "46",
+    "quote": "I find that the harder I work, the more luck I seem to have.",
+    "author": "Thomas Jefferson"
+  },
+  {
+    "id": "47",
+    "quote": "The way to get started is to quit talking and begin doing.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": "48",
+    "quote": "If you really look closely, most overnight successes took a long time.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": "49",
+    "quote": "The secret of getting ahead is getting started.",
+    "author": "Mark Twain"
+  },
+  {
+    "id": "50",
+    "quote": "Don't let yesterday take up too much of today.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": "51",
+    "quote": "You learn more from failure than from success. Don't let it stop you.",
+    "author": "Unknown"
+  },
+  {
+    "id": "52",
+    "quote": "It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.",
+    "author": "Charles Darwin"
+  },
+  {
+    "id": "53",
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": "54",
+    "quote": "Creativity is intelligence having fun.",
+    "author": "Albert Einstein"
+  },
+  {
+    "id": "55",
+    "quote": "What we achieve inwardly will change outer reality.",
+    "author": "Plutarch"
+  },
+  {
+    "id": "56",
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "id": "57",
+    "quote": "The way to get started is to quit talking and begin doing.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": "58",
+    "quote": "It is during our darkest moments that we must focus to see the light.",
+    "author": "Aristotle"
+  },
+  {
+    "id": "59",
+    "quote": "Whoever is happy will make others happy too.",
+    "author": "Anne Frank"
+  },
+  {
+    "id": "60",
+    "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": "61",
+    "quote": "You will face many defeats in life, but never let yourself be defeated.",
+    "author": "Maya Angelou"
+  },
+  {
+    "id": "62",
+    "quote": "Never let your sense of morals prevent you from doing what is right.",
+    "author": "Isaac Asimov"
+  },
+  {
+    "id": "63",
+    "quote": "The greatest wealth is to live content with little.",
+    "author": "Plato"
+  },
+  {
+    "id": "64",
+    "quote": "To live is the rarest thing in the world. Most people exist, that is all.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "id": "65",
+    "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "author": "Aristotle"
+  },
+  {
+    "id": "66",
+    "quote": "If you want to lift yourself up, lift up someone else.",
+    "author": "Booker T. Washington"
+  },
+  {
+    "id": "67",
+    "quote": "The purpose of our lives is to be happy.",
+    "author": "Dalai Lama"
+  },
+  {
+    "id": "68",
+    "quote": "In order to write about life first you must live it.",
+    "author": "Ernest Hemingway"
+  },
+  {
+    "id": "69",
+    "quote": "The best revenge is massive success.",
+    "author": "Frank Sinatra"
+  },
+  {
+    "id": "70",
+    "quote": "I have not failed. I have found 10,000 ways that won't work.",
+    "author": "Thomas Edison"
+  },
+  {
+    "id": "71",
+    "quote": "If you look at what you have in life, you will always have more.",
+    "author": "Oprah Winfrey"
+  },
+  {
+    "id": "72",
+    "quote": "Turn your wounds into wisdom.",
+    "author": "Oprah Winfrey"
+  },
+  {
+    "id": "73",
+    "quote": "The only thing we have to fear is fear itself.",
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": "74",
+    "quote": "It always seems impossible until it is done.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "id": "75",
+    "quote": "Keep your face always toward the sunshine and shadows will fall behind you.",
+    "author": "Walt Whitman"
+  },
+  {
+    "id": "76",
+    "quote": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": "77",
+    "quote": "When you reach the end of your rope, tie a knot in it and hang on.",
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": "78",
+    "quote": "Always do your best. What you plant now, you will harvest later.",
+    "author": "Og Mandino"
+  },
+  {
+    "id": "79",
+    "quote": "Everything has beauty, but not everyone sees it.",
+    "author": "Confucius"
+  },
+  {
+    "id": "80",
+    "quote": "The price of anything is the amount of life you exchange for it.",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "id": "81",
+    "quote": "The best time to make friends is before you need them.",
+    "author": "Ethel Barrymore"
+  },
+  {
+    "id": "82",
+    "quote": "Life is really simple, but we insist on making it complicated.",
+    "author": "Confucius"
+  },
+  {
+    "id": "83",
+    "quote": "Falling down is how we grow. Staying down is how we die.",
+    "author": "Brian Vaszily"
+  },
+  {
+    "id": "84",
+    "quote": "We become what we think about.",
+    "author": "Earl Nightingale"
+  },
+  {
+    "id": "85",
+    "quote": "The only person you are destined to become is the person you decide to be.",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": "86",
+    "quote": "Your action is the foundation stone upon which all your dreams rest.",
+    "author": "Unknown"
+  },
+  {
+    "id": "87",
+    "quote": "He who fears he shall suffer, already suffers what he fears.",
+    "author": "Michel de Montaigne"
+  },
+  {
+    "id": "88",
+    "quote": "A person who never made a mistake never tried anything new.",
+    "author": "Albert Einstein"
+  },
+  {
+    "id": "89",
+    "quote": "The man who has confidence in himself gains the confidence of others.",
+    "author": "Hasidic Proverb"
+  },
+  {
+    "id": "90",
+    "quote": "The only wisdom we can hope to acquire is the wisdom of humility.",
+    "author": "T.S. Eliot"
+  },
+  {
+    "id": "91",
+    "quote": "We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.",
+    "author": "Plato"
+  },
+  {
+    "id": "92",
+    "quote": "The secret of change is to focus all your energy not on fighting the old, but on building the new.",
+    "author": "Socrates"
+  },
+  {
+    "id": "93",
+    "quote": "Talk doesn't cook rice.",
+    "author": "Chinese Proverb"
+  },
+  {
+    "id": "94",
+    "quote": "The soul that is within me no man can degrade.",
+    "author": "Frederick Douglass"
+  },
+  {
+    "id": "95",
+    "quote": "I am not a product of my circumstances. I am a product of my decisions.",
+    "author": "Stephen Covey"
+  },
+  {
+    "id": "96",
+    "quote": "When the past calls, let it go to voicemail. It has nothing new to say.",
+    "author": "Unknown"
+  },
+  {
+    "id": "97",
+    "quote": "The best way to predict the future is to create it.",
+    "author": "Abraham Lincoln"
+  },
+  {
+    "id": "98",
+    "quote": "What we think, we become.",
+    "author": "Buddha"
+  },
+  {
+    "id": "99",
+    "quote": "All our dreams can come true if we have the courage to pursue them.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": "100",
+    "quote": "Success is walking from failure to failure with no loss of enthusiasm.",
+    "author": "Winston Churchill"
+  },
+  {
+    "id": "101",
+    "quote": "The only thing that stands between you and your dream is the story you keep telling yourself that you can't do it.",
+    "author": "Jordan Belfort"
+  },
+  {
+    "id": "102",
+    "quote": "Happiness depends upon ourselves.",
+    "author": "Aristotle"
+  },
+  {
+    "id": "103",
+    "quote": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+    "author": "Zig Ziglar"
+  },
+  {
+    "id": "104",
+    "quote": "No one can make you feel inferior without your consent.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "id": "105",
+    "quote": "The most important thing is to enjoy your life to be happy. It is all that matters.",
+    "author": "Audrey Hepburn"
+  },
+  {
+    "id": "106",
+    "quote": "If opportunity does not knock, build a door.",
+    "author": "Milton Berle"
+  },
+  {
+    "id": "107",
+    "quote": "The journey of a thousand miles begins with a single step.",
+    "author": "Lao Tzu"
+  },
+  {
+    "id": "108",
+    "quote": "Whatever you are, be a good one.",
+    "author": "Abraham Lincoln"
+  },
+  {
+    "id": "109",
+    "quote": "The greatest discovery of all time is that a person can change his future by merely changing his attitude.",
+    "author": "Oprah Winfrey"
+  },
+  {
+    "id": "110",
+    "quote": "Don't wait. The time will never be just right.",
+    "author": "Napoleon Hill"
+  },
+  {
+    "id": "111",
+    "quote": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": "112",
+    "quote": "In three words I can sum up life: it goes on.",
+    "author": "Robert Frost"
+  },
+  {
+    "id": "113",
+    "quote": "The only true wisdom is in knowing you know nothing.",
+    "author": "Socrates"
+  },
+  {
+    "id": "114",
+    "quote": "Life is a long lesson in humility.",
+    "author": "James M. Barrie"
+  },
+  {
+    "id": "115",
+    "quote": "In the end, it is not the years in your life that count, but the life in your years.",
+    "author": "Abraham Lincoln"
+  },
+  {
+    "id": "116",
+    "quote": "Never too old to learn.",
+    "author": "Proverb"
+  },
+  {
+    "id": "117",
+    "quote": "The greatest wealth is health.",
+    "author": "Virgil"
+  },
+  {
+    "id": "118",
+    "quote": "You miss 100% of the shots you don't take.",
+    "author": "Wayne Gretzky"
+  },
+  {
+    "id": "119",
+    "quote": "It always seems impossible until it's done.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "id": "120",
+    "quote": "The best way to find yourself is to lose yourself in the service of others.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": "121",
+    "quote": "Change is the law of life. And those who look only to the past or present are certain to miss the future.",
+    "author": "John F. Kennedy"
+  },
+  {
+    "id": "122",
+    "quote": "I have not failed. I have found 10,000 ways that won't work.",
+    "author": "Thomas Edison"
+  },
+  {
+    "id": "123",
+    "quote": "If you think you are too small to make a difference, try sleeping with a mosquito.",
+    "author": "Dalai Lama"
+  },
+  {
+    "id": "124",
+    "quote": "The only way to have a friend is to be one.",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": "125",
+    "quote": "Do one thing every day that scares you.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "id": "126",
+    "quote": "A room without books is like a body without a soul.",
+    "author": "Marcus Tullius Cicero"
+  },
+  {
+    "id": "127",
+    "quote": "We are all in the gutter, but some of us are looking at the stars.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "id": "128",
+    "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": "129",
+    "quote": "Only in the darkness can you see the stars.",
+    "author": "Martin Luther King Jr."
+  },
+  {
+    "id": "130",
+    "quote": "The purpose of life is a life of purpose.",
+    "author": "Robert Byrne"
+  },
+  {
+    "id": "131",
+    "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": "132",
+    "quote": "I cannot teach anybody anything. I can only make them think.",
+    "author": "Socrates"
+  },
+  {
+    "id": "133",
+    "quote": "The soul becomes dyed with the colour of its thoughts.",
+    "author": "Marcus Aurelius"
+  },
+  {
+    "id": "134",
+    "quote": "It is not that we have a short time to live, but that we waste much of it.",
+    "author": "Seneca"
+  },
+  {
+    "id": "135",
+    "quote": "Life is long if you know how to use it.",
+    "author": "Seneca"
+  },
+  {
+    "id": "136",
+    "quote": "Begin at once to live, and count each separate day as a separate life.",
+    "author": "Seneca"
+  },
+  {
+    "id": "137",
+    "quote": "He who fears death will never do anything worthy of a living man.",
+    "author": "Seneca"
+  },
+  {
+    "id": "138",
+    "quote": "We suffer more in imagination than in reality.",
+    "author": "Seneca"
+  },
+  {
+    "id": "139",
+    "quote": "The whole future lies in uncertainty: live immediately.",
+    "author": "Seneca"
+  },
+  {
+    "id": "140",
+    "quote": "Luck is what happens when preparation meets opportunity.",
+    "author": "Seneca"
+  },
+  {
+    "id": "141",
+    "quote": "It is not because things are difficult that we do not dare; it is because we do not dare that things are difficult.",
+    "author": "Seneca"
+  },
+  {
+    "id": "142",
+    "quote": "True happiness is to enjoy the present, without anxious dependence upon the future.",
+    "author": "Seneca"
+  },
+  {
+    "id": "143",
+    "quote": "Associate with people who are likely to improve you.",
+    "author": "Seneca"
+  },
+  {
+    "id": "144",
+    "quote": "The only limit to our realization of tomorrow is our doubts of today.",
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": "145",
+    "quote": "In the middle of difficulty lies opportunity.",
+    "author": "Albert Einstein"
+  },
+  {
+    "id": "146",
+    "quote": "What we achieve inwardly will change outer reality.",
+    "author": "Plutarch"
+  },
+  {
+    "id": "147",
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "id": "148",
+    "quote": "It is during our darkest moments that we must focus to see the light.",
+    "author": "Aristotle"
+  },
+  {
+    "id": "149",
+    "quote": "Whoever is happy will make others happy too.",
+    "author": "Anne Frank"
+  },
+  {
+    "id": "150",
+    "quote": "Never let your sense of morals prevent you from doing what is right.",
+    "author": "Isaac Asimov"
+  }
+]

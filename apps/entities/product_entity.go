@@ -12,7 +12,7 @@ import (
 type Product struct {
 	BaseID
 
-	Name        string `json:"name" typesense:"index,sort"`
+	Name        string `json:"name" typesense:"index,sort,defaultSort"`
 	Description string `json:"description" typesense:"optional"`
 	SKU         string `json:"sku" typesense:"index,sort"`
 
@@ -68,5 +68,5 @@ func (Product) ColletionName() string {
 }
 
 func (Product) TypesenseSchema() ([]api.Field, *string) {
-	return utils.DeriveTypesenseFields[Product](), nil
+	return utils.DeriveTypesenseFieldsWithDefaultSort[Product]()
 }

@@ -10,7 +10,8 @@ import (
 
 func ListRecipe(c *fiber.Ctx, ts *typesense.Client) (*api.SearchResult, error) {
 	queryBy := "name,cuisine,tags,mealType"
-	return GetList(c, ts, entities.Recipe{}.ColletionName(), queryBy, "")
+	sortBy := []string{"name:asc"}
+	return GetList(c, ts, entities.Recipe{}.ColletionName(), queryBy, "", sortBy)
 }
 
 func DetailRecipe(c *fiber.Ctx, ts *typesense.Client, id string) (map[string]any, error) {

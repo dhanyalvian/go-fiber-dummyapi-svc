@@ -12,6 +12,7 @@ func SeedAll(ts *tsclient.Client) {
 	SeedCommentToTypesense(ts)
 	SeedPostToTypesense(ts)
 	SeedProductToTypesense(ts)
+	SeedQuoteToTypesense(ts)
 	SeedRecipeToTypesense(ts)
 	SeedUserToTypesense(ts)
 

@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"go-fiber-dummyapi-svc/pkgs/request"
 	"net/http"
+	"strings"
 
 	"github.com/dhanyalvian/go-fiber-packages/logger"
 	"github.com/gofiber/fiber/v2"
@@ -36,8 +37,10 @@ func GetList(
 	tsCollection string,
 	queryBy string,
 	filterBy string,
+	sortBy []string,
 ) (*api.SearchResult, error) {
 	querySearch := c.Query("search", "*")
+	sortStr := strings.Join(sortBy, ",")
 	page := request.GetPage(c)
 	limit := request.GetLimit(c)
 
@@ -46,6 +49,7 @@ func GetList(
 		"collection":  tsCollection,
 		"querySearch": querySearch,
 		"queryBy":     queryBy,
+		"sortBy":      sortStr,
 		"page":        page,
 		"limit":       limit,
 	})
@@ -54,6 +58,7 @@ func GetList(
 	searchParams := &api.SearchCollectionParams{
 		Q:       &querySearch,
 		QueryBy: &queryBy,
+		SortBy:  pointer.String(sortStr),
 		Page:    pointer.Int(page),
 		PerPage: pointer.Int(limit),
 	}

@@ -12,7 +12,7 @@ import (
 type Recipe struct {
 	BaseID
 
-	Name         string                 `json:"name" typesense:"index,sort"`
+	Name         string                 `json:"name" typesense:"index,sort,defaultSort"`
 	Cuisine      string                 `json:"cuisine" typesense:"index,facet"`
 	CuisineCode  string                 `json:"cuisineCode" typesense:"index,facet"`
 	Description  string                 `json:"description" typesense:"optional"`
@@ -75,5 +75,5 @@ func (Recipe) ColletionName() string {
 }
 
 func (Recipe) TypesenseSchema() ([]api.Field, *string) {
-	return utils.DeriveTypesenseFields[Recipe](), nil
+	return utils.DeriveTypesenseFieldsWithDefaultSort[Recipe]()
 }

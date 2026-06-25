@@ -15,12 +15,13 @@ const (
 	COLLECTION_COMMENT = "comments"
 	COLLECTION_POST    = "posts"
 	COLLECTION_PRODUCT = "products"
+	COLLECTION_QUOTE   = "quotes"
 	COLLECTION_RECIPE  = "recipes"
 	COLLECTION_USER    = "users"
 )
 
 type BaseID struct {
-	ID string `json:"id"`
+	ID string `json:"id" typesense:"index,sort"`
 }
 
 type BaseTimestamp struct {
