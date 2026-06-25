@@ -16,6 +16,7 @@ func InitRouter(app *fiber.App, cfg *configs.Config, ts *typesense.Client) {
 	routes.RouteComment(app, cfg, ts)
 	routes.RoutePost(app, cfg, ts)
 	routes.RouteProduct(app, cfg, ts)
+	routes.RouteQuote(app, cfg, ts)
 	routes.RouteRecipe(app, cfg, ts)
 	routes.RouteUser(app, cfg, ts)
 

@@ -38,10 +38,10 @@ type UserDoc struct {
 type RespListUser struct {
 	BaseID
 
-	Firstname string `json:"firstname"`
-	Lastname  string `json:"lastname"`
-	Email     string `json:"email"`
-	Phone     string `json:"phone"`
+	Firstname string `json:"firstname" typesense:"index,sort,defaultSort"`
+	Lastname  string `json:"lastname" typesense:"index,sort"`
+	Email     string `json:"email" typesense:"index,sort"`
+	Phone     string `json:"phone" typesense:"index"`
 	Avatar    string `json:"avatar"`
 	Gender    Gender `json:"gender"`
 }
@@ -58,5 +58,5 @@ func (User) ColletionName() string {
 }
 
 func (User) TypesenseSchema() ([]api.Field, *string) {
-	return utils.DeriveTypesenseFields[User](), nil
+	return utils.DeriveTypesenseFieldsWithDefaultSort[User]()
 }

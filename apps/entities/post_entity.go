@@ -12,7 +12,7 @@ type Post struct {
 	BaseID
 
 	UserID   string   `json:"user_id" typesense:"index"`
-	Title    string   `json:"title" typesense:"index"`
+	Title    string   `json:"title" typesense:"index,sort,defaultSort"`
 	Body     string   `json:"body" typesense:"index"`
 	Tags     []string `json:"tags" typesense:"index"`
 	Likes    int      `json:"likes"`
@@ -39,5 +39,5 @@ func (Post) ColletionName() string {
 }
 
 func (Post) TypesenseSchema() ([]api.Field, *string) {
-	return utils.DeriveTypesenseFields[Post](), nil
+	return utils.DeriveTypesenseFieldsWithDefaultSort[Post]()
 }

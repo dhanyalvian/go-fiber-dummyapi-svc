@@ -12,7 +12,8 @@ import (
 
 func ListComment(c *fiber.Ctx, ts *typesense.Client) (*api.SearchResult, error) {
 	queryBy := "user_id,post_id,body"
-	return GetList(c, ts, entities.Comment{}.ColletionName(), queryBy, "")
+	sortBy := []string{"body:asc"}
+	return GetList(c, ts, entities.Comment{}.ColletionName(), queryBy, "", sortBy)
 }
 
 func DetailComment(c *fiber.Ctx, ts *typesense.Client, id string) (map[string]any, error) {

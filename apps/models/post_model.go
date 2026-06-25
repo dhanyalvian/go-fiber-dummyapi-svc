@@ -13,7 +13,8 @@ import (
 
 func ListPost(c *fiber.Ctx, ts *typesense.Client) (*api.SearchResult, error) {
 	queryBy := "user_id,title,body,tags"
-	return GetList(c, ts, entities.Post{}.ColletionName(), queryBy, "")
+	sortBy := []string{"title:asc"}
+	return GetList(c, ts, entities.Post{}.ColletionName(), queryBy, "", sortBy)
 }
 
 func DetailPost(c *fiber.Ctx, ts *typesense.Client, id string) (map[string]any, error) {
@@ -23,5 +24,6 @@ func DetailPost(c *fiber.Ctx, ts *typesense.Client, id string) (map[string]any, 
 func ListPostComment(c *fiber.Ctx, ts *typesense.Client, id string) (*api.SearchResult, error) {
 	queryBy := "user_id,post_id,body"
 	filterBy := fmt.Sprintf("post_id:=%s", id)
-	return GetList(c, ts, entities.Comment{}.ColletionName(), queryBy, filterBy)
+	sortBy := []string{"id:asc"}
+	return GetList(c, ts, entities.Comment{}.ColletionName(), queryBy, filterBy, sortBy)
 }

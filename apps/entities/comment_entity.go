@@ -13,7 +13,7 @@ type Comment struct {
 
 	UserID string `json:"user_id" typesense:"index"`
 	PostID string `json:"post_id" typesense:"index"`
-	Body   string `json:"body" typesense:"index"`
+	Body   string `json:"body" typesense:"index,sort,defaultSort"`
 	Likes  int    `json:"likes"`
 
 	BaseTimestamp
@@ -36,5 +36,5 @@ func (Comment) ColletionName() string {
 }
 
 func (Comment) TypesenseSchema() ([]api.Field, *string) {
-	return utils.DeriveTypesenseFields[Comment](), nil
+	return utils.DeriveTypesenseFieldsWithDefaultSort[Comment]()
 }

@@ -26,6 +26,7 @@ func MigrateTypesense(ts *typesense.Client) {
 		entities.Comment{},
 		entities.Post{},
 		entities.Product{},
+		entities.Quote{},
 		entities.Recipe{},
 		entities.User{},
 	}
@@ -35,6 +36,12 @@ func MigrateTypesense(ts *typesense.Client) {
 	for _, col := range collections {
 		name := col.ColletionName()
 		fields, defaultSort := col.TypesenseSchema()
+
+		if defaultSort != nil {
+			fmt.Printf("defaultSort: %s\n", *defaultSort)
+		} else {
+			fmt.Println("defaultSort: <nil>")
+		}
 
 		dropCollection(ts, ctx, name)
 		createCollection(ts, ctx, name, fields, defaultSort)
