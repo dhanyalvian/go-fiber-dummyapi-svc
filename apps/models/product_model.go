@@ -12,7 +12,7 @@ import (
 
 func ListProduct(c *fiber.Ctx, ts *typesense.Client) (*api.SearchResult, error) {
 	queryBy := "name,sku,brand,category,tags"
-	return GetList(c, ts, entities.Product{}.ColletionName(), queryBy)
+	return GetList(c, ts, entities.Product{}.ColletionName(), queryBy, "")
 }
 
 func DetailProduct(c *fiber.Ctx, ts *typesense.Client, id string) (map[string]any, error) {

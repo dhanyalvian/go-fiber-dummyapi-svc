@@ -35,6 +35,7 @@ func GetList(
 	tsClient *typesense.Client,
 	tsCollection string,
 	queryBy string,
+	filterBy string,
 ) (*api.SearchResult, error) {
 	querySearch := c.Query("search", "*")
 	page := request.GetPage(c)
@@ -55,6 +56,10 @@ func GetList(
 		QueryBy: &queryBy,
 		Page:    pointer.Int(page),
 		PerPage: pointer.Int(limit),
+	}
+
+	if filterBy != "" {
+		searchParams.FilterBy = pointer.String(filterBy)
 	}
 
 	docs, err := tsClient.Collection(tsCollection).Documents().Search(c.Context(), searchParams)
