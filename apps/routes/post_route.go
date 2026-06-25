@@ -16,4 +16,5 @@ func RoutePost(api fiber.Router, cfg *configs.Config, ts *typesense.Client) {
 
 	api.Get(ep, h.List)
 	api.Get(ep+"/:id", h.Detail)
+	api.Get(ep+"/:id/comments", h.ListComment)
 }

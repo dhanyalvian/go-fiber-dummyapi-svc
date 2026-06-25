@@ -12,7 +12,7 @@ import (
 
 func ListComment(c *fiber.Ctx, ts *typesense.Client) (*api.SearchResult, error) {
 	queryBy := "user_id,post_id,body"
-	return GetList(c, ts, entities.Comment{}.ColletionName(), queryBy)
+	return GetList(c, ts, entities.Comment{}.ColletionName(), queryBy, "")
 }
 
 func DetailComment(c *fiber.Ctx, ts *typesense.Client, id string) (map[string]any, error) {

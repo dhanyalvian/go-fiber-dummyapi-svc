@@ -36,3 +36,13 @@ func (h *PostHandler) Detail(c *fiber.Ctx) error {
 
 	return RespSuccessDetail[entities.RespDetailPost](c, doc)
 }
+
+func (h *PostHandler) ListComment(c *fiber.Ctx) error {
+	id := GetId(c)
+	docs, err := models.ListPostComment(c, h.TS, id)
+	if err != nil {
+		return RespError(c, 500, "Internal server error", nil)
+	}
+
+	return RespSucessList[entities.RespListComment](c, docs)
+}
