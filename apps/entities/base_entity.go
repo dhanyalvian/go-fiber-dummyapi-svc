@@ -13,6 +13,7 @@ const (
 	SCHEMA = "dummy"
 
 	COLLECTION_COMMENT = "comments"
+	COLLECTION_ORDER   = "orders"
 	COLLECTION_POST    = "posts"
 	COLLECTION_PRODUCT = "products"
 	COLLECTION_QUOTE   = "quotes"

@@ -1,0 +1,1909 @@
+[
+  {
+    "id": "1",
+    "status": "completed",
+    "items": [
+      {
+        "productId": "63",
+        "name": "LED Camping Lantern Pro",
+        "sku": "PETS-PET-063",
+        "price": 244.76,
+        "discount": 26.52,
+        "quantity": 1,
+        "subtotal": 179.85
+      },
+      {
+        "productId": "58",
+        "name": "Kids Electric Toothbrush Pro",
+        "sku": "HOME-HOM-058",
+        "price": 38.74,
+        "discount": 43.59,
+        "quantity": 5,
+        "subtotal": 109.25
+      },
+      {
+        "productId": "36",
+        "name": "Running Shorts Plus",
+        "sku": "SPRT-SPR-036",
+        "price": 61.64,
+        "discount": 46.32,
+        "quantity": 1,
+        "subtotal": 33.09
+      }
+    ],
+    "totalPrice": 500.1,
+    "totalDiscount": 177.91,
+    "finalPrice": 322.19,
+    "orderNo": "ORD-20250514-001",
+    "customerId": "2",
+    "customerName": "George Heller",
+    "customerEmail": "george.heller@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=George%20Heller",
+    "paymentMethod": "Debit Card",
+    "orderDate": "2025-05-14T01:01:05Z"
+  },
+  {
+    "id": "2",
+    "status": "completed",
+    "items": [
+      {
+        "productId": "144",
+        "name": "Office Chair Plus",
+        "sku": "PETS-PET-144",
+        "price": 18.04,
+        "discount": 47.55,
+        "quantity": 2,
+        "subtotal": 18.92
+      }
+    ],
+    "totalPrice": 36.08,
+    "totalDiscount": 17.16,
+    "finalPrice": 18.92,
+    "orderNo": "ORD-20250621-001",
+    "customerId": "4",
+    "customerName": "Hunter Franecki",
+    "customerEmail": "hunter.franecki@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Hunter%20Franecki",
+    "paymentMethod": "Credit Card",
+    "orderDate": "2025-06-21T22:34:26Z"
+  },
+  {
+    "id": "3",
+    "status": "processing",
+    "items": [
+      {
+        "productId": "208",
+        "name": "Enzyme Pet Stain Cleaner Plus",
+        "sku": "HOME-HOM-208",
+        "price": 27.58,
+        "discount": 49.58,
+        "quantity": 2,
+        "subtotal": 27.82
+      },
+      {
+        "productId": "223",
+        "name": "Training Dog Treats  Elite",
+        "sku": "BEAU-BEA-223",
+        "price": 30.81,
+        "discount": 30.95,
+        "quantity": 4,
+        "subtotal": 85.08
+      },
+      {
+        "productId": "2",
+        "name": "Wood Desk Organizer  Max",
+        "sku": "ACCS-ACC-002",
+        "price": 330.46,
+        "discount": 0.0,
+        "quantity": 3,
+        "subtotal": 991.38
+      }
+    ],
+    "totalPrice": 1169.78,
+    "totalDiscount": 65.5,
+    "finalPrice": 1104.28,
+    "orderNo": "ORD-20250305-001",
+    "customerId": "4",
+    "customerName": "Hunter Franecki",
+    "customerEmail": "hunter.franecki@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Hunter%20Franecki",
+    "paymentMethod": "PayPal",
+    "orderDate": "2025-03-05T06:48:21Z"
+  },
+  {
+    "id": "4",
+    "status": "completed",
+    "items": [
+      {
+        "productId": "25",
+        "name": "Ceramic Hair Straightener  Elite",
+        "sku": "BEAU-BEA-025",
+        "price": 86.19,
+        "discount": 0.0,
+        "quantity": 5,
+        "subtotal": 430.95
+      },
+      {
+        "productId": "92",
+        "name": "Bootcut Womens Jeans",
+        "sku": "PETS-PET-092",
+        "price": 247.83,
+        "discount": 8.36,
+        "quantity": 3,
+        "subtotal": 681.33
+      },
+      {
+        "productId": "217",
+        "name": "Sensitive Baby Wipes  Elite",
+        "sku": "SPRT-SPR-217",
+        "price": 247.83,
+        "discount": 0.0,
+        "quantity": 1,
+        "subtotal": 247.83
+      },
+      {
+        "productId": "89",
+        "name": "Yoga Swing Hammock",
+        "sku": "ACCS-ACC-089",
+        "price": 496.5,
+        "discount": 12.97,
+        "quantity": 4,
+        "subtotal": 1728.4
+      }
+    ],
+    "totalPrice": 3408.27,
+    "totalDiscount": 319.76,
+    "finalPrice": 3088.51,
+    "orderNo": "ORD-20250504-001",
+    "customerId": "2",
+    "customerName": "George Heller",
+    "customerEmail": "george.heller@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=George%20Heller",
+    "paymentMethod": "Debit Card",
+    "orderDate": "2025-05-04T12:05:35Z"
+  },
+  {
+    "id": "5",
+    "status": "pending",
+    "items": [
+      {
+        "productId": "148",
+        "name": "Variety Lip Balm Pro",
+        "sku": "SPRT-SPR-148",
+        "price": 235.81,
+        "discount": 49.65,
+        "quantity": 1,
+        "subtotal": 118.73
+      },
+      {
+        "productId": "50",
+        "name": "Electric Kettle Pro",
+        "sku": "SPRT-SPR-050",
+        "price": 155.73,
+        "discount": 49.95,
+        "quantity": 1,
+        "subtotal": 77.94
+      },
+      {
+        "productId": "181",
+        "name": "Slim Fit Dress Shirt Plus",
+        "sku": "PETS-PET-181",
+        "price": 318.99,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 637.98
+      }
+    ],
+    "totalPrice": 1029.52,
+    "totalDiscount": 194.87,
+    "finalPrice": 834.65,
+    "orderNo": "ORD-20250710-001",
+    "customerId": "5",
+    "customerName": "Roger Reynolds",
+    "customerEmail": "roger.reynolds@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Roger%20Reynolds",
+    "paymentMethod": "Credit Card",
+    "orderDate": "2025-07-10T02:54:14Z"
+  },
+  {
+    "id": "6",
+    "status": "processing",
+    "items": [
+      {
+        "productId": "117",
+        "name": "Non-Slip Bath Mat",
+        "sku": "PETS-PET-117",
+        "price": 450.91,
+        "discount": 13.01,
+        "quantity": 3,
+        "subtotal": 1176.75
+      },
+      {
+        "productId": "163",
+        "name": "Scented Candle",
+        "sku": "PETS-PET-163",
+        "price": 485.0,
+        "discount": 40.94,
+        "quantity": 2,
+        "subtotal": 572.88
+      },
+      {
+        "productId": "214",
+        "name": "Makeup Brush Set Pro",
+        "sku": "HOME-HOM-214",
+        "price": 120.2,
+        "discount": 0.0,
+        "quantity": 3,
+        "subtotal": 360.6
+      }
+    ],
+    "totalPrice": 2683.33,
+    "totalDiscount": 573.1,
+    "finalPrice": 2110.23,
+    "orderNo": "ORD-20250307-001",
+    "customerId": "2",
+    "customerName": "George Heller",
+    "customerEmail": "george.heller@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=George%20Heller",
+    "paymentMethod": "Credit Card",
+    "orderDate": "2025-03-07T21:17:44Z"
+  },
+  {
+    "id": "7",
+    "status": "pending",
+    "items": [
+      {
+        "productId": "137",
+        "name": "Slim Fit Dress Shirt Pro",
+        "sku": "ELEC-ELE-137",
+        "price": 222.38,
+        "discount": 16.75,
+        "quantity": 2,
+        "subtotal": 370.26
+      },
+      {
+        "productId": "187",
+        "name": "WiFi Smart Plug Pro",
+        "sku": "HOME-HOM-187",
+        "price": 494.43,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 988.86
+      }
+    ],
+    "totalPrice": 1433.62,
+    "totalDiscount": 74.5,
+    "finalPrice": 1359.12,
+    "orderNo": "ORD-20250413-001",
+    "customerId": "2",
+    "customerName": "George Heller",
+    "customerEmail": "george.heller@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=George%20Heller",
+    "paymentMethod": "Bank Transfer",
+    "orderDate": "2025-04-13T08:59:40Z"
+  },
+  {
+    "id": "8",
+    "status": "completed",
+    "items": [
+      {
+        "productId": "216",
+        "name": "Denim Jacket  Elite",
+        "sku": "HOME-HOM-216",
+        "price": 424.03,
+        "discount": 0.0,
+        "quantity": 1,
+        "subtotal": 424.03
+      },
+      {
+        "productId": "197",
+        "name": "Whistle Tea Kettle  Max",
+        "sku": "HOME-HOM-197",
+        "price": 411.53,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 823.06
+      },
+      {
+        "productId": "199",
+        "name": "Makeup Remover Wipes",
+        "sku": "ACCS-ACC-199",
+        "price": 301.69,
+        "discount": 41.47,
+        "quantity": 1,
+        "subtotal": 176.58
+      }
+    ],
+    "totalPrice": 1548.78,
+    "totalDiscount": 125.11,
+    "finalPrice": 1423.67,
+    "orderNo": "ORD-20250711-001",
+    "customerId": "9",
+    "customerName": "Sarah Spencer",
+    "customerEmail": "sarah.spencer@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Sarah%20Spencer",
+    "paymentMethod": "Credit Card",
+    "orderDate": "2025-07-11T12:17:04Z"
+  },
+  {
+    "id": "9",
+    "status": "pending",
+    "items": [
+      {
+        "productId": "55",
+        "name": "Variety Lip Balm",
+        "sku": "ELEC-ELE-055",
+        "price": 221.56,
+        "discount": 0.0,
+        "quantity": 4,
+        "subtotal": 886.24
+      },
+      {
+        "productId": "168",
+        "name": "Waterproof Dog Paw Boots Pro",
+        "sku": "ELEC-ELE-168",
+        "price": 191.6,
+        "discount": 0.0,
+        "quantity": 4,
+        "subtotal": 766.4
+      },
+      {
+        "productId": "128",
+        "name": "Electronic Dart Board",
+        "sku": "PETS-PET-128",
+        "price": 170.82,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 341.64
+      }
+    ],
+    "totalPrice": 1994.28,
+    "totalDiscount": 0.0,
+    "finalPrice": 1994.28,
+    "orderNo": "ORD-20250305-002",
+    "customerId": "4",
+    "customerName": "Hunter Franecki",
+    "customerEmail": "hunter.franecki@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Hunter%20Franecki",
+    "paymentMethod": "PayPal",
+    "orderDate": "2025-03-05T07:47:35Z"
+  },
+  {
+    "id": "10",
+    "status": "completed",
+    "items": [
+      {
+        "productId": "230",
+        "name": "Wool Plaid Scarf Pro",
+        "sku": "SPRT-SPR-230",
+        "price": 14.01,
+        "discount": 12.87,
+        "quantity": 2,
+        "subtotal": 24.42
+      },
+      {
+        "productId": "150",
+        "name": "Cardboard Cat Scratcher",
+        "sku": "BEAU-BEA-150",
+        "price": 167.22,
+        "discount": 45.27,
+        "quantity": 2,
+        "subtotal": 183.04
+      },
+      {
+        "productId": "103",
+        "name": "Liquid Eyeliner Pen  Max",
+        "sku": "SPRT-SPR-103",
+        "price": 205.25,
+        "discount": 0.0,
+        "quantity": 5,
+        "subtotal": 1026.25
+      },
+      {
+        "productId": "93",
+        "name": "LED Fish Tank Light Plus",
+        "sku": "ACCS-ACC-093",
+        "price": 184.17,
+        "discount": 0.0,
+        "quantity": 4,
+        "subtotal": 736.68
+      }
+    ],
+    "totalPrice": 2125.39,
+    "totalDiscount": 155.0,
+    "finalPrice": 1970.39,
+    "orderNo": "ORD-20250125-001",
+    "customerId": "9",
+    "customerName": "Sarah Spencer",
+    "customerEmail": "sarah.spencer@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Sarah%20Spencer",
+    "paymentMethod": "Bank Transfer",
+    "orderDate": "2025-01-25T01:55:07Z"
+  },
+  {
+    "id": "11",
+    "status": "pending",
+    "items": [
+      {
+        "productId": "203",
+        "name": "Skincare Gift Set  Elite",
+        "sku": "CLTH-CLT-203",
+        "price": 373.31,
+        "discount": 0.0,
+        "quantity": 4,
+        "subtotal": 1493.24
+      },
+      {
+        "productId": "175",
+        "name": "Silk Sleep Mask  Max",
+        "sku": "ACCS-ACC-175",
+        "price": 316.12,
+        "discount": 0.0,
+        "quantity": 5,
+        "subtotal": 1580.6
+      }
+    ],
+    "totalPrice": 3073.84,
+    "totalDiscount": 0.0,
+    "finalPrice": 3073.84,
+    "orderNo": "ORD-20250113-001",
+    "customerId": "3",
+    "customerName": "Rebeka Terry",
+    "customerEmail": "rebeka.terry@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Rebeka%20Terry",
+    "paymentMethod": "Credit Card",
+    "orderDate": "2025-01-13T12:38:29Z"
+  },
+  {
+    "id": "12",
+    "status": "completed",
+    "items": [
+      {
+        "productId": "175",
+        "name": "Silk Sleep Mask  Max",
+        "sku": "ACCS-ACC-175",
+        "price": 316.12,
+        "discount": 0.0,
+        "quantity": 1,
+        "subtotal": 316.12
+      }
+    ],
+    "totalPrice": 316.12,
+    "totalDiscount": 0.0,
+    "finalPrice": 316.12,
+    "orderNo": "ORD-20250618-001",
+    "customerId": "9",
+    "customerName": "Sarah Spencer",
+    "customerEmail": "sarah.spencer@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Sarah%20Spencer",
+    "paymentMethod": "Credit Card",
+    "orderDate": "2025-06-18T08:49:41Z"
+  },
+  {
+    "id": "13",
+    "status": "completed",
+    "items": [
+      {
+        "productId": "112",
+        "name": "Adjustable Jump Rope  Max",
+        "sku": "BEAU-BEA-112",
+        "price": 92.86,
+        "discount": 21.79,
+        "quantity": 1,
+        "subtotal": 72.63
+      },
+      {
+        "productId": "41",
+        "name": "Athletic Socks  Max",
+        "sku": "SPRT-SPR-041",
+        "price": 145.82,
+        "discount": 41.89,
+        "quantity": 3,
+        "subtotal": 254.22
+      },
+      {
+        "productId": "117",
+        "name": "Non-Slip Bath Mat",
+        "sku": "PETS-PET-117",
+        "price": 450.91,
+        "discount": 13.01,
+        "quantity": 5,
+        "subtotal": 1961.25
+      }
+    ],
+    "totalPrice": 2784.87,
+    "totalDiscount": 496.77,
+    "finalPrice": 2288.1,
+    "orderNo": "ORD-20250706-002",
+    "customerId": "6",
+    "customerName": "Frederic Effertz",
+    "customerEmail": "frederic.effertz@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Frederic%20Effertz",
+    "paymentMethod": "Credit Card",
+    "orderDate": "2025-07-06T16:58:06Z"
+  },
+  {
+    "id": "14",
+    "status": "pending",
+    "items": [
+      {
+        "productId": "40",
+        "name": "Belgian Waffle Maker",
+        "sku": "CLTH-CLT-040",
+        "price": 468.29,
+        "discount": 32.77,
+        "quantity": 2,
+        "subtotal": 629.66
+      },
+      {
+        "productId": "96",
+        "name": "Minimalist Cardholder",
+        "sku": "BEAU-BEA-096",
+        "price": 93.88,
+        "discount": 0.0,
+        "quantity": 5,
+        "subtotal": 469.4
+      }
+    ],
+    "totalPrice": 1405.98,
+    "totalDiscount": 306.92,
+    "finalPrice": 1099.06,
+    "orderNo": "ORD-20250717-001",
+    "customerId": "5",
+    "customerName": "Roger Reynolds",
+    "customerEmail": "roger.reynolds@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Roger%20Reynolds",
+    "paymentMethod": "Bank Transfer",
+    "orderDate": "2025-07-17T00:38:20Z"
+  },
+  {
+    "id": "15",
+    "status": "completed",
+    "items": [
+      {
+        "productId": "238",
+        "name": "Bluetooth Speaker",
+        "sku": "HOME-HOM-238",
+        "price": 56.14,
+        "discount": 0.0,
+        "quantity": 3,
+        "subtotal": 168.42
+      }
+    ],
+    "totalPrice": 168.42,
+    "totalDiscount": 0.0,
+    "finalPrice": 168.42,
+    "orderNo": "ORD-20250726-002",
+    "customerId": "8",
+    "customerName": "Madge Bartell",
+    "customerEmail": "madge.bartell@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Madge%20Bartell",
+    "paymentMethod": "Bank Transfer",
+    "orderDate": "2025-07-26T09:15:03Z"
+  },
+  {
+    "id": "16",
+    "status": "pending",
+    "items": [
+      {
+        "productId": "22",
+        "name": "Running Shoes",
+        "sku": "BEAU-BEA-022",
+        "price": 31.14,
+        "discount": 0.0,
+        "quantity": 4,
+        "subtotal": 124.56
+      }
+    ],
+    "totalPrice": 124.56,
+    "totalDiscount": 0.0,
+    "finalPrice": 124.56,
+    "orderNo": "ORD-20250703-001",
+    "customerId": "4",
+    "customerName": "Hunter Franecki",
+    "customerEmail": "hunter.franecki@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Hunter%20Franecki",
+    "paymentMethod": "Credit Card",
+    "orderDate": "2025-07-03T17:49:08Z"
+  },
+  {
+    "id": "17",
+    "status": "pending",
+    "items": [
+      {
+        "productId": "243",
+        "name": "Water Bottle",
+        "sku": "CLTH-CLT-243",
+        "price": 123.97,
+        "discount": 0.0,
+        "quantity": 5,
+        "subtotal": 619.85
+      },
+      {
+        "productId": "141",
+        "name": "Moisturizing Shampoo  Max",
+        "sku": "ACCS-ACC-141",
+        "price": 220.19,
+        "discount": 47.78,
+        "quantity": 5,
+        "subtotal": 574.9
+      },
+      {
+        "productId": "43",
+        "name": "Cycling Jersey",
+        "sku": "ACCS-ACC-043",
+        "price": 309.65,
+        "discount": 0.0,
+        "quantity": 4,
+        "subtotal": 1238.6
+      },
+      {
+        "productId": "68",
+        "name": "Plant Pot Pro",
+        "sku": "BEAU-BEA-068",
+        "price": 163.42,
+        "discount": 27.28,
+        "quantity": 2,
+        "subtotal": 237.68
+      }
+    ],
+    "totalPrice": 3286.24,
+    "totalDiscount": 615.21,
+    "finalPrice": 2671.03,
+    "orderNo": "ORD-20250525-001",
+    "customerId": "3",
+    "customerName": "Rebeka Terry",
+    "customerEmail": "rebeka.terry@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Rebeka%20Terry",
+    "paymentMethod": "Credit Card",
+    "orderDate": "2025-05-25T23:44:12Z"
+  },
+  {
+    "id": "18",
+    "status": "processing",
+    "items": [
+      {
+        "productId": "113",
+        "name": "Denim Jacket Pro",
+        "sku": "HOME-HOM-113",
+        "price": 110.21,
+        "discount": 40.6,
+        "quantity": 4,
+        "subtotal": 261.84
+      },
+      {
+        "productId": "231",
+        "name": "Merino Hiking Socks",
+        "sku": "SPRT-SPR-231",
+        "price": 78.09,
+        "discount": 29.48,
+        "quantity": 1,
+        "subtotal": 55.07
+      },
+      {
+        "productId": "133",
+        "name": "Wool Sweater  Max",
+        "sku": "ELEC-ELE-133",
+        "price": 476.5,
+        "discount": 25.04,
+        "quantity": 2,
+        "subtotal": 714.36
+      }
+    ],
+    "totalPrice": 1471.93,
+    "totalDiscount": 440.66,
+    "finalPrice": 1031.27,
+    "orderNo": "ORD-20250203-001",
+    "customerId": "5",
+    "customerName": "Roger Reynolds",
+    "customerEmail": "roger.reynolds@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Roger%20Reynolds",
+    "paymentMethod": "PayPal",
+    "orderDate": "2025-02-03T10:01:37Z"
+  },
+  {
+    "id": "19",
+    "status": "completed",
+    "items": [
+      {
+        "productId": "2",
+        "name": "Wood Desk Organizer  Max",
+        "sku": "ACCS-ACC-002",
+        "price": 330.46,
+        "discount": 0.0,
+        "quantity": 1,
+        "subtotal": 330.46
+      },
+      {
+        "productId": "19",
+        "name": "UV Cycling Sunglasses Plus",
+        "sku": "HOME-HOM-019",
+        "price": 446.42,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 892.84
+      }
+    ],
+    "totalPrice": 1223.3,
+    "totalDiscount": 0.0,
+    "finalPrice": 1223.3,
+    "orderNo": "ORD-20250102-001",
+    "customerId": "9",
+    "customerName": "Sarah Spencer",
+    "customerEmail": "sarah.spencer@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Sarah%20Spencer",
+    "paymentMethod": "Bank Transfer",
+    "orderDate": "2025-01-02T10:04:32Z"
+  },
+  {
+    "id": "20",
+    "status": "completed",
+    "items": [
+      {
+        "productId": "55",
+        "name": "Variety Lip Balm",
+        "sku": "ELEC-ELE-055",
+        "price": 221.56,
+        "discount": 0.0,
+        "quantity": 5,
+        "subtotal": 1107.8
+      },
+      {
+        "productId": "139",
+        "name": "Non-Slip Yoga Towel  Elite",
+        "sku": "BEAU-BEA-139",
+        "price": 62.83,
+        "discount": 45.24,
+        "quantity": 5,
+        "subtotal": 172.05
+      },
+      {
+        "productId": "34",
+        "name": "High Impact Sports Bra",
+        "sku": "CLTH-CLT-034",
+        "price": 135.38,
+        "discount": 0.0,
+        "quantity": 4,
+        "subtotal": 541.52
+      },
+      {
+        "productId": "186",
+        "name": "Olive Oil",
+        "sku": "BEAU-BEA-186",
+        "price": 104.89,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 209.78
+      }
+    ],
+    "totalPrice": 2173.25,
+    "totalDiscount": 142.1,
+    "finalPrice": 2031.15,
+    "orderNo": "ORD-20250716-001",
+    "customerId": "4",
+    "customerName": "Hunter Franecki",
+    "customerEmail": "hunter.franecki@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Hunter%20Franecki",
+    "paymentMethod": "Bank Transfer",
+    "orderDate": "2025-07-16T13:12:06Z"
+  },
+  {
+    "id": "21",
+    "status": "pending",
+    "items": [
+      {
+        "productId": "91",
+        "name": "Sensitive Baby Wipes",
+        "sku": "ACCS-ACC-091",
+        "price": 409.49,
+        "discount": 0.0,
+        "quantity": 1,
+        "subtotal": 409.49
+      },
+      {
+        "productId": "109",
+        "name": "Comfort Flip Flops  Elite",
+        "sku": "ACCS-ACC-109",
+        "price": 399.07,
+        "discount": 0.0,
+        "quantity": 1,
+        "subtotal": 399.07
+      },
+      {
+        "productId": "106",
+        "name": "Watch Repair Kit Plus",
+        "sku": "HOME-HOM-106",
+        "price": 102.28,
+        "discount": 0.0,
+        "quantity": 1,
+        "subtotal": 102.28
+      },
+      {
+        "productId": "120",
+        "name": "Adjustable Jump Rope Pro",
+        "sku": "BEAU-BEA-120",
+        "price": 387.17,
+        "discount": 0.0,
+        "quantity": 4,
+        "subtotal": 1548.68
+      }
+    ],
+    "totalPrice": 2459.52,
+    "totalDiscount": 0.0,
+    "finalPrice": 2459.52,
+    "orderNo": "ORD-20250611-002",
+    "customerId": "2",
+    "customerName": "George Heller",
+    "customerEmail": "george.heller@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=George%20Heller",
+    "paymentMethod": "Debit Card",
+    "orderDate": "2025-06-11T03:15:12Z"
+  },
+  {
+    "id": "22",
+    "status": "pending",
+    "items": [
+      {
+        "productId": "36",
+        "name": "Running Shorts Plus",
+        "sku": "SPRT-SPR-036",
+        "price": 61.64,
+        "discount": 46.32,
+        "quantity": 4,
+        "subtotal": 132.36
+      },
+      {
+        "productId": "109",
+        "name": "Comfort Flip Flops  Elite",
+        "sku": "ACCS-ACC-109",
+        "price": 399.07,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 798.14
+      },
+      {
+        "productId": "47",
+        "name": "Ceramic Hair Straightener",
+        "sku": "PETS-PET-047",
+        "price": 5.93,
+        "discount": 0.0,
+        "quantity": 1,
+        "subtotal": 5.93
+      },
+      {
+        "productId": "72",
+        "name": "Makeup Remover Wipes  Max",
+        "sku": "PETS-PET-072",
+        "price": 428.81,
+        "discount": 33.09,
+        "quantity": 4,
+        "subtotal": 1147.68
+      }
+    ],
+    "totalPrice": 2765.87,
+    "totalDiscount": 681.76,
+    "finalPrice": 2084.11,
+    "orderNo": "ORD-20250728-001",
+    "customerId": "4",
+    "customerName": "Hunter Franecki",
+    "customerEmail": "hunter.franecki@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Hunter%20Franecki",
+    "paymentMethod": "PayPal",
+    "orderDate": "2025-07-28T17:06:03Z"
+  },
+  {
+    "id": "23",
+    "status": "completed",
+    "items": [
+      {
+        "productId": "238",
+        "name": "Bluetooth Speaker",
+        "sku": "HOME-HOM-238",
+        "price": 56.14,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 112.28
+      }
+    ],
+    "totalPrice": 112.28,
+    "totalDiscount": 0.0,
+    "finalPrice": 112.28,
+    "orderNo": "ORD-20250214-001",
+    "customerId": "9",
+    "customerName": "Sarah Spencer",
+    "customerEmail": "sarah.spencer@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Sarah%20Spencer",
+    "paymentMethod": "Debit Card",
+    "orderDate": "2025-02-14T15:30:13Z"
+  },
+  {
+    "id": "24",
+    "status": "completed",
+    "items": [
+      {
+        "productId": "98",
+        "name": "Memory Foam Pillow  Elite",
+        "sku": "ACCS-ACC-098",
+        "price": 129.81,
+        "discount": 35.69,
+        "quantity": 4,
+        "subtotal": 333.92
+      },
+      {
+        "productId": "1",
+        "name": "Wireless Earbuds Pro",
+        "sku": "BEAU-BEA-001",
+        "price": 382.68,
+        "discount": 0.0,
+        "quantity": 3,
+        "subtotal": 1148.04
+      }
+    ],
+    "totalPrice": 1667.28,
+    "totalDiscount": 185.32,
+    "finalPrice": 1481.96,
+    "orderNo": "ORD-20250726-003",
+    "customerId": "7",
+    "customerName": "Arthur Mueller",
+    "customerEmail": "arthur.mueller@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Arthur%20Mueller",
+    "paymentMethod": "Credit Card",
+    "orderDate": "2025-07-26T14:18:27Z"
+  },
+  {
+    "id": "25",
+    "status": "pending",
+    "items": [
+      {
+        "productId": "40",
+        "name": "Belgian Waffle Maker",
+        "sku": "CLTH-CLT-040",
+        "price": 468.29,
+        "discount": 32.77,
+        "quantity": 1,
+        "subtotal": 314.83
+      },
+      {
+        "productId": "49",
+        "name": "Cat Carrier Backpack",
+        "sku": "ELEC-ELE-049",
+        "price": 162.98,
+        "discount": 48.14,
+        "quantity": 5,
+        "subtotal": 422.6
+      },
+      {
+        "productId": "76",
+        "name": "Kids Toothbrush Set Pro",
+        "sku": "ELEC-ELE-076",
+        "price": 422.89,
+        "discount": 0.0,
+        "quantity": 5,
+        "subtotal": 2114.45
+      },
+      {
+        "productId": "56",
+        "name": "Pillow Covers",
+        "sku": "HOME-HOM-056",
+        "price": 291.52,
+        "discount": 0.0,
+        "quantity": 1,
+        "subtotal": 291.52
+      }
+    ],
+    "totalPrice": 3689.16,
+    "totalDiscount": 545.76,
+    "finalPrice": 3143.4,
+    "orderNo": "ORD-20250611-001",
+    "customerId": "9",
+    "customerName": "Sarah Spencer",
+    "customerEmail": "sarah.spencer@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Sarah%20Spencer",
+    "paymentMethod": "Bank Transfer",
+    "orderDate": "2025-06-11T01:03:37Z"
+  },
+  {
+    "id": "26",
+    "status": "processing",
+    "items": [
+      {
+        "productId": "15",
+        "name": "Slim Fit Jeans",
+        "sku": "BEAU-BEA-015",
+        "price": 96.76,
+        "discount": 6.37,
+        "quantity": 5,
+        "subtotal": 453.0
+      },
+      {
+        "productId": "246",
+        "name": "Leather Office Briefcase  Max",
+        "sku": "SPRT-SPR-246",
+        "price": 460.96,
+        "discount": 16.61,
+        "quantity": 1,
+        "subtotal": 384.39
+      }
+    ],
+    "totalPrice": 944.76,
+    "totalDiscount": 107.37,
+    "finalPrice": 837.39,
+    "orderNo": "ORD-20250706-001",
+    "customerId": "8",
+    "customerName": "Madge Bartell",
+    "customerEmail": "madge.bartell@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Madge%20Bartell",
+    "paymentMethod": "Credit Card",
+    "orderDate": "2025-07-06T02:38:04Z"
+  },
+  {
+    "id": "27",
+    "status": "processing",
+    "items": [
+      {
+        "productId": "242",
+        "name": "Reading Sunglasses  Elite",
+        "sku": "CLTH-CLT-242",
+        "price": 137.73,
+        "discount": 0.0,
+        "quantity": 5,
+        "subtotal": 688.65
+      }
+    ],
+    "totalPrice": 688.65,
+    "totalDiscount": 0.0,
+    "finalPrice": 688.65,
+    "orderNo": "ORD-20250219-001",
+    "customerId": "4",
+    "customerName": "Hunter Franecki",
+    "customerEmail": "hunter.franecki@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Hunter%20Franecki",
+    "paymentMethod": "Debit Card",
+    "orderDate": "2025-02-19T19:02:39Z"
+  },
+  {
+    "id": "28",
+    "status": "processing",
+    "items": [
+      {
+        "productId": "240",
+        "name": "Kids Electric Toothbrush Pro",
+        "sku": "BEAU-BEA-240",
+        "price": 33.87,
+        "discount": 0.0,
+        "quantity": 3,
+        "subtotal": 101.61
+      },
+      {
+        "productId": "67",
+        "name": "Deshedding Cat Brush Pro",
+        "sku": "BEAU-BEA-067",
+        "price": 68.69,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 137.38
+      },
+      {
+        "productId": "53",
+        "name": "Recovery Yoga Sandals  Max",
+        "sku": "ELEC-ELE-053",
+        "price": 142.26,
+        "discount": 0.0,
+        "quantity": 3,
+        "subtotal": 426.78
+      }
+    ],
+    "totalPrice": 665.77,
+    "totalDiscount": 0.0,
+    "finalPrice": 665.77,
+    "orderNo": "ORD-20250405-001",
+    "customerId": "2",
+    "customerName": "George Heller",
+    "customerEmail": "george.heller@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=George%20Heller",
+    "paymentMethod": "Debit Card",
+    "orderDate": "2025-04-05T21:41:19Z"
+  },
+  {
+    "id": "29",
+    "status": "processing",
+    "items": [
+      {
+        "productId": "3",
+        "name": "Picture Frame Set Pro",
+        "sku": "PETS-PET-003",
+        "price": 172.6,
+        "discount": 0.0,
+        "quantity": 4,
+        "subtotal": 690.4
+      }
+    ],
+    "totalPrice": 690.4,
+    "totalDiscount": 0.0,
+    "finalPrice": 690.4,
+    "orderNo": "ORD-20250519-001",
+    "customerId": "8",
+    "customerName": "Madge Bartell",
+    "customerEmail": "madge.bartell@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Madge%20Bartell",
+    "paymentMethod": "PayPal",
+    "orderDate": "2025-05-19T03:04:34Z"
+  },
+  {
+    "id": "30",
+    "status": "processing",
+    "items": [
+      {
+        "productId": "34",
+        "name": "High Impact Sports Bra",
+        "sku": "CLTH-CLT-034",
+        "price": 135.38,
+        "discount": 0.0,
+        "quantity": 1,
+        "subtotal": 135.38
+      },
+      {
+        "productId": "239",
+        "name": "Metal Cat Litter Scoop  Max",
+        "sku": "SPRT-SPR-239",
+        "price": 182.65,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 365.3
+      },
+      {
+        "productId": "90",
+        "name": "Bird Cage Plus",
+        "sku": "ELEC-ELE-090",
+        "price": 63.2,
+        "discount": 0.0,
+        "quantity": 3,
+        "subtotal": 189.6
+      }
+    ],
+    "totalPrice": 690.28,
+    "totalDiscount": 0.0,
+    "finalPrice": 690.28,
+    "orderNo": "ORD-20250306-001",
+    "customerId": "4",
+    "customerName": "Hunter Franecki",
+    "customerEmail": "hunter.franecki@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Hunter%20Franecki",
+    "paymentMethod": "Bank Transfer",
+    "orderDate": "2025-03-06T14:53:34Z"
+  },
+  {
+    "id": "31",
+    "status": "pending",
+    "items": [
+      {
+        "productId": "171",
+        "name": "Compression Socks Pro",
+        "sku": "ELEC-ELE-171",
+        "price": 361.74,
+        "discount": 28.92,
+        "quantity": 5,
+        "subtotal": 1285.6
+      }
+    ],
+    "totalPrice": 1808.7,
+    "totalDiscount": 523.1,
+    "finalPrice": 1285.6,
+    "orderNo": "ORD-20250322-001",
+    "customerId": "5",
+    "customerName": "Roger Reynolds",
+    "customerEmail": "roger.reynolds@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Roger%20Reynolds",
+    "paymentMethod": "Credit Card",
+    "orderDate": "2025-03-22T03:56:08Z"
+  },
+  {
+    "id": "32",
+    "status": "completed",
+    "items": [
+      {
+        "productId": "191",
+        "name": "Coffee Maker",
+        "sku": "ELEC-ELE-191",
+        "price": 443.09,
+        "discount": 0.0,
+        "quantity": 5,
+        "subtotal": 2215.45
+      }
+    ],
+    "totalPrice": 2215.45,
+    "totalDiscount": 0.0,
+    "finalPrice": 2215.45,
+    "orderNo": "ORD-20250209-002",
+    "customerId": "5",
+    "customerName": "Roger Reynolds",
+    "customerEmail": "roger.reynolds@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Roger%20Reynolds",
+    "paymentMethod": "Debit Card",
+    "orderDate": "2025-02-09T09:38:13Z"
+  },
+  {
+    "id": "33",
+    "status": "completed",
+    "items": [
+      {
+        "productId": "130",
+        "name": "Cotton T-Shirt Plus",
+        "sku": "HOME-HOM-130",
+        "price": 359.87,
+        "discount": 0.0,
+        "quantity": 1,
+        "subtotal": 359.87
+      },
+      {
+        "productId": "126",
+        "name": "Moisturizing Shampoo",
+        "sku": "CLTH-CLT-126",
+        "price": 334.55,
+        "discount": 48.92,
+        "quantity": 1,
+        "subtotal": 170.89
+      },
+      {
+        "productId": "65",
+        "name": "UV Cycling Sunglasses",
+        "sku": "HOME-HOM-065",
+        "price": 347.97,
+        "discount": 0.0,
+        "quantity": 4,
+        "subtotal": 1391.88
+      }
+    ],
+    "totalPrice": 2086.3,
+    "totalDiscount": 163.66,
+    "finalPrice": 1922.64,
+    "orderNo": "ORD-20250709-001",
+    "customerId": "6",
+    "customerName": "Frederic Effertz",
+    "customerEmail": "frederic.effertz@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Frederic%20Effertz",
+    "paymentMethod": "Debit Card",
+    "orderDate": "2025-07-09T01:00:21Z"
+  },
+  {
+    "id": "34",
+    "status": "pending",
+    "items": [
+      {
+        "productId": "42",
+        "name": "GPS Dog Tracker  Elite",
+        "sku": "CLTH-CLT-042",
+        "price": 82.69,
+        "discount": 0.0,
+        "quantity": 5,
+        "subtotal": 413.45
+      },
+      {
+        "productId": "190",
+        "name": "Stainless Pet Bowl",
+        "sku": "ELEC-ELE-190",
+        "price": 225.33,
+        "discount": 42.93,
+        "quantity": 4,
+        "subtotal": 514.4
+      },
+      {
+        "productId": "114",
+        "name": "Training Dog Treats  Max",
+        "sku": "HOME-HOM-114",
+        "price": 223.6,
+        "discount": 0.0,
+        "quantity": 5,
+        "subtotal": 1118.0
+      }
+    ],
+    "totalPrice": 2432.77,
+    "totalDiscount": 386.92,
+    "finalPrice": 2045.85,
+    "orderNo": "ORD-20250104-001",
+    "customerId": "3",
+    "customerName": "Rebeka Terry",
+    "customerEmail": "rebeka.terry@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Rebeka%20Terry",
+    "paymentMethod": "Credit Card",
+    "orderDate": "2025-01-04T02:56:44Z"
+  },
+  {
+    "id": "35",
+    "status": "pending",
+    "items": [
+      {
+        "productId": "214",
+        "name": "Makeup Brush Set Pro",
+        "sku": "HOME-HOM-214",
+        "price": 120.2,
+        "discount": 0.0,
+        "quantity": 3,
+        "subtotal": 360.6
+      }
+    ],
+    "totalPrice": 360.6,
+    "totalDiscount": 0.0,
+    "finalPrice": 360.6,
+    "orderNo": "ORD-20250518-001",
+    "customerId": "3",
+    "customerName": "Rebeka Terry",
+    "customerEmail": "rebeka.terry@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Rebeka%20Terry",
+    "paymentMethod": "Bank Transfer",
+    "orderDate": "2025-05-18T04:27:08Z"
+  },
+  {
+    "id": "36",
+    "status": "completed",
+    "items": [
+      {
+        "productId": "231",
+        "name": "Merino Hiking Socks",
+        "sku": "SPRT-SPR-231",
+        "price": 78.09,
+        "discount": 29.48,
+        "quantity": 1,
+        "subtotal": 55.07
+      },
+      {
+        "productId": "239",
+        "name": "Metal Cat Litter Scoop  Max",
+        "sku": "SPRT-SPR-239",
+        "price": 182.65,
+        "discount": 0.0,
+        "quantity": 3,
+        "subtotal": 547.95
+      },
+      {
+        "productId": "204",
+        "name": "Analog Watch Pro",
+        "sku": "ELEC-ELE-204",
+        "price": 127.72,
+        "discount": 31.69,
+        "quantity": 2,
+        "subtotal": 174.5
+      }
+    ],
+    "totalPrice": 881.48,
+    "totalDiscount": 103.96,
+    "finalPrice": 777.52,
+    "orderNo": "ORD-20250608-001",
+    "customerId": "1",
+    "customerName": "Malinda Renner",
+    "customerEmail": "malinda.renner@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Malinda%20Renner",
+    "paymentMethod": "PayPal",
+    "orderDate": "2025-06-08T21:06:22Z"
+  },
+  {
+    "id": "37",
+    "status": "processing",
+    "items": [
+      {
+        "productId": "237",
+        "name": "Window Bird Feeder",
+        "sku": "PETS-PET-237",
+        "price": 156.37,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 312.74
+      },
+      {
+        "productId": "239",
+        "name": "Metal Cat Litter Scoop  Max",
+        "sku": "SPRT-SPR-239",
+        "price": 182.65,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 365.3
+      }
+    ],
+    "totalPrice": 678.04,
+    "totalDiscount": 0.0,
+    "finalPrice": 678.04,
+    "orderNo": "ORD-20250726-001",
+    "customerId": "9",
+    "customerName": "Sarah Spencer",
+    "customerEmail": "sarah.spencer@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Sarah%20Spencer",
+    "paymentMethod": "PayPal",
+    "orderDate": "2025-07-26T05:56:26Z"
+  },
+  {
+    "id": "38",
+    "status": "completed",
+    "items": [
+      {
+        "productId": "201",
+        "name": "Picture Frame Set Pro",
+        "sku": "CLTH-CLT-201",
+        "price": 395.96,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 791.92
+      },
+      {
+        "productId": "239",
+        "name": "Metal Cat Litter Scoop  Max",
+        "sku": "SPRT-SPR-239",
+        "price": 182.65,
+        "discount": 0.0,
+        "quantity": 3,
+        "subtotal": 547.95
+      },
+      {
+        "productId": "106",
+        "name": "Watch Repair Kit Plus",
+        "sku": "HOME-HOM-106",
+        "price": 102.28,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 204.56
+      }
+    ],
+    "totalPrice": 1544.43,
+    "totalDiscount": 0.0,
+    "finalPrice": 1544.43,
+    "orderNo": "ORD-20250723-001",
+    "customerId": "1",
+    "customerName": "Malinda Renner",
+    "customerEmail": "malinda.renner@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Malinda%20Renner",
+    "paymentMethod": "Bank Transfer",
+    "orderDate": "2025-07-23T03:24:55Z"
+  },
+  {
+    "id": "39",
+    "status": "processing",
+    "items": [
+      {
+        "productId": "52",
+        "name": "Office Chair Plus",
+        "sku": "HOME-HOM-052",
+        "price": 7.27,
+        "discount": 0.0,
+        "quantity": 4,
+        "subtotal": 29.08
+      },
+      {
+        "productId": "210",
+        "name": "Cat Carrier Backpack  Elite",
+        "sku": "BEAU-BEA-210",
+        "price": 416.46,
+        "discount": 9.23,
+        "quantity": 3,
+        "subtotal": 1134.06
+      }
+    ],
+    "totalPrice": 1278.46,
+    "totalDiscount": 115.32,
+    "finalPrice": 1163.14,
+    "orderNo": "ORD-20250327-001",
+    "customerId": "1",
+    "customerName": "Malinda Renner",
+    "customerEmail": "malinda.renner@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Malinda%20Renner",
+    "paymentMethod": "Bank Transfer",
+    "orderDate": "2025-03-27T07:14:01Z"
+  },
+  {
+    "id": "40",
+    "status": "processing",
+    "items": [
+      {
+        "productId": "72",
+        "name": "Makeup Remover Wipes  Max",
+        "sku": "PETS-PET-072",
+        "price": 428.81,
+        "discount": 33.09,
+        "quantity": 3,
+        "subtotal": 860.76
+      },
+      {
+        "productId": "222",
+        "name": "Wooden Bird House Pro",
+        "sku": "BEAU-BEA-222",
+        "price": 152.36,
+        "discount": 0.0,
+        "quantity": 3,
+        "subtotal": 457.08
+      },
+      {
+        "productId": "18",
+        "name": "Straight Leg Jeans",
+        "sku": "ACCS-ACC-018",
+        "price": 341.72,
+        "discount": 20.83,
+        "quantity": 5,
+        "subtotal": 1352.7
+      }
+    ],
+    "totalPrice": 3452.11,
+    "totalDiscount": 781.57,
+    "finalPrice": 2670.54,
+    "orderNo": "ORD-20250422-001",
+    "customerId": "4",
+    "customerName": "Hunter Franecki",
+    "customerEmail": "hunter.franecki@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Hunter%20Franecki",
+    "paymentMethod": "Bank Transfer",
+    "orderDate": "2025-04-22T17:21:01Z"
+  },
+  {
+    "id": "41",
+    "status": "completed",
+    "items": [
+      {
+        "productId": "149",
+        "name": "Wireless Mouse  Elite",
+        "sku": "PETS-PET-149",
+        "price": 32.03,
+        "discount": 45.27,
+        "quantity": 3,
+        "subtotal": 52.59
+      },
+      {
+        "productId": "247",
+        "name": "Organic Catnip Dried",
+        "sku": "BEAU-BEA-247",
+        "price": 98.26,
+        "discount": 0.0,
+        "quantity": 1,
+        "subtotal": 98.26
+      }
+    ],
+    "totalPrice": 194.35,
+    "totalDiscount": 43.5,
+    "finalPrice": 150.85,
+    "orderNo": "ORD-20250120-001",
+    "customerId": "2",
+    "customerName": "George Heller",
+    "customerEmail": "george.heller@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=George%20Heller",
+    "paymentMethod": "PayPal",
+    "orderDate": "2025-01-20T13:22:46Z"
+  },
+  {
+    "id": "42",
+    "status": "processing",
+    "items": [
+      {
+        "productId": "99",
+        "name": "Collapsible Laundry Basket  Elite",
+        "sku": "HOME-HOM-099",
+        "price": 131.32,
+        "discount": 0.0,
+        "quantity": 5,
+        "subtotal": 656.6
+      }
+    ],
+    "totalPrice": 656.6,
+    "totalDiscount": 0.0,
+    "finalPrice": 656.6,
+    "orderNo": "ORD-20250209-001",
+    "customerId": "6",
+    "customerName": "Frederic Effertz",
+    "customerEmail": "frederic.effertz@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Frederic%20Effertz",
+    "paymentMethod": "Bank Transfer",
+    "orderDate": "2025-02-09T01:45:27Z"
+  },
+  {
+    "id": "43",
+    "status": "pending",
+    "items": [
+      {
+        "productId": "94",
+        "name": "Cookware Set  Max",
+        "sku": "ELEC-ELE-094",
+        "price": 25.16,
+        "discount": 0.0,
+        "quantity": 1,
+        "subtotal": 25.16
+      },
+      {
+        "productId": "111",
+        "name": "LED Table Lamp  Max",
+        "sku": "ACCS-ACC-111",
+        "price": 387.24,
+        "discount": 0.0,
+        "quantity": 3,
+        "subtotal": 1161.72
+      }
+    ],
+    "totalPrice": 1186.88,
+    "totalDiscount": 0.0,
+    "finalPrice": 1186.88,
+    "orderNo": "ORD-20250511-001",
+    "customerId": "1",
+    "customerName": "Malinda Renner",
+    "customerEmail": "malinda.renner@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Malinda%20Renner",
+    "paymentMethod": "Debit Card",
+    "orderDate": "2025-05-11T21:54:07Z"
+  },
+  {
+    "id": "44",
+    "status": "processing",
+    "items": [
+      {
+        "productId": "171",
+        "name": "Compression Socks Pro",
+        "sku": "ELEC-ELE-171",
+        "price": 361.74,
+        "discount": 28.92,
+        "quantity": 4,
+        "subtotal": 1028.48
+      },
+      {
+        "productId": "105",
+        "name": "Adjustable Jump Rope  Max",
+        "sku": "HOME-HOM-105",
+        "price": 256.05,
+        "discount": 0.0,
+        "quantity": 3,
+        "subtotal": 768.15
+      },
+      {
+        "productId": "84",
+        "name": "Sneaker Care Kit  Elite",
+        "sku": "ACCS-ACC-084",
+        "price": 493.33,
+        "discount": 0.0,
+        "quantity": 5,
+        "subtotal": 2466.65
+      }
+    ],
+    "totalPrice": 4681.76,
+    "totalDiscount": 418.48,
+    "finalPrice": 4263.28,
+    "orderNo": "ORD-20250207-001",
+    "customerId": "5",
+    "customerName": "Roger Reynolds",
+    "customerEmail": "roger.reynolds@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Roger%20Reynolds",
+    "paymentMethod": "Debit Card",
+    "orderDate": "2025-02-07T13:42:24Z"
+  },
+  {
+    "id": "45",
+    "status": "pending",
+    "items": [
+      {
+        "productId": "104",
+        "name": "Leather Office Briefcase Plus",
+        "sku": "PETS-PET-104",
+        "price": 290.99,
+        "discount": 0.0,
+        "quantity": 1,
+        "subtotal": 290.99
+      },
+      {
+        "productId": "141",
+        "name": "Moisturizing Shampoo  Max",
+        "sku": "ACCS-ACC-141",
+        "price": 220.19,
+        "discount": 47.78,
+        "quantity": 3,
+        "subtotal": 344.94
+      },
+      {
+        "productId": "214",
+        "name": "Makeup Brush Set Pro",
+        "sku": "HOME-HOM-214",
+        "price": 120.2,
+        "discount": 0.0,
+        "quantity": 3,
+        "subtotal": 360.6
+      }
+    ],
+    "totalPrice": 1312.16,
+    "totalDiscount": 315.63,
+    "finalPrice": 996.53,
+    "orderNo": "ORD-20250214-002",
+    "customerId": "3",
+    "customerName": "Rebeka Terry",
+    "customerEmail": "rebeka.terry@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Rebeka%20Terry",
+    "paymentMethod": "Bank Transfer",
+    "orderDate": "2025-02-14T18:38:41Z"
+  },
+  {
+    "id": "46",
+    "status": "processing",
+    "items": [
+      {
+        "productId": "114",
+        "name": "Training Dog Treats  Max",
+        "sku": "HOME-HOM-114",
+        "price": 223.6,
+        "discount": 0.0,
+        "quantity": 4,
+        "subtotal": 894.4
+      },
+      {
+        "productId": "173",
+        "name": "Belgian Waffle Maker Plus",
+        "sku": "SPRT-SPR-173",
+        "price": 239.63,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 479.26
+      },
+      {
+        "productId": "55",
+        "name": "Variety Lip Balm",
+        "sku": "ELEC-ELE-055",
+        "price": 221.56,
+        "discount": 0.0,
+        "quantity": 1,
+        "subtotal": 221.56
+      },
+      {
+        "productId": "131",
+        "name": "Bluetooth Speaker  Elite",
+        "sku": "BEAU-BEA-131",
+        "price": 295.17,
+        "discount": 39.14,
+        "quantity": 3,
+        "subtotal": 538.92
+      }
+    ],
+    "totalPrice": 2480.73,
+    "totalDiscount": 346.59,
+    "finalPrice": 2134.14,
+    "orderNo": "ORD-20250522-001",
+    "customerId": "6",
+    "customerName": "Frederic Effertz",
+    "customerEmail": "frederic.effertz@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Frederic%20Effertz",
+    "paymentMethod": "Bank Transfer",
+    "orderDate": "2025-05-22T20:39:21Z"
+  },
+  {
+    "id": "47",
+    "status": "cancelled",
+    "items": [
+      {
+        "productId": "173",
+        "name": "Belgian Waffle Maker Plus",
+        "sku": "SPRT-SPR-173",
+        "price": 239.63,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 479.26
+      },
+      {
+        "productId": "80",
+        "name": "Resistance Bands",
+        "sku": "SPRT-SPR-080",
+        "price": 223.83,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 447.66
+      }
+    ],
+    "totalPrice": 926.92,
+    "totalDiscount": 0.0,
+    "finalPrice": 926.92,
+    "orderNo": "ORD-20250201-001",
+    "customerId": "2",
+    "customerName": "George Heller",
+    "customerEmail": "george.heller@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=George%20Heller",
+    "paymentMethod": "Bank Transfer",
+    "orderDate": "2025-02-01T01:15:30Z"
+  },
+  {
+    "id": "48",
+    "status": "cancelled",
+    "items": [
+      {
+        "productId": "117",
+        "name": "Non-Slip Bath Mat",
+        "sku": "PETS-PET-117",
+        "price": 450.91,
+        "discount": 13.01,
+        "quantity": 4,
+        "subtotal": 1569.0
+      }
+    ],
+    "totalPrice": 1803.64,
+    "totalDiscount": 234.64,
+    "finalPrice": 1569.0,
+    "orderNo": "ORD-20250619-001",
+    "customerId": "10",
+    "customerName": "Aliza Yundt",
+    "customerEmail": "aliza.yundt@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Aliza%20Yundt",
+    "paymentMethod": "Debit Card",
+    "orderDate": "2025-06-19T06:45:44Z"
+  },
+  {
+    "id": "49",
+    "status": "processing",
+    "items": [
+      {
+        "productId": "63",
+        "name": "LED Camping Lantern Pro",
+        "sku": "PETS-PET-063",
+        "price": 244.76,
+        "discount": 26.52,
+        "quantity": 1,
+        "subtotal": 179.85
+      },
+      {
+        "productId": "38",
+        "name": "Makeup Brush Set Pro",
+        "sku": "SPRT-SPR-038",
+        "price": 308.71,
+        "discount": 0.0,
+        "quantity": 1,
+        "subtotal": 308.71
+      },
+      {
+        "productId": "168",
+        "name": "Waterproof Dog Paw Boots Pro",
+        "sku": "ELEC-ELE-168",
+        "price": 191.6,
+        "discount": 0.0,
+        "quantity": 4,
+        "subtotal": 766.4
+      },
+      {
+        "productId": "177",
+        "name": "Adjustable Keyboard Stand",
+        "sku": "CLTH-CLT-177",
+        "price": 308.06,
+        "discount": 0.0,
+        "quantity": 2,
+        "subtotal": 616.12
+      }
+    ],
+    "totalPrice": 1935.99,
+    "totalDiscount": 64.91,
+    "finalPrice": 1871.08,
+    "orderNo": "ORD-20250226-002",
+    "customerId": "7",
+    "customerName": "Arthur Mueller",
+    "customerEmail": "arthur.mueller@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Arthur%20Mueller",
+    "paymentMethod": "Bank Transfer",
+    "orderDate": "2025-02-26T22:33:29Z"
+  },
+  {
+    "id": "50",
+    "status": "pending",
+    "items": [
+      {
+        "productId": "235",
+        "name": "Premium Cooking Apron Pro",
+        "sku": "BEAU-BEA-235",
+        "price": 21.57,
+        "discount": 35.62,
+        "quantity": 1,
+        "subtotal": 13.89
+      },
+      {
+        "productId": "218",
+        "name": "6-Racket Tennis Bag",
+        "sku": "ACCS-ACC-218",
+        "price": 407.29,
+        "discount": 37.69,
+        "quantity": 4,
+        "subtotal": 1015.12
+      }
+    ],
+    "totalPrice": 1650.73,
+    "totalDiscount": 621.72,
+    "finalPrice": 1029.01,
+    "orderNo": "ORD-20250226-001",
+    "customerId": "1",
+    "customerName": "Malinda Renner",
+    "customerEmail": "malinda.renner@dummyapi.my.id",
+    "customerAvatar": "https://api.dicebear.com/9.x/initials/svg?seed=Malinda%20Renner",
+    "paymentMethod": "Credit Card",
+    "orderDate": "2025-02-26T14:42:33Z"
+  }
+]
