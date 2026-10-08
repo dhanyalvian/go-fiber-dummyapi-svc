@@ -36,7 +36,7 @@ func GetList(
 	tsClient *typesense.Client,
 	tsCollection string,
 	queryBy string,
-	filterBy string,
+	filterBy []string,
 	sortBy []string,
 ) (*api.SearchResult, error) {
 	querySearch := c.Query("search", "*")
@@ -44,28 +44,25 @@ func GetList(
 	page := request.GetPage(c)
 	limit := request.GetLimit(c)
 
-	logData, _ := json.Marshal(map[string]any{
-		"type":        "GetList",
-		"collection":  tsCollection,
-		"querySearch": querySearch,
-		"queryBy":     queryBy,
-		"sortBy":      sortStr,
-		"page":        page,
-		"limit":       limit,
-	})
-	logger.Logging(0, "REQUEST_TS", string(logData))
-
 	searchParams := &api.SearchCollectionParams{
-		Q:       &querySearch,
-		QueryBy: &queryBy,
+		Q:       pointer.String(querySearch),
+		QueryBy: pointer.String(queryBy),
 		SortBy:  pointer.String(sortStr),
 		Page:    pointer.Int(page),
 		PerPage: pointer.Int(limit),
 	}
 
-	if filterBy != "" {
-		searchParams.FilterBy = pointer.String(filterBy)
-	}
+	// if len(filterBy) > 0 {
+	filterStr := strings.Join(filterBy, " && ")
+	searchParams.FilterBy = pointer.String(filterStr)
+	// }
+
+	logData, _ := json.Marshal(map[string]any{
+		"type":       "GetList",
+		"collection": tsCollection,
+		"params":     searchParams,
+	})
+	logger.Logging(0, "REQUEST_TS", string(logData))
 
 	docs, err := tsClient.Collection(tsCollection).Documents().Search(c.Context(), searchParams)
 	if err != nil {

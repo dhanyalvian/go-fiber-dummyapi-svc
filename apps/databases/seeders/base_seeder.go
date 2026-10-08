@@ -10,6 +10,7 @@ func SeedAll(ts *tsclient.Client) {
 	fmt.Println("Seeding Typesense...")
 
 	SeedCommentToTypesense(ts)
+	SeedOrderToTypesense(ts)
 	SeedPostToTypesense(ts)
 	SeedProductToTypesense(ts)
 	SeedQuoteToTypesense(ts)
