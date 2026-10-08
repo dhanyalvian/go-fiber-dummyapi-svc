@@ -11,7 +11,7 @@ import (
 func ListRecipe(c *fiber.Ctx, ts *typesense.Client) (*api.SearchResult, error) {
 	queryBy := "name,cuisine,tags,mealType"
 	sortBy := []string{"name:asc"}
-	return GetList(c, ts, entities.Recipe{}.ColletionName(), queryBy, "", sortBy)
+	return GetList(c, ts, entities.Recipe{}.ColletionName(), queryBy, nil, sortBy)
 }
 
 func DetailRecipe(c *fiber.Ctx, ts *typesense.Client, id string) (map[string]any, error) {

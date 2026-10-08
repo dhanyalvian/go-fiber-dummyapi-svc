@@ -4,6 +4,7 @@ package handlers
 
 import (
 	"encoding/json"
+	"fmt"
 	"log"
 	"strconv"
 	"strings"
@@ -30,6 +31,20 @@ func GetUserID(c *fiber.Ctx) float64 {
 func GetQuerySearch(c *fiber.Ctx) string {
 	result := strings.ToLower(c.Query("search"))
 	return result
+}
+
+func GetQueryFilters[T any](c *fiber.Ctx) (*T, error) {
+	qFilters := c.Query("filters")
+	if qFilters == "" {
+		return new(T), nil
+	}
+
+	var filters T
+	if err := json.Unmarshal([]byte(qFilters), &filters); err != nil {
+		return nil, fmt.Errorf("invalid filters format: %w", err)
+	}
+
+	return &filters, nil
 }
 
 func GetDocFirst[T any](docs *api.SearchResult) T {

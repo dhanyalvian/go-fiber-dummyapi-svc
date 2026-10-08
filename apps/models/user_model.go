@@ -13,7 +13,7 @@ import (
 func ListUser(c *fiber.Ctx, ts *typesense.Client) (*api.SearchResult, error) {
 	queryBy := "firstname,lastname,email"
 	sortBy := []string{"firstname:asc"}
-	return GetList(c, ts, entities.User{}.ColletionName(), queryBy, "", sortBy)
+	return GetList(c, ts, entities.User{}.ColletionName(), queryBy, nil, sortBy)
 }
 
 func DetailUser(c *fiber.Ctx, ts *typesense.Client, id string) (map[string]any, error) {

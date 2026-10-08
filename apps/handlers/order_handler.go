@@ -3,6 +3,7 @@
 package handlers
 
 import (
+	"go-fiber-dummyapi-svc/apps/dto"
 	"go-fiber-dummyapi-svc/apps/entities"
 	"go-fiber-dummyapi-svc/apps/models"
 
@@ -19,7 +20,9 @@ func NewOrderHandler(ts *typesense.Client) *OrderHandler {
 }
 
 func (h *OrderHandler) List(c *fiber.Ctx) error {
-	docs, err := models.ListOrder(c, h.TS)
+	filters, _ := GetQueryFilters[dto.ReqListOrderFilter](c)
+
+	docs, err := models.ListOrder(c, h.TS, filters)
 	if err != nil {
 		return RespError(c, 500, "Internal server error", nil)
 	}
