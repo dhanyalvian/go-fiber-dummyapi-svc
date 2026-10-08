@@ -13,7 +13,7 @@ import (
 func ListProduct(c *fiber.Ctx, ts *typesense.Client) (*api.SearchResult, error) {
 	queryBy := "name,sku,brand,category,tags"
 	sortBy := []string{"name:asc"}
-	return GetList(c, ts, entities.Product{}.ColletionName(), queryBy, "", sortBy)
+	return GetList(c, ts, entities.Product{}.ColletionName(), queryBy, nil, sortBy)
 }
 
 func DetailProduct(c *fiber.Ctx, ts *typesense.Client, id string) (map[string]any, error) {

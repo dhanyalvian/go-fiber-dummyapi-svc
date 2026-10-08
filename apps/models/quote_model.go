@@ -13,7 +13,7 @@ import (
 func ListQuote(c *fiber.Ctx, ts *typesense.Client) (*api.SearchResult, error) {
 	queryBy := "quote,author"
 	sortBy := []string{"quote:asc"}
-	return GetList(c, ts, entities.Quote{}.ColletionName(), queryBy, "", sortBy)
+	return GetList(c, ts, entities.Quote{}.ColletionName(), queryBy, nil, sortBy)
 }
 
 func DetailQuote(c *fiber.Ctx, ts *typesense.Client, id string) (map[string]any, error) {
