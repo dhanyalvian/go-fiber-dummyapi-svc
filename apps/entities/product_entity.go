@@ -55,6 +55,11 @@ type RespListProduct struct {
 	Stock     int             `json:"stock"`
 }
 
+type RespProductFilters struct {
+	Brand    []RespFilterOption `json:"brand"`
+	Category []RespFilterOption `json:"category"`
+}
+
 type RespDetailProduct struct {
 	RespListProduct
 

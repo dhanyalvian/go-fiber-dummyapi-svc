@@ -38,3 +38,6 @@ tmp/
 
 # VS Code workspace
 *.code-workspace
+
+# Others
+.cursor/
