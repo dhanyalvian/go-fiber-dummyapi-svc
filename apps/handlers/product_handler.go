@@ -3,6 +3,7 @@
 package handlers
 
 import (
+	"go-fiber-dummyapi-svc/apps/dto"
 	"go-fiber-dummyapi-svc/apps/entities"
 	"go-fiber-dummyapi-svc/apps/models"
 
@@ -19,7 +20,9 @@ func NewProductHandler(ts *typesense.Client) *ProductHandler {
 }
 
 func (h *ProductHandler) List(c *fiber.Ctx) error {
-	docs, err := models.ListProduct(c, h.TS)
+	filters, _ := GetQueryFilters[dto.ReqListProductFilter](c)
+
+	docs, err := models.ListProduct(c, h.TS, filters)
 	if err != nil {
 		return RespError(c, 500, "Internal server error", nil)
 	}
@@ -35,4 +38,13 @@ func (h *ProductHandler) Detail(c *fiber.Ctx) error {
 	}
 
 	return RespSuccessDetail[entities.RespDetailProduct](c, doc)
+}
+
+func (h *ProductHandler) Filters(c *fiber.Ctx) error {
+	record, err := models.ListProductFilters(c, h.TS)
+	if err != nil {
+		return RespError(c, 500, "Internal server error", nil)
+	}
+
+	return RespSucess(c, "", record, nil, nil)
 }
