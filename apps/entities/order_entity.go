@@ -62,6 +62,11 @@ type RespDetailOrder struct {
 	Items []OrderItem `json:"items"`
 }
 
+type RespOrderFilters struct {
+	Status        []RespFilterOption `json:"status"`
+	PaymentMethod []RespFilterOption `json:"paymentMethod"`
+}
+
 func (Order) ColletionName() string {
 	return GetCollectionName(COLLECTION_ORDER)
 }

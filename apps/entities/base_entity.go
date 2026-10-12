@@ -30,6 +30,11 @@ type BaseTimestamp struct {
 	UpdatedAt time.Time `json:"-"`
 }
 
+type RespFilterOption struct {
+	Label string `json:"label"`
+	Value string `json:"value"`
+}
+
 func init() {
 	decimal.MarshalJSONWithoutQuotes = true
 }

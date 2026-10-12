@@ -39,3 +39,12 @@ func (h *OrderHandler) Detail(c *fiber.Ctx) error {
 
 	return RespSuccessDetail[entities.RespDetailOrder](c, doc)
 }
+
+func (h *OrderHandler) Filters(c *fiber.Ctx) error {
+	record, err := models.ListOrderFilters(c, h.TS)
+	if err != nil {
+		return RespError(c, 500, "Internal server error", nil)
+	}
+
+	return RespSucess(c, "", record, nil, nil)
+}
