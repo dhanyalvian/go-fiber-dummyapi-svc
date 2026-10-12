@@ -13,5 +13,6 @@ func RouteRecipe(api fiber.Router, cfg *configs.Config, ts *typesense.Client) {
 	ep := "/recipes"
 
 	api.Get(ep, h.List)
+	api.Get(ep+"/filters", h.Filters)
 	api.Get(ep+"/:id", h.Detail)
 }

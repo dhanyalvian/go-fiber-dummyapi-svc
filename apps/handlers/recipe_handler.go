@@ -1,6 +1,7 @@
 package handlers
 
 import (
+	"go-fiber-dummyapi-svc/apps/dto"
 	"go-fiber-dummyapi-svc/apps/entities"
 	"go-fiber-dummyapi-svc/apps/models"
 
@@ -17,7 +18,13 @@ func NewRecipeHandler(ts *typesense.Client) *RecipeHandler {
 }
 
 func (h *RecipeHandler) List(c *fiber.Ctx) error {
-	docs, _ := models.ListRecipe(c, h.TS)
+	filters, _ := GetQueryFilters[dto.ReqListRecipeFilter](c)
+
+	docs, err := models.ListRecipe(c, h.TS, filters)
+	if err != nil {
+		return RespError(c, 500, "Internal server error", nil)
+	}
+
 	return RespSucessList[entities.RespListRecipe](c, docs)
 }
 
@@ -29,4 +36,13 @@ func (h *RecipeHandler) Detail(c *fiber.Ctx) error {
 	}
 
 	return RespSuccessDetail[entities.RespDetailRecipe](c, doc)
+}
+
+func (h *RecipeHandler) Filters(c *fiber.Ctx) error {
+	record, err := models.ListRecipeFilters(c, h.TS)
+	if err != nil {
+		return RespError(c, 500, "Internal server error", nil)
+	}
+
+	return RespSucess(c, "", record, nil, nil)
 }

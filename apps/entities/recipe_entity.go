@@ -59,6 +59,12 @@ type RespListRecipe struct {
 	Tags       []string               `json:"tags"`
 }
 
+type RespRecipeFilters struct {
+	Cuisine    []RespFilterOption `json:"cuisine"`
+	Difficulty []RespFilterOption `json:"difficulty"`
+	MealType   []RespFilterOption `json:"mealType"`
+}
+
 type RespDetailRecipe struct {
 	RespListRecipe
 
