@@ -66,31 +66,7 @@ func GetList(
 
 	docs, err := tsClient.Collection(tsCollection).Documents().Search(c.Context(), searchParams)
 	if err != nil {
-		errCode := 500
-		errMsg := "Internal server error"
-
-		if tsErr, ok := err.(*typesense.HTTPError); ok {
-			switch tsErr.Status {
-			case http.StatusNotFound:
-				// collection tidak ada
-				errCode = fiber.StatusNotFound
-				errMsg = "Collection not found"
-
-			case http.StatusUnauthorized:
-				// API key salah
-				errCode = fiber.StatusUnauthorized
-				errMsg = "Invalid API key"
-
-			case http.StatusBadRequest:
-				// query salah / field tidak ada di schema
-				errCode = fiber.StatusBadRequest
-				errMsg = tsErr.Error()
-
-			default:
-				errCode = fiber.StatusInternalServerError
-				errMsg = tsErr.Error()
-			}
-		}
+		errCode, errMsg := mapTypesenseError(err)
 
 		logData, _ = json.Marshal(map[string]any{
 			"type":       "GetList",
@@ -110,6 +86,82 @@ func GetList(
 	logger.Logging(200, "RESPONSE_TS", string(logData))
 
 	return docs, nil
+}
+
+func GetFacets(
+	c *fiber.Ctx,
+	tsClient *typesense.Client,
+	tsCollection string,
+	facetBy []string,
+) (*api.SearchResult, error) {
+	querySearch := "*"
+	facetStr := strings.Join(facetBy, ",")
+	searchParams := &api.SearchCollectionParams{
+		Q:              pointer.String(querySearch),
+		FacetBy:        pointer.String(facetStr),
+		MaxFacetValues: pointer.Int(100),
+		PerPage:        pointer.Int(0),
+	}
+
+	logData, _ := json.Marshal(map[string]any{
+		"type":       "GetFacets",
+		"collection": tsCollection,
+		"facetBy":    facetStr,
+	})
+	logger.Logging(0, "REQUEST_TS", string(logData))
+
+	docs, err := tsClient.Collection(tsCollection).Documents().Search(c.Context(), searchParams)
+	if err != nil {
+		errCode, errMsg := mapTypesenseError(err)
+
+		logData, _ = json.Marshal(map[string]any{
+			"type":       "GetFacets",
+			"collection": tsCollection,
+			"error":      errMsg,
+		})
+		logger.Logging(errCode, "RESPONSE_TS", string(logData))
+
+		return nil, err
+	}
+
+	logData, _ = json.Marshal(map[string]any{
+		"type":        "GetFacets",
+		"collection":  tsCollection,
+		"facetCounts": docs.FacetCounts,
+	})
+	logger.Logging(200, "RESPONSE_TS", string(logData))
+
+	return docs, nil
+}
+
+func mapTypesenseError(err error) (int, string) {
+	errCode := fiber.StatusInternalServerError
+	errMsg := "Internal server error"
+
+	if tsErr, ok := err.(*typesense.HTTPError); ok {
+		switch tsErr.Status {
+		case http.StatusNotFound:
+			// collection tidak ada
+			errCode = fiber.StatusNotFound
+			errMsg = "Collection not found"
+
+		case http.StatusUnauthorized:
+			// API key salah
+			errCode = fiber.StatusUnauthorized
+			errMsg = "Invalid API key"
+
+		case http.StatusBadRequest:
+			// query salah / field tidak ada di schema
+			errCode = fiber.StatusBadRequest
+			errMsg = tsErr.Error()
+
+		default:
+			errCode = fiber.StatusInternalServerError
+			errMsg = tsErr.Error()
+		}
+	}
+
+	return errCode, errMsg
 }
 
 func GetDetailById(

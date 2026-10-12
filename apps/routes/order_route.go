@@ -15,5 +15,6 @@ func RouteOrder(api fiber.Router, cfg *configs.Config, ts *typesense.Client) {
 	ep := "/orders"
 
 	api.Get(ep, h.List)
+	api.Get(ep+"/filters", h.Filters)
 	api.Get(ep+"/:id", h.Detail)
 }

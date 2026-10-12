@@ -31,6 +31,70 @@ func DetailOrder(c *fiber.Ctx, ts *typesense.Client, id string) (map[string]any,
 	return GetDetailById(c, ts, entities.Order{}.ColletionName(), id)
 }
 
+func ListOrderFilters(
+	c *fiber.Ctx,
+	ts *typesense.Client,
+) (entities.RespOrderFilters, error) {
+	result := entities.RespOrderFilters{
+		Status:        []entities.RespFilterOption{},
+		PaymentMethod: []entities.RespFilterOption{},
+	}
+
+	facets, err := GetFacets(
+		c,
+		ts,
+		entities.Order{}.ColletionName(),
+		[]string{"status", "paymentMethod"},
+	)
+	if err != nil {
+		return result, err
+	}
+
+	return mapOrderFacets(facets, result), nil
+}
+
+func mapOrderFacets(
+	facets *api.SearchResult,
+	result entities.RespOrderFilters,
+) entities.RespOrderFilters {
+	if facets == nil || facets.FacetCounts == nil {
+		return result
+	}
+
+	for _, facet := range *facets.FacetCounts {
+		if facet.FieldName == nil {
+			continue
+		}
+
+		options := []entities.RespFilterOption{}
+		if facet.Counts != nil {
+			for _, count := range *facet.Counts {
+				if count.Value == nil {
+					continue
+				}
+
+				options = append(
+					options,
+					entities.RespFilterOption{
+						Label: *count.Value,
+						Value: *count.Value,
+					},
+				)
+			}
+		}
+
+		switch *facet.FieldName {
+		case "status":
+			result.Status = options
+
+		case "paymentMethod":
+			result.PaymentMethod = options
+		}
+	}
+
+	return result
+}
+
 func getListOrdeFilters(filters *dto.ReqListOrderFilter) []string {
 	var result []string
 
