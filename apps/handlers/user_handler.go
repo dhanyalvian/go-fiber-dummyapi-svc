@@ -3,6 +3,7 @@
 package handlers
 
 import (
+	"go-fiber-dummyapi-svc/apps/dto"
 	"go-fiber-dummyapi-svc/apps/entities"
 	"go-fiber-dummyapi-svc/apps/models"
 
@@ -27,7 +28,13 @@ func NewUserHandler(ts *typesense.Client) *UserHandler {
 // @Failure 400,401,404,500 {object} response.ResponseData
 // @Router /user [get]
 func (h *UserHandler) List(c *fiber.Ctx) error {
-	docs, _ := models.ListUser(c, h.TS)
+	filters, _ := GetQueryFilters[dto.ReqListUserFilter](c)
+	docs, err := models.ListUser(c, h.TS, filters)
+
+	if err != nil {
+		return RespError(c, 500, "Internal server error", nil)
+	}
+
 	return RespSucessList[entities.RespListUser](c, docs)
 }
 
